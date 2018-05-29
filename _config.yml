@@ -1,0 +1,31 @@
+author:
+  name: Mehtab Zafar
+  url: https://github.com/mzfr
+
+title: mzfr's blog
+tagline: It worked on my machine.
+description: Super Coder jr.
+
+theme: minima
+
+permalink: pretty
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Blog.sublime-project
+  - Blog.sublime-workspace
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+timezone: Asia/kolkata
+
+future: true
