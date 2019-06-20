@@ -1,31 +1,31 @@
+title: mzfr's Blog
+description: "World is my CTF"
 author:
-  name: Mehtab Zafar
-  url: https://github.com/mzfr
+  name: "mzfr"
+  email: "mehtab.zafar98@gmail.com"
+  url: "https://mzfr.github.io"
 
-title: mzfr's blog
-tagline: It worked on my machine.
-description: Super Coder jr.
+baseurl: /
 
-theme: minima
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
 
-permalink: pretty
-
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Blog.sublime-project
-  - Blog.sublime-workspace
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-timezone: Asia/kolkata
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+owner : "mzfr"
