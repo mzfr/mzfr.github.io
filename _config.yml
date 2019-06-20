@@ -29,3 +29,5 @@ plugins:
 
 # Custom variables
 owner : "mzfr"
+
+theme: jekyll-theme-cayman
