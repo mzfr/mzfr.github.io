@@ -63,7 +63,7 @@ Let's decode that base64 and see what we get
 flag1{3034cc2927b59e0b20696241f14d573e}
 You completed your first test. Now knock these numbers to find what you seek. 5500 6600 7700
 ```
-:tada: We have the first flag.
+🎉 We have the first flag.
 
 ***
 
@@ -142,7 +142,7 @@ Looking back at everything we did the one thing that would stand out in context 
 
 ![](images/knockd-conf.png)
 
-:tada:
+🎉
 
 We can see sequence for opening the SSH ports i.e `7011,8011,9011`. Let's knock them off
 
@@ -150,11 +150,11 @@ We can see sequence for opening the SSH ports i.e `7011,8011,9011`. Let's knock 
 ➜ knock 192.168.43.214 7011 8011 9011
 ```
 
-and after running the above command I ran nmap to check if it worked and obviously it did :smirk:
+and after running the above command I ran nmap to check if it worked and obviously it did 😏
 
 ![](images/ssh-open.png)
 
-Now we can login and to `jigsaw` account. But wait we still need a password for the `jigsaw's` SSH account. Naah we already have that :smirk:
+Now we can login and to `jigsaw` account. But wait we still need a password for the `jigsaw's` SSH account. Naah we already have that 😏
 
 Remember the message we received in the wireshark UDP packet
 
@@ -174,11 +174,11 @@ Finally we are in the system let's use some enumeration script and see what we c
 
 __Preference__
 
-I kinda prefer [jalesc](https://github.com/itsKindred/jalesc/blob/master/jalesc.sh) instead of [LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh), both does the same thing but `jalesc` gives a bit colorfull output. :smile:
+I kinda prefer [jalesc](https://github.com/itsKindred/jalesc/blob/master/jalesc.sh) instead of [LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh), both does the same thing but `jalesc` gives a bit colorfull output. 😄
 
 ***
 
-I went through the output and found a SUID named `game3`. So this damn thing has to be related to RE or PWN :cry:
+I went through the output and found a SUID named `game3`. So this damn thing has to be related to RE or PWN 😢
 
 I transfered the file from the machine to my system using `SFTP`.
 
@@ -192,7 +192,7 @@ I am not good in PWN at all so I decided to message [@DCAU7](https://twitter.com
 
 __Credit__
 
-According to him __@DCAU7__, [@4ndr34z](https://twitter.com/4nqr34z) was the one who originally found this post so thanks to him too :smile:
+According to him __@DCAU7__, [@4ndr34z](https://twitter.com/4nqr34z) was the one who originally found this post so thanks to him too 😄
 
 ***
 
@@ -221,7 +221,7 @@ while(i<512):
 ```
 __NOTE__: Don't copy paste my script, all those address will be different in your scenario.
 
-Now run the script(`python exp.py`) and :boom:
+Now run the script(`python exp.py`) and 💥
 
 ![](images/root.png)
 
