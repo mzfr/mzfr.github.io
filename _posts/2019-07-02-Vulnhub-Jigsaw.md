@@ -88,7 +88,7 @@ He was right, now we can see port `80` as an open port running `apache` server.
 ***
 __Thoughts__
 
-I was very confused at first because I didn't knew how exactly that(port knocking) works. But after reading the [Wikipedia page for port knocking](https://en.wikipedia.org/wiki/Port_knocking) I understodd the whole thing.
+I was very confused at first because I didn't knew how exactly that(port knocking) works. But after reading the [Wikipedia page for port knocking](https://en.wikipedia.org/wiki/Port_knocking) I understood the whole thing.
 
 Those ports are `firewall` ports and if we knock them in certain order then the firewall rules changes dynamically allowing us to see all the ports that are open on the host.
 
