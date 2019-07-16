@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vulhub - Pumpkin Garden writeup
+title: Vulnhub - Pumpkin Garden writeup
 date: 2019-07-07 10:00
 ---
 <h1 align="center" style="font-size:30px;">

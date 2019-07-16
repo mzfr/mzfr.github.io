@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vulhub - Jigsaw writeup
+title: Vulnhub - Jigsaw writeup
 date: 2019-07-02 2:33
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vulhub - Unknowndevice64 writeup
+title: Vulnhub - Unknowndevice64 writeup
 date: 2019-07-03 9:53
 ---
 <h1 align="center">
