@@ -234,6 +234,8 @@ I loved this machine for number of reasons:
 
 2) I did my very first BoF, even though it's kinda like copying from the website but hey I learned how to do it so I think that would count.
 
+Also I came  to know about this machine via [TryHackMe](https://tryhackme.com/room/jigsaw). It's an awesome website if you want to start in with CyberSecurity. Make sure to check it out.
+
 ***
 
 ### Thanks to
