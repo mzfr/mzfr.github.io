@@ -35,7 +35,7 @@ Thanks to __@paradox__ for helping me in fixing that issue.
 
 I started with a basic nmap scan i.e `nmap -sV -A Machine-IP` but that gave out nothing.
 
-![](images/nfail.png)
+![](images/jigsaw/nfail.png)
 
 So I decided to use the `-Pn` to skip the ping part since I was sure the host was up and running. But again that scan yield out nothing.
 
@@ -45,17 +45,17 @@ __This step is very similar to the intial step of another VulnHub machine named 
 
 So I started the nmap scan i.e `nmap -sV -Pn Machine-IP` and then started capturing those packets. After the scan was completed I analyzed the PCAP and found something interesting in one of the UDP packets.
 
-![](images/udp.png)
+![](images/jigsaw/udp.png)
 
 If we follow that UDP stream we get
 
-![](images/stream.png)
+![](images/jigsaw/stream.png)
 
 Okay so there's some data on the UDP port `666`(as that udp request was on port 666).
 
 __@Robin__ said that if we run `echo "j19s4w" | nc -u IP 666` we get some data and by some data he meant the very first flag.
 
-![](images/echo.png)
+![](images/jigsaw/echo.png)
 
 Let's decode that base64 and see what we get
 ```bash
@@ -81,7 +81,7 @@ I used guelfoweb's [knock](https://github.com/guelfoweb/knock):
 
 After running the knock on the given ports I got nothing. There wa no output but again __@Robin__ the saviour said that we are supposed to run nmap after that and then we'll see some open ports.
 
-![](images/knockd-nmap.png)
+![](images/jigsaw/knockd-nmap.png)
 
 He was right, now we can see port `80` as an open port running `apache` server.
 
@@ -96,23 +96,23 @@ Those ports are `firewall` ports and if we knock them in certain order then the 
 
 If we visit the website, We can see an image of jigsaw. Looking at the source of the website we find a comment
 
-![](images/comment.png)
+![](images/jigsaw/comment.png)
 
 Also that's not an image but a gif.
 
 I tried running `dirsearch` but it didn't found anything. After some thinking I realized that it's actually a CTF type machine so I proceded with CTF mentality. I downloaded the `gif` file and ran `strings` command on it and there it was, a page that we are supposed to visit on that website.
 
-![](images/page.png)
+![](images/jigsaw/page.png)
 
 Visiting the URL (http://IP/w4n770p14y494m3/) we are provided with a login form and no matter what username we provide it says `username does not exists`
 
-![](images/login.png)
+![](images/jigsaw/login.png)
 
 If we go through the source of the page we can see that there's an XML function that's doing all the work for the page. This could mean we need to do XXE on this to read some files. Since we don't have any predefined path we'll be looking out for general paths like `/etc/passwd` etc.
 
 This is what the normal request on that form looked like
 
-![](images/normal.png)
+![](images/jigsaw/normal.png)
 
 So it's sending the following data:
 
@@ -128,7 +128,7 @@ We can change it to :
 
 This will give us the content of the `/etc/passwd`
 
-![](images/passwd.png)
+![](images/jigsaw/passwd.png)
 
 Okay so no the thing is we should try to read some other file.
 
@@ -140,7 +140,7 @@ Looking back at everything we did the one thing that would stand out in context 
 
 ***
 
-![](images/knockd-conf.png)
+![](images/jigsaw/knockd-conf.png)
 
 🎉
 
@@ -152,17 +152,17 @@ We can see sequence for opening the SSH ports i.e `7011,8011,9011`. Let's knock 
 
 and after running the above command I ran nmap to check if it worked and obviously it did 😏
 
-![](images/ssh-open.png)
+![](images/jigsaw/ssh-open.png)
 
 Now we can login and to `jigsaw` account. But wait we still need a password for the `jigsaw's` SSH account. Naah we already have that 😏
 
 Remember the message we received in the wireshark UDP packet
 
-![](images/stream.png)
+![](images/jigsaw/stream.png)
 
 That means `j19s4w` is the password. Login with that account and there's a file named `y0ud1dw3118u7175n070v32.txt` , cat that and you'll have it.
 
-![](images/flag2.png)
+![](images/jigsaw/flag2.png)
 
 ***
 
@@ -184,7 +184,7 @@ I transfered the file from the machine to my system using `SFTP`.
 
 I tried to feed it with big junk data and I got `SIGEGV`, seems like BoF.
 
-![](images/bof.png)
+![](images/jigsaw/bof.png)
 
 I am not good in PWN at all so I decided to message [@DCAU7](https://twitter.com/DCAU7) to get some help and he provided gave me a [link](https://spz.io/2018/10/18/buffer-overflow-return-to-libc/) to post about `Return To Libc Buffer overflow`
 
@@ -223,7 +223,7 @@ __NOTE__: Don't copy paste my script, all those address will be different in you
 
 Now run the script(`python exp.py`) and 💥
 
-![](images/root.png)
+![](images/jigsaw/root.png)
 
 
 ***
