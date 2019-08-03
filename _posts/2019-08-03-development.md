@@ -159,7 +159,7 @@ Follow the steps in the exploit to get the `alpine-v3.10-x86_64-20190730_0048.ta
 
 ***
 
-It's not that diffcult machine. I really enjoyed it, especially finding other method to root it.
+This is a really nice machine with a beginner-intermediate difficulty. I really enjoyed it, especially finding other method to root it.
 
 Thanks to [Donavan](https://donavan.sg/blog) for this machine.
 
