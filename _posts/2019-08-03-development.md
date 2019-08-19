@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Vulnhub - digitalworldlocal-Development writeup
+title: Vulnhub - Development writeup
 date: 2019-08-03 10:56
 ---
 <h1 align="center" style="font-size:30px;">
   <br>
-  <a href="https://www.vulnhub.com/entry/digitalworldlocal-development,280/">Development</a>
+  <a href="https://www.vulnhub.com/entry/digitalworldlocal-development,280/">digitalworldlocal-Development</a>
   <br>
 </h1>
 
