@@ -79,5 +79,5 @@ There are some machines that might not come under `OSCP type` but teaches someth
 * [serial](https://www.vulnhub.com/series/serial,231/)
 * [Scarecrow](https://www.vulnhub.com/entry/scarecrow-11,354/)
 * [jigsaw series](https://www.vulnhub.com/series/jigsaw,210/)
-* [Symofonos series](https://www.vulnhub.com/series/symfonos,217/).
+* [Symfonos series](https://www.vulnhub.com/series/symfonos,217/).
 
