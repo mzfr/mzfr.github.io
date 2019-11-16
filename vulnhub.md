@@ -63,6 +63,7 @@ Here's the list of all the VMs I've solved.
 |[wordy](https://mzfr.github.io/vulnhub-writeups/2019-09-14-wordy)|[raj chandel](https://twitter.com/rajchandel)|6|
 |[Infinity stones](https://mzfr.github.io/vulnhub-writeups/2019-09-19-stones)|[aarti singh](https://www.linkedin.com/in/aarti-singh-353698114/?originalSubdomain=in)|5.5|
 |[Inoculation](https://mzfr.github.io/vulnhub-writeups/2019-09-14-inoculation)|[zayotic](https://twitter.com/zayotic)|7.5|
+|[EVM](https://mzfr.github.io/vulnhub-writeups/2019-11-16-evm)|[ic0de](https://twitter.com/Ic0deWs) |3|
 
 __Note__: All the difficulty ratings are from 10(Obviously) and they are relative, meaning a machine that looked like a 3 to me might be a 1/7 for you.
 
