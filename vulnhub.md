@@ -7,6 +7,7 @@ permalink: /vulnhub/
 ## Vulnhub Writeups
 
 I've been doing Virtual Machines from past 4 months. Some of them I've done by myself and some of them were done along with [m0tl3ycr3w](https://twitter.com/m0tl3ycr3w).
+I've also made a VM, if you'd like to try that, [djinn](https://www.vulnhub.com/entry/djinn-1,397/).
 
 Usually I do writeups for any VM that I solve.
 
