@@ -16,4 +16,4 @@ If you are from India you can donate to me using my UPI ID - `mehtab.zafar98@okh
 
 * __PayPal__
 
-You can also support via PayPal.me: https://www.paypal.me/0xmzfr
+You can also support via [PayPal.me/0xmzfr](https://www.paypal.me/0xmzfr)
