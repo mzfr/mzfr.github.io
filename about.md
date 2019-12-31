@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Mehtab Zafar. I'm a CS undergraduate at `Inderprastha Engineering College`. I’m a CyberSec enthusiast and CTF player. I play most of the CTFs with [OpenToAll](https://ctftime.org/team/9135).
+My name is Mehtab Zafar. I’m a CyberSec enthusiast and CTF player. I play most of the CTFs with [OpenToAll](https://ctftime.org/team/9135).
 
 Other than that I hack vulnerable machines, mostly from [HackTheBox](http://hackthebox.eu/) or [Vulnhub](http://vulnhub.com/) and try to do writeups about them.
 
