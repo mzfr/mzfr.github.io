@@ -28,6 +28,7 @@ Following is the list of all the boxes that I was able to root.
 * [Networked](https://mzfr.github.io/HackTheBox-writeups/Networked/)
 * [Wall](https://mzfr.github.io/HackTheBox-writeups/wall/)
 * [Craft](https://mzfr.github.io/HackTheBox-writeups/craft/)
+* [Bitlab](https://mzfr.github.io/HackTheBox-writeups/bitlab/)
 
 ***
 
