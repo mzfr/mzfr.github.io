@@ -4,17 +4,17 @@ title: My eJPT experience
 date: 2020-01-15 1:38 PM
 ---
 
-Like every `Infosec enthusiast` I want to do OSCP certification program but when I was reading about it I came across this ceritificate named `eJPT` so I decided to read about it. Lot of people recommend `eJPT` as the stepping stone for other bigger certificates like `eCPPT` or `OSPC`.
+Like every `Infosec enthusiast` I want to do OSCP certification program but when I was reading about it I came across this ceritificate named `eJPT` so I decided to read about it. Lot of people recommend `eJPT` as the stepping stone for other bigger certificates like `eCPPT` or `OSCP`.
 
 After reading numerous reviews and blog posts about `eJPT`, I decided to take it. The main reason I took this certificate was to gain some confidence for OSCP and also to improve my resume.
 
 ## PTS Course
 
-PTS(Penetration testing student) is the course that you have to purchase in order to do get 1 voucher for eJPT certification. There are two course plans i.e `full and elite`. Full plan have 30 hours of labs + 1 free retake where as elite plan have 60 hours of labs + 3 free retake + 3 black box pentesting.
+PTS(Penetration testing student) is the course that you have to purchase in order to get 1 voucher for eJPT certification. There are two course plans i.e `full and elite`. Full plan has have 30 hours of labs + 1 free retake where as elite plan have 60 hours of labs + 3 free retake + 3 black box pentesting.
 
 I(actually my elder brother) payed for the full course, I bought it during the `Black friday` sale at the end of the november so I got a discount of around `100 USD`(~ 7000 INR). In total I paid `299.25 USD`(21,184.66 INR).
 
-Even though I got the course on `11/23/2019` I didn't started until `01/01 2020` mostly because I had my college end semester exams.
+Even though I got the course on `11/23/2019` I didn't start until `01/01 2020` mostly because I had my college end semester exams.
 
 ## About the course
 
@@ -47,7 +47,7 @@ This time includes `6 hours and 41 minutes` of sleep along with 1 dinner, 1 brea
 
 In some blog posts that I read, suggested that it would be nice if I would do the pentest first and then answer the question but I think it's upto you how you want to do it. I personally went through all the questions quickly which gave me an idea of what all might be waiting for me and then started my scans.
 
-One thing that I would highly suggest is to take screenshot of all the 20 questions(once you answered them) and put them in a file and then below every question(screenshot) right the reason why you selected what you selected. This way you'd be easily able to verify your answers before final submission.
+One thing that I would highly suggest is to take screenshot of all the 20 questions(once you answered them) and put them in a file and then below every question(screenshot) write the reason why you selected what you selected. This way you'd be easily able to verify your answers before final submission.
 
 ## Suggestions
 
