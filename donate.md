@@ -17,3 +17,13 @@ If you are from India you can donate to me using my UPI ID - `mehtab.zafar98@okh
 * __PayPal__
 
 You can also support via [PayPal.me/0xmzfr](https://www.paypal.me/0xmzfr)
+
+
+## Special offers
+
+If you become member on buymeacoffee I'll provide following things:
+
+* Shoutout on my twitter
+* Early access to all my Vulnerable machines.
+* You can also request a beginner level custom VM teaching any topic.
+
