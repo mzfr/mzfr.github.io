@@ -29,7 +29,7 @@ Following is the list of all the boxes that I was able to root.
 * [Wall](https://mzfr.github.io/HackTheBox-writeups/wall/)
 * [Craft](https://mzfr.github.io/HackTheBox-writeups/craft/)
 * [Bitlab](https://mzfr.github.io/HackTheBox-writeups/bitlab/)
-* [Postman]((https://mzfr.github.io/HackTheBox-writeups/Postman/))
+* [Postman](https://mzfr.github.io/HackTheBox-writeups/Postman/)
 
 ***
 
