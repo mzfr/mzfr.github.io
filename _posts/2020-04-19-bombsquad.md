@@ -4,7 +4,7 @@ title: Running your own Bombsquad server
 date: 2020-04-19 3:25 PM
 ---
 
-If you just want to know how to setup bombsquad jump to [The setup](#the-setup) section and if you are interested in backstory, continue reading this.
+If you just want to know how to setup bombsquad jump to [The setup](#the-setup) section and if you are interested in backstory, continue reading.
 
 ## Back Story
 
@@ -26,7 +26,7 @@ I was able to forward the port but for some reason the game didn't work. I kept 
 
 I thought since it need a publically accesible IP it might work if I run it on Digital Ocean's droplet.
 
-__It is not important to use digitalocean's droplet you can use any service you want or even some other service you want as long as that server is publically accesible.__
+__It is not important to use digitalocean's droplet you can use any service you want as long as that server is publically accesible.__
 
 ### The Setup
 
