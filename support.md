@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-permalink: /donate/
+permalink: /support/
 ---
 
 If any of my Walkthrough or blog post or any tool has ever helped you and you'd like to show your support then you can donate to me through the following way:
