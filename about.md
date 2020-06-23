@@ -4,14 +4,16 @@ title: About
 permalink: /about/
 ---
 
-My name is Mehtab Zafar. I’m a CyberSec enthusiast and CTF player. I play most of the CTFs with [OpenToAll](https://ctftime.org/team/9135).
+I use to play CTFs with [OpenToAll](https://ctftime.org/team/9135). Other than that I did [HackTheBox](http://hackthebox.eu/) or [Vulnhub](http://vulnhub.com/). Also wrote loads of writeups, mostly Vulnhub machines.
 
-Other than that I hack vulnerable machines, mostly from [HackTheBox](http://hackthebox.eu/) or [Vulnhub](http://vulnhub.com/) and try to do writeups about them.
+Now I make rooms on [TryHackMe](tryhackme.com/) and VMs on [Vulnhub](http://vulnhub.com/). The series that I started on Vulnhub is called [djinn](https://www.vulnhub.com/series/djinn,260/).
+
+Also I am an eJPT(google that) and preparing for OSCP.
+
+Recently I started to do bug bounty on various platforms like [Hackerone](hackerone.com/), [BugCrowd](Bugcrowd.com/) and [intigriti](intigriti.com/).
 
 
-* Twitter: [0xmzfr](https://twitter.com/0xmzfr)
 * Github: [mzfr](https://github.com/mzfr)
-* Hack The Box profile : [mzfr](https://www.hackthebox.eu/home/users/profile/79568)
 * Keybase: [mzfr](https://keybase.io/mzfr)
-
-* [resume](https://github.com/mzfr/resume/blob/master/resume.pdf)
+* Twitter: [0xmzfr](https://twitter.com/0xmzfr)
+* Hack The Box profile : [mzfr](https://www.hackthebox.eu/home/users/profile/79568)
