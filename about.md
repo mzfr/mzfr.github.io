@@ -11,10 +11,3 @@ Now I make rooms on [TryHackMe](tryhackme.com/) and VMs on [Vulnhub](http://vuln
 Also I am an eJPT(google that) and preparing for OSCP.
 
 Recently I started to do bug bounty on various platforms like [Hackerone](hackerone.com/), [BugCrowd](Bugcrowd.com/) and [intigriti](intigriti.com/).
-
-***
-
-* Github: [mzfr](https://github.com/mzfr)
-* Keybase: [mzfr](https://keybase.io/mzfr)
-* Twitter: [0xmzfr](https://twitter.com/0xmzfr)
-* HackTheBox: [mzfr](https://www.hackthebox.eu/home/users/profile/79568)
