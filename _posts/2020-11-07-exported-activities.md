@@ -11,7 +11,7 @@ This blog post doesn't teach you the very basics of the android app, it just tal
 
 These resources will give some ideas about the anatomy and working of APK.
 
-__What is an activity in the Android app?__
+### What is an activity in the Android app?
 
 Everything that you see in an android app is kind of being done via an activity. For example, say you click on the Facebook app icon in your phone, it will show a window with your feed, but internally system has started a `Launcher activity` whose job is to show you data in a certain format and also provide you options to move to other activities like seeing notifications or your messages.
 
@@ -19,19 +19,19 @@ According to Android developer docs, `An activity is a single, focused thing tha
 
 You can read more about android activities [here](https://www.tutorialspoint.com/android/android_acitivities.htm) and [here](https://developer.android.com/reference/android/app/Activity).
 
-__What is exported activity?__
+### What is exported activity?
 
 An exported activity is the one that can be accessed by external components or apps. We can say that exported activities are like `Public` functions in Java, any other parent class or even package can call them. 
 
 Let's understand this with an example, say you are on your home screen and now you want to start the Twitter app so you'll click on the app icon to invoke its launcher activity but technically you were already in some activity(home page) and then you started another activity(launching the Twitter app). Now if the `launcher` activity of the Twitter app isn't exported(not public) then no one will be able to invoke the activity and the app won't start. That is why there has to at least one activity exported so other components of android can start it.
 
-__Why exported activities can be bad?__
+### Why exported activities can be bad?
 
 We saw that exported activities are useful since they help in starting the app and provides other functionalities so what could possibly be wrong with them?
 
 Well, the thing is that having activities isn't wrong at all but having exported activities without any kind of protection can be bad. Because any malicious app can invoke those activities for performing various malicious actions.
 
-__How can we define an activity in the app?__
+### How can we define an activity in the app?
 
 In all the android app there is a file called `AndroidManifest.xml`. Example of a defined activity can be seen below:
 
@@ -59,7 +59,7 @@ Now everything in the `<intent-filter>` is important and can help us in the expl
 * `category` - TBH I don't know what it does, I never got around to understand the role of the `category` tag in `intent-filters` so I guess we can ignore them 😜
 * `data` -  This is the data that is to be given to the activity for some kind of processing. In our example, we see 3 data tags but each having different attributes and they are kind of self-explanatory. All those tags say that our `DeepLinkActivity` takes data of the format `https://github.com/*`.
 
-__How to identify an exported activity?__
+### How to identify an exported activity?
 
 According to the android developer docs, an activity is considered exported in the following two cases:
 
@@ -112,7 +112,7 @@ Again let's understand this with an example.
 
 Manually finding the exported activity is good when you are trying to learn stuff but once you are good with it you can use tools like [`drozer`](https://github.com/FSecureLABS/drozer) or if you want you can use a tool that I made called [`slicer`](https://github.com/mzfr/slicer).
 
-__What are the possible attacks that can be done using exported activities?__
+### What are the possible attacks that can be done using exported activities?
 
 Some common attacks would be to get an `XSS` in the android webview(in-app browser), open redirect(via the app take the user to some malicious URL).
 
@@ -187,7 +187,7 @@ And we got ourselves an alert:
 
 ![alert](/images/pop.png)
 
-__Timeline__
+### Timeline
 
 * September 30 - Reported the XSS to Github via HackerOne
 * October 1 - Report triaged
