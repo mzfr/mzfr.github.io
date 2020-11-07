@@ -4,10 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I use to play CTFs with [OpenToAll](https://ctftime.org/team/9135). Other than that I did [HackTheBox](http://hackthebox.eu/) or [Vulnhub](http://vulnhub.com/). Also wrote loads of writeups, mostly Vulnhub machines.
+My name is Mehtab Zafar and I'm a Certified Junior Penetration Tester([eJPT](https://drive.google.com/drive/u/0/folders/1QPqAaTjMchFsij5LM6gA1v6boAqmLZUm)). I spend most of my time doing bugbounty.
 
-Now I make rooms on [TryHackMe](tryhackme.com/) and VMs on [Vulnhub](http://vulnhub.com/). The series that I started on Vulnhub is called [djinn](https://www.vulnhub.com/series/djinn,260/).
+* [bugcrowd/mzfr](https://bugcrowd.com/mzfr)
+* [hackerone/mzfr](https://hackerone.com/mzfr)
 
-Also I am an eJPT(google that) and preparing for OSCP.
-
-Recently I started to do bug bounty on various platforms like [Hackerone](hackerone.com/), [BugCrowd](Bugcrowd.com/) and [intigriti](intigriti.com/).
+You can read my __resume__ [here](https://github.com/mzfr/resume/blob/master/resume.pdf)
