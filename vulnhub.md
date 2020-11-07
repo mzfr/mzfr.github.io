@@ -7,15 +7,15 @@ permalink: /vulnhub/
 ## Vulnhub Writeups
 
 I've been doing Virtual Machines from a long time. Some of them I've done by myself and some of them were done along with [m0tl3ycr3w](https://twitter.com/m0tl3ycr3w).
-I've also made a series on Vulnhub, if you'd like to try that, [djinn](https://www.vulnhub.com/entry/djinn-1,397/).
 
+I've also made a series on Vulnhub, if you'd like to try that, [djinn](https://www.vulnhub.com/entry/djinn-1,397/).
 
 Here's the list of all the VMs I've solved.
 
 # Machine
 
-|Name|Author|Difficulty|
-|----------------------------------------------------------------------------------------|---------------------------------------------------------|----------|
+|Name |Author |Difficulty |
+|--|---------------------------------------------------------|----------|
 |[DC1](https://mzfr.github.io/vulnhub-writeups/2019-07-12-DC1)|[DCAU](https://twitter.com/DCAU7/) |3|
 |[DC:2](https://mzfr.github.io/vulnhub-writeups/2019-07-12-DC2)|[DCAU](https://twitter.com/DCAU7/)|3.5
 |[DC:3](https://mzfr.github.io/vulnhub-writeups/2019-07-12-DC3)|[DCAU](https://twitter.com/DCAU7/)|5
