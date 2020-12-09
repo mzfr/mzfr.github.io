@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on mzfr&#39;s Blog</title>
+    <link>https://blog.mzfr.me/tags/android/</link>
+    <description>Recent content in Android on mzfr&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploiting Exported activities in Android apps</title>
+      <link>https://blog.mzfr.me/posts/2020-11-07-exported-activities/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-11-07-exported-activities/</guid>
+      <description>This blog post doesn&amp;rsquo;t teach you the very basics of the android app, it just talks about the exported activity and their exploitation</description>
+    </item>
+    
+  </channel>
+</rss>

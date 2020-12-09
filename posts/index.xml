@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on mzfr&#39;s Blog</title>
+    <link>https://blog.mzfr.me/posts/</link>
+    <description>Recent content in Posts on mzfr&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploiting Exported activities in Android apps</title>
+      <link>https://blog.mzfr.me/posts/2020-11-07-exported-activities/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-11-07-exported-activities/</guid>
+      <description>This blog post doesn&amp;rsquo;t teach you the very basics of the android app, it just talks about the exported activity and their exploitation</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code 2020</title>
+      <link>https://blog.mzfr.me/posts/2020-09-17-gsoc20/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-09-17-gsoc20/</guid>
+      <description>This year I got selected for Google Summer of Code 2020 under The Honeynet Project. This year GSoC was very special for me because I finally got selected for the organization, for which I&amp;rsquo;ve been trying to get selected from past 2 years.
+Background I got to know about Google Summer of Code back in 2018, when I learned that my elder brother has done it 3 years in a row.</description>
+    </item>
+    
+    <item>
+      <title>Analyzing Snare and tanner data</title>
+      <link>https://blog.mzfr.me/posts/2020-05-31-tanner-data-analysis/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-05-31-tanner-data-analysis/</guid>
+      <description>I had Snare &amp;amp; Tanner running on two different digital ocean&amp;rsquo;s droplets. I just wanted to see what juicy data I can get using this honeypot. How I deployed it is a different story and I&amp;rsquo;ll write a different blog post for that. In this post, I just wanted to share small code I wrote as well as some graphs I was able to generate using them.
+Downloading data using Tanner API Tanner doesn&amp;rsquo;t support any inbuilt export option(yet) but it has an API so I wrote a small python script to download data from my tanner API and store it in a JSON file.</description>
+    </item>
+    
+    <item>
+      <title>Running your own Bombsquad server</title>
+      <link>https://blog.mzfr.me/posts/2020-04-19-bombsquad/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-04-19-bombsquad/</guid>
+      <description>If you just want to know how to setup bombsquad jump to The setup section and if you are interested in backstory, continue reading.
+Back Story Few days into the COVID-19 lockdown and I was already getting bored. I mean I was spending my time either doing my college assignments, that were supposed to be submitted on Google Classroom, or I was just doing various kind of challenges like Pentesterlabs, VMs from Vulnhub.</description>
+    </item>
+    
+    <item>
+      <title>Review of Autopsy online training</title>
+      <link>https://blog.mzfr.me/posts/2020-04-18-autopsy-cert/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-04-18-autopsy-cert/</guid>
+      <description>It&amp;rsquo;s been a while since I wrote any blog post. Since this lockdown is going on I decided to learn a few new things from online courses.
+I came to know that Basic technology was offering their autopsy basics and hand on (8-hours) training course, worth $495, for free during this COVID-19 crisis. So I decided to take the course since I&amp;rsquo;m very much interested in digital forensics.
+My very first encounter with digital forensics was in one of the CTF, named otter CTF, that I played with OpenToAll.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Docker</title>
+      <link>https://blog.mzfr.me/posts/2020-02-05-docker/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-02-05-docker/</guid>
+      <description>What are Docker containers? Docker containers are a smaller version of Virtual Machines with farless overheads and lot for flexibility. If you want to isolate different services on your system then you can make multiple dockers images for each service and run them, separately.
+How it works? Well all you need to do is make a file named Dockerfile which would contain the rules/instructions of what all has to be done in that container and then you start the build of your container.</description>
+    </item>
+    
+    <item>
+      <title>Linux Privilege escalation</title>
+      <link>https://blog.mzfr.me/posts/2020-02-1-linux-priv-esc/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-02-1-linux-priv-esc/</guid>
+      <description>If you do all the HackTheBox, Vulnhub etc VM you will understand the feeling of getting a reverse shell on the machine but we know that you&amp;rsquo;re far from home. Finding the right vector for escalating your privileges can be a pain in the ass. I&amp;rsquo;m going to share some of the methods I completely depends upon for finding those vulnerable vector that helps to escalate privilege on Linux system.</description>
+    </item>
+    
+    <item>
+      <title>My eJPT experience</title>
+      <link>https://blog.mzfr.me/posts/2020-01-15-ejpt-experience/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-01-15-ejpt-experience/</guid>
+      <description>Like every Infosec enthusiast I want to do OSCP certification program but when I was reading about it I came across this ceritificate named eJPT so I decided to read about it. Lot of people recommend eJPT as the stepping stone for other bigger certificates like eCPPT or OSCP.
+After reading numerous reviews and blog posts about eJPT, I decided to take it. The main reason I took this certificate was to gain some confidence for OSCP and also to improve my resume.</description>
+    </item>
+    
+    <item>
+      <title>Working with Predictable Network Interface Names and netplan</title>
+      <link>https://blog.mzfr.me/posts/2019-11-16-interface-names/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2019-11-16-interface-names/</guid>
+      <description>Recently I was working on making a new Virtual machine for Vulnhub(it&amp;rsquo;s in beta right now) and one of the issues I came across was the problem of not having any interface except the loopback (lo) in the newly created VM. Now setting a new interface is easy but What I wanted was to set Dynamic DHCP IP so whenever someone starts the VM it&amp;rsquo;s assigned an IP using which they can attack the box.</description>
+    </item>
+    
+    <item>
+      <title>Capture the flag!!</title>
+      <link>https://blog.mzfr.me/posts/2018-10-19-picoctf/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2018-10-19-picoctf/</guid>
+      <description>Okay, I gotta start by saying that it been a long time. The last thing I remember was trying to figure out how to rebase my pull requests on Kodi&amp;rsquo;s repository and praying to pass my first GSoC evaluation. Well, as of now I have passed all the GSoC evaluations, received all my stipend and missed a great trip to Sofia, Bulgaria, yup missed it, but that&amp;rsquo;s a story for next time.</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code 2018 with XBMC foundation</title>
+      <link>https://blog.mzfr.me/posts/2018-06-27-gsoc-with-kodi/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2018-06-27-gsoc-with-kodi/</guid>
+      <description>I got selected as a Google Summer of Code student in XBMC foundation (a.k.a Kodi) for the project [Static code analysis in Kodi&amp;rsquo;s addon-check tool](Static code analysis in Kodi&amp;rsquo;s addon-check tool). Result came out on April 23 09:30 PM IST. I know it was 2 months ago but I couldn&amp;rsquo;t get myself to write about it - you can say I was &amp;ldquo;busy&amp;rdquo; ;)
+What is GSoC ? Google Summer of Code is a global program focused on bringing more student developers into open source software development.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://blog.mzfr.me/posts/2018-05-26-hello-world/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2018-05-26-hello-world/</guid>
+      <description>My First Blog post</description>
+    </item>
+    
+  </channel>
+</rss>

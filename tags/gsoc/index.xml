@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GSoC on mzfr&#39;s Blog</title>
+    <link>https://blog.mzfr.me/tags/gsoc/</link>
+    <description>Recent content in GSoC on mzfr&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Summer of Code 2020</title>
+      <link>https://blog.mzfr.me/posts/2020-09-17-gsoc20/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2020-09-17-gsoc20/</guid>
+      <description>This year I got selected for Google Summer of Code 2020 under The Honeynet Project. This year GSoC was very special for me because I finally got selected for the organization, for which I&amp;rsquo;ve been trying to get selected from past 2 years.
+Background I got to know about Google Summer of Code back in 2018, when I learned that my elder brother has done it 3 years in a row.</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code 2018 with XBMC foundation</title>
+      <link>https://blog.mzfr.me/posts/2018-06-27-gsoc-with-kodi/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2018-06-27-gsoc-with-kodi/</guid>
+      <description>I got selected as a Google Summer of Code student in XBMC foundation (a.k.a Kodi) for the project [Static code analysis in Kodi&amp;rsquo;s addon-check tool](Static code analysis in Kodi&amp;rsquo;s addon-check tool). Result came out on April 23 09:30 PM IST. I know it was 2 months ago but I couldn&amp;rsquo;t get myself to write about it - you can say I was &amp;ldquo;busy&amp;rdquo; ;)
+What is GSoC ? Google Summer of Code is a global program focused on bringing more student developers into open source software development.</description>
+    </item>
+    
+  </channel>
+</rss>
