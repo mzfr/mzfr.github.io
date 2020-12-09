@@ -21,6 +21,8 @@ menu:
       - name: Blog
         url: posts
         weight: 2
+      - name: Notes
+        url: https://mzfr.gitbook.io/notes/
       - name: About
         url: /about/
       - name: HTB
