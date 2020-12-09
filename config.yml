@@ -1,0 +1,49 @@
+baseURL: "https://blog.mzfr.me"
+title: "mzfr's Blog"
+theme: "hugo-PaperMod"
+paginate: 20
+
+googleAnalytics: UA-147356794-1
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+    main:
+      - name: Home
+        url: /
+        weight: 1
+      - name: Blog
+        url: posts
+        weight: 2
+      - name: About
+        url: /about/
+      - name: HTB
+        url: /htb/
+      - name: Vulnhub
+        url: /vulnhub/
+    
+params:
+  env: production
+  ShowReadingTime: true
+  
+  profileMode:
+    enabled: True
+    Title: Hi 👋
+    subtitle: "I'm Mehtab Zafar, a software developer spending time doing bug bounties."
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/0xmzfr"
+    - name: github
+      url: "https://github.com/mzfr"
+    - name: email
+      url: "zafarduffer@protonmail.com"
+    - name: buymeacoffee.com
+      url: "https://www.buymeacoffee.com/mzfr"
+
