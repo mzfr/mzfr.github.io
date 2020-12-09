@@ -5,6 +5,8 @@ date: "2020-11-07"
 weight: 1
 tags:
     - Android
+aliases:
+    - /exported-activities
 ---
 
 This blog post doesn't teach you the very basics of the android app, it just talks about the exported activity and their exploitation. If you have no idea what an apk is, how to extract the apk etc then I would suggest you go through the following resources:

@@ -2,6 +2,8 @@
 layout: post
 title: Analyzing Snare and tanner data
 date: "2020-05-31"
+aliases:
+    - /tanner-data-analysis
 ---
 
 

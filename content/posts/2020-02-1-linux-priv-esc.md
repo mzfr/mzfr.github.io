@@ -2,6 +2,8 @@
 layout: post
 title: Linux Privilege escalation
 date: "2020-02-01"
+aliases:
+    - /linux-priv-esc
 ---
 
 If you do all the HackTheBox, Vulnhub etc VM you will understand the feeling of getting a reverse shell on the machine but we know that you're far from home. Finding the right vector for escalating your privileges can be a pain in the ass. I'm going to share some of the methods I completely depends upon for finding those vulnerable vector that helps to escalate privilege on Linux system.

@@ -2,6 +2,8 @@
 layout: post
 title: My eJPT experience
 date: "2020-01-15"
+aliases:
+    - /eJPT-experience
 ---
 
 Like every `Infosec enthusiast` I want to do OSCP certification program but when I was reading about it I came across this ceritificate named `eJPT` so I decided to read about it. Lot of people recommend `eJPT` as the stepping stone for other bigger certificates like `eCPPT` or `OSCP`.
