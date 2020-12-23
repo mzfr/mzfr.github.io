@@ -23,12 +23,10 @@ menu:
         weight: 2
       - name: Notes
         url: https://mzfr.gitbook.io/notes/
+      - name: CTF
+        url: /CTF/
       - name: About
         url: /about/
-      - name: HTB
-        url: /htb/
-      - name: Vulnhub
-        url: /vulnhub/
     
 params:
   env: production
@@ -37,7 +35,7 @@ params:
   profileMode:
     enabled: True
     Title: Hi 👋
-    subtitle: "I'm Mehtab Zafar, a software developer spending time doing bug bounties."
+    subtitle: "I'm Mehtab Zafar, a developer who spends most of his time doing bug bounties."
 
   socialIcons:
     - name: twitter
