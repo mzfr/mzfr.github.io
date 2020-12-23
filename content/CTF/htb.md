@@ -1,7 +1,10 @@
 ---
 layout: page
 title: HackTheBox
+summary: Writeups and walkthrough of all the HackTheBox machines that I've done
 permalink: /htb/
+tags:
+    - CTF
 ---
 
 # HackTheBox Writeups

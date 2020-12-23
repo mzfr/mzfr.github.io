@@ -1,7 +1,10 @@
 ---
 layout: page
 title: Vulnhub
+summary: Writeups and walkthrough of all the Vulnhub machines that I've done
 permalink: /vulnhub/
+tags:
+    - CTF
 ---
 
 ## Vulnhub Writeups
