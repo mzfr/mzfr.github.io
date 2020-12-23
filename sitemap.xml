@@ -96,11 +96,19 @@
   </url>
   
   <url>
-    <loc>https://blog.mzfr.me/htb/</loc>
+    <loc>https://blog.mzfr.me/tags/ctf/</loc>
   </url>
   
   <url>
-    <loc>https://blog.mzfr.me/vulnhub/</loc>
+    <loc>https://blog.mzfr.me/ctf/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.mzfr.me/ctf/htb/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.mzfr.me/ctf/vulnhub/</loc>
   </url>
   
 </urlset>

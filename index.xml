@@ -134,25 +134,20 @@ What is GSoC ? Google Summer of Code is a global program focused on bringing mor
     
     <item>
       <title>HackTheBox</title>
-      <link>https://blog.mzfr.me/htb/</link>
+      <link>https://blog.mzfr.me/ctf/htb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.mzfr.me/htb/</guid>
-      <description>HackTheBox Writeups I recently started trying machines on HackTheBox
-Following is the list of all the boxes that I was able to root.
-Index  Access Bastion Carrier Chaos Frolic Help Irked Teacher Friendzone Luke Writeup safe Jarvis Networked Wall Craft Bitlab Postman   </description>
+      <guid>https://blog.mzfr.me/ctf/htb/</guid>
+      <description>Writeups and walkthrough of all the HackTheBox machines that I&amp;rsquo;ve done</description>
     </item>
     
     <item>
       <title>Vulnhub</title>
-      <link>https://blog.mzfr.me/vulnhub/</link>
+      <link>https://blog.mzfr.me/ctf/vulnhub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.mzfr.me/vulnhub/</guid>
-      <description>Vulnhub Writeups I&amp;rsquo;ve been doing Virtual Machines from a long time. Some of them I&amp;rsquo;ve done by myself and some of them were done along with m0tl3ycr3w.
-I&amp;rsquo;ve also made a series on Vulnhub, if you&amp;rsquo;d like to try that, djinn.
-Here&amp;rsquo;s the list of all the VMs I&amp;rsquo;ve solved.
-Machines    Name Author Difficulty     DC1 DCAU 3   DC:2 DCAU 3.5   DC:3 DCAU 5   DC:4 DCAU 6   DC:5 DCAU 6   DC:6 DCAU 6   DC:7 DCAU7 7   DC:8 DCAU 8   DC:9 DCAU 8.</description>
+      <guid>https://blog.mzfr.me/ctf/vulnhub/</guid>
+      <description>Writeups and walkthrough of all the Vulnhub machines that I&amp;rsquo;ve done</description>
     </item>
     
   </channel>
