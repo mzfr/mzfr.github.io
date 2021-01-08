@@ -2,7 +2,6 @@
 title: Exploiting Exported activities in Android apps
 summary: This blog post doesn't teach you the very basics of the android app, it just talks about the exported activity and their exploitation
 date: "2020-11-07"
-weight: 2
 tags:
     - Android
 aliases:
