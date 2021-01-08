@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.mzfr.me/posts/2020-11-07-exported-activities/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+    <loc>https://blog.mzfr.me/posts/year-in-review-2020/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mzfr.me/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mzfr.me/posts/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mzfr.me/tags/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mzfr.me/tags/year-in-review/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,17 +33,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mzfr.me/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.mzfr.me/posts/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.mzfr.me/tags/</loc>
+    <loc>https://blog.mzfr.me/posts/2020-11-07-exported-activities/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
   </url>
   
