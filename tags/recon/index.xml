@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recon on mzfr&#39;s Blog</title>
+    <link>https://blog.mzfr.me/tags/recon/</link>
+    <description>Recent content in recon on mzfr&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/tags/recon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Github Action for recon</title>
+      <link>https://blog.mzfr.me/posts/2021-01-23-github-action-for-recon/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2021-01-23-github-action-for-recon/</guid>
+      <description>Let&amp;rsquo;s see if it&amp;rsquo;s possible to use GitHub action for recon</description>
+    </item>
+    
+  </channel>
+</rss>

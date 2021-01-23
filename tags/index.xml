@@ -5,7 +5,16 @@
     <link>https://blog.mzfr.me/tags/</link>
     <description>Recent content in Tags on mzfr&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>recon</title>
+      <link>https://blog.mzfr.me/tags/recon/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/tags/recon/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>year-in-review</title>
       <link>https://blog.mzfr.me/tags/year-in-review/</link>
