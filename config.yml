@@ -44,6 +44,3 @@ params:
       url: "https://github.com/mzfr"
     - name: email
       url: "mailto:zafarduffer@protonmail.com"
-    - name: buymeacoffee.com
-      url: "https://www.buymeacoffee.com/mzfr"
-
