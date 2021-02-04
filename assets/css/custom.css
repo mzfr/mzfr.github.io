@@ -1,0 +1,7 @@
+main div.post-content p {
+    font-size: 16pt;
+}
+
+div.post-content{
+    width: 125%
+}
