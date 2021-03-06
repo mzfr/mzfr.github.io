@@ -1,134 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://blog.mzfr.me/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/tags/recon/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/tags/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2021-01-23-github-action-for-recon/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2020-12-31-year-in-review-2020/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/tags/year-in-review/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/tags/android/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2020-11-07-exported-activities/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2020-09-17-gsoc20/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/tags/gsoc/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2020-05-31-tanner-data-analysis/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2020-04-19-bombsquad/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2020-04-18-autopsy-cert/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2020-02-05-docker/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2020-02-1-linux-priv-esc/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2020-01-15-ejpt-experience/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2019-11-16-interface-names/</loc>
     <lastmod>2019-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2018-10-19-picoctf/</loc>
     <lastmod>2018-10-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2018-06-27-gsoc-with-kodi/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/posts/2018-05-26-hello-world/</loc>
     <lastmod>2018-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/tags/ctf/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/ctf/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/ctf/htb/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.mzfr.me/ctf/vulnhub/</loc>
   </url>
-  
 </urlset>
