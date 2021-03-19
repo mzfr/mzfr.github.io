@@ -22,7 +22,7 @@ menu:
         url: posts
         weight: 2
       - name: Notes
-        url: https://mzfr.gitbook.io/notes/
+        url: https://github.com/mzfr/old-notes
       - name: CTF
         url: /CTF/
       - name: About
