@@ -8,5 +8,6 @@ My name is Mehtab Zafar and I'm a Offensive Security Certified Professional([OSC
 
 * [bugcrowd/mzfr](https://bugcrowd.com/mzfr)
 * [hackerone/mzfr](https://hackerone.com/mzfr)
+* [intigriti/mzfr](https://app.intigriti.com/researcher/profile/mzfr)
 
-You can read my __resume__ [here](https://github.com/mzfr/resume/blob/master/resume.pdf)
+You can read my __resume__ [here](https://github.com/mzfr/resume/blob/master/Mehtab_Zafar_resume.pdf)
