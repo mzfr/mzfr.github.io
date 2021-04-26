@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My OSCP experience
-date: "2021-04-24"
+date: "2021-04-26"
 aliases:
     - /OSCP-experience
 ---
