@@ -135,6 +135,8 @@ __Note:__ This is something that worked for me. I am not claiming that this will
 
 ### Did you record your screen during the exam?
 
+__UPDATED__: Turns out offsec doesn't allow to record the screen now. Thanks to [@MuirlandOracle](https://twitter.com/MuirlandOracle) for [pointing it out](https://twitter.com/MuirlandOracle/status/1386987176454410240). You can read more about recording the screen [here](https://help.offensive-security.com/hc/en-us/articles/360040576311-Can-I-record-my-screen-when-taking-the-exam-).
+
 I've read that lot of people used OBS to record their screen while they were giving the exam but I **didn't** do it. I am used to writing the reports/walkthroughs while doing the machine ever since I started doing boot2root in 2019. So I just didn't record anything. I took all the screenshots and recorded all the necessary outputs as I did the machine.
 
 But this could be something useful so if your system is powerful enough that it can share your screen via a browser and then record the screen(s) via another tool then sure go ahead and do it.
