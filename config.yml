@@ -1,7 +1,7 @@
 baseURL: "https://blog.mzfr.me"
 title: "mzfr's Blog"
 theme: "hugo-PaperMod"
-paginate: 20
+paginate: 5
 
 googleAnalytics: UA-147356794-1
 
@@ -18,9 +18,9 @@ menu:
       - name: Home
         url: /
         weight: 1
-      - name: Blog
-        url: posts
-        weight: 2
+      #- name: Blog
+        #url: posts
+        #weight: 2
       - name: Notes
         url: https://github.com/mzfr/notes/wiki/
       - name: Writeups
@@ -32,10 +32,10 @@ params:
   env: production
   ShowReadingTime: true
   
-  profileMode:
+  homeInfoParams:
     enabled: True
     Title: Hi 👋
-    subtitle: "I'm Mehtab Zafar, a developer who spends most of his time doing bug bounties."
+    Content: "I'm Mehtab Zafar, a developer who spends most of his time doing bug bounties."
 
   socialIcons:
     - name: twitter
