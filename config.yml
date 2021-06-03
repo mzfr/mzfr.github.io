@@ -31,7 +31,8 @@ menu:
 params:
   env: production
   ShowReadingTime: true
-  
+  ShowCodeCopyButtons: true
+
   homeInfoParams:
     enabled: True
     Title: Hi 👋
