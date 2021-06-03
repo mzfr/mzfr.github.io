@@ -4,6 +4,7 @@ title: My OSCP experience
 date: "2021-04-26"
 aliases:
     - /OSCP-experience
+ShowToc: true
 ---
 
 So it finally happened, I got my [OSCP](https://www.credly.com/earner/earned/badge/537571f6-6d4c-4aec-ab49-991bdd570e04). This blog post is going to be just me talking about what I did right, what I did wrong and maybe some tips for people who plan to take the exam in the future.

@@ -4,6 +4,7 @@ summary: Let's see if it's possible to use GitHub action for recon
 date: "2021-01-23"
 tags:
     - recon
+ShowToc: true
 ---
 
 In this blog post, I will talk a bit about how I use Github Actions for simple recon stuff. If you already know what Github Actions are and doesn't want to read the backstory then skip to the [How to Setup Github Action](#github-actions-for-recon)
