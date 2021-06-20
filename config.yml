@@ -31,7 +31,6 @@ menu:
 params:
   env: production
   ShowReadingTime: true
-  ShowCodeCopyButtons: true
 
   homeInfoParams:
     enabled: True
@@ -44,4 +43,4 @@ params:
     - name: github
       url: "https://github.com/mzfr"
     - name: email
-      url: "mailto:zafarduffer@protonmail.com"
+      url: "mailto:hello@mzfr.me"
