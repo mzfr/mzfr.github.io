@@ -5,7 +5,17 @@
     <link>https://blog.mzfr.me/posts/</link>
     <description>Recent content in Posts on mzfr&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaining access to protected components</title>
+      <link>https://blog.mzfr.me/posts/2021-06-24-unexported-component/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2021-06-24-unexported-component/</guid>
+      <description>In the previous post I talked about what activities are and how we can exploit exported activities. In this post, I&amp;rsquo;ll show you how an attacker might be able to access the components which are protected i.e not exported. And in the end, I&amp;rsquo;ll show you how I found one of the similar bugs on a public bug-bounty program.
+What is this vulnerability? Basically what happens is that an activity(let&amp;rsquo;s call it A) accepts some extras.</description>
+    </item>
+    
     <item>
       <title>My OSCP experience</title>
       <link>https://blog.mzfr.me/posts/2021-04-24-oscp-experience/</link>
