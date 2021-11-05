@@ -5,7 +5,17 @@
     <link>https://blog.mzfr.me/posts/</link>
     <description>Recent content in Posts on mzfr&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Cardano components</title>
+      <link>https://blog.mzfr.me/posts/2021-11-05-intro-to-cardano-tx/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2021-11-05-intro-to-cardano-tx/</guid>
+      <description>A few months ago one of my friends asked me to help him mint some NFT on the Cardano blockchain. At that point, I had no idea how transactions work on Cardano and how to actually mint any NFT on it. So I started reading all the blog posts I could find and started banging my head on the Cardano documentation.
+Now I&amp;rsquo;m writing this series (hopefully) of blog posts because I had to learn things from different places and couldn&amp;rsquo;t find everything in the Cardano documentation because it&amp;rsquo;s not very frequently updated.</description>
+    </item>
+    
     <item>
       <title>Gaining access to protected components</title>
       <link>https://blog.mzfr.me/posts/2021-06-24-unexported-component/</link>
