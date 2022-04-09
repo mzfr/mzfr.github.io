@@ -22,7 +22,7 @@ menu:
         #url: posts
         #weight: 2
       - name: Notes
-        url: https://github.com/mzfr/notes/wiki/
+        url: https://wiki.mzfr.me
       - name: Writeups
         url: /CTF/
       - name: About
