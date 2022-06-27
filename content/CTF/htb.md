@@ -31,8 +31,10 @@ Following is the list of all the boxes that I was able to root.
 * [Networked](https://mzfr.github.io/HackTheBox-writeups/Networked/)
 * [Wall](https://mzfr.github.io/HackTheBox-writeups/wall/)
 * [Craft](https://mzfr.github.io/HackTheBox-writeups/craft/)
-* [Bitlab](https://mzfr.github.io/HackTheBox-writeups/bitlab/)
-* [Postman](https://mzfr.github.io/HackTheBox-writeups/Postman/)
+* [Postman]((https://mzfr.github.io/HackTheBox-writeups/Postman/))
+* [haystack](https://mzfr.github.io/HackTheBox-writeups/haystack/)
+* [obscurity](https://mzfr.github.io/HackTheBox-writeups/Obscurity/)
+* [mango](https://mzfr.github.io/HackTheBox-writeups/mango/)
 
 ***
 
