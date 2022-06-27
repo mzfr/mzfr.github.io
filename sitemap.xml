@@ -94,5 +94,7 @@
     <loc>https://blog.mzfr.me/ctf/htb/</loc>
   </url><url>
     <loc>https://blog.mzfr.me/ctf/vulnhub/</loc>
+  </url><url>
+    <loc>https://blog.mzfr.me/ctf/wizardlab/</loc>
   </url>
 </urlset>

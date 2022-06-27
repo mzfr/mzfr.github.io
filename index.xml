@@ -43,7 +43,7 @@ What is this vulnerability? Basically what happens is that an activity(let&amp;r
       <guid>https://blog.mzfr.me/posts/2021-04-24-oscp-experience/</guid>
       <description>So it finally happened, I got my OSCP. This blog post is going to be just me talking about what I did right, what I did wrong and maybe some tips for people who plan to take the exam in the future.
 PWK Course Also, known as PEN-200 is the course one takes in order to get their OSCP Certification. The official definition for this course is as follows:
- Penetration Testing with Kali Linux (PEN-200) is the foundational course at Offensive Security.</description>
+Penetration Testing with Kali Linux (PEN-200) is the foundational course at Offensive Security.</description>
     </item>
     
     <item>
@@ -188,7 +188,7 @@ What is GSoC ? Google Summer of Code is a global program focused on bringing mor
       <guid>https://blog.mzfr.me/about/</guid>
       <description>My name is Mehtab Zafar and I&amp;rsquo;m a Offensive Security Certified Professional(OSCP) and Certified Junior Penetration Tester(eJPT). And I spend most of my time doing bugbounty.
 Currently I&amp;rsquo;m working(independent contractor) as a Web Security Engineer at Red Queen Tech.
- bugcrowd/mzfr hackerone/mzfr intigriti/mzfr  You can read my resume here</description>
+bugcrowd/mzfr hackerone/mzfr intigriti/mzfr You can read my resume here</description>
     </item>
     
     <item>
@@ -207,6 +207,15 @@ Currently I&amp;rsquo;m working(independent contractor) as a Web Security Engine
       
       <guid>https://blog.mzfr.me/ctf/vulnhub/</guid>
       <description>Writeups and walkthrough of all the Vulnhub machines that I&amp;rsquo;ve done</description>
+    </item>
+    
+    <item>
+      <title>WizardSecLabs</title>
+      <link>https://blog.mzfr.me/ctf/wizardlab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/ctf/wizardlab/</guid>
+      <description>Writeups and walkthrough of all the WizardSeclab machines that I&amp;rsquo;ve done</description>
     </item>
     
   </channel>

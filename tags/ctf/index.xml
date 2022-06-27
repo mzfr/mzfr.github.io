@@ -23,5 +23,14 @@
       <description>Writeups and walkthrough of all the Vulnhub machines that I&amp;rsquo;ve done</description>
     </item>
     
+    <item>
+      <title>WizardSecLabs</title>
+      <link>https://blog.mzfr.me/ctf/wizardlab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/ctf/wizardlab/</guid>
+      <description>Writeups and walkthrough of all the WizardSeclab machines that I&amp;rsquo;ve done</description>
+    </item>
+    
   </channel>
 </rss>
