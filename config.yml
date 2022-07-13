@@ -44,3 +44,5 @@ params:
       url: "https://github.com/mzfr"
     - name: email
       url: "mailto:hello@mzfr.me"
+    - name: buymeacoffee
+      url: "https://github.com/sponsors/mzfr"
