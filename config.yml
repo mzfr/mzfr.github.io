@@ -3,7 +3,6 @@ title: "mzfr's Blog"
 theme: "hugo-PaperMod"
 paginate: 5
 
-googleAnalytics: UA-147356794-1
 
 minify:
   disableXML: true
@@ -44,5 +43,3 @@ params:
       url: "https://github.com/mzfr"
     - name: email
       url: "mailto:hello@mzfr.me"
-    - name: buymeacoffee
-      url: "https://github.com/sponsors/mzfr"
