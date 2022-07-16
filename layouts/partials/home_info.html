@@ -1,0 +1,16 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" site.Params.socialIcons }}
+        <iframe src="https://github.com/sponsors/mzfr/button" title="Sponsor mzfr" height="30" width="113"
+            style="border: 0;"></iframe>
+    </footer>
+
+</article>
+{{- end -}}
