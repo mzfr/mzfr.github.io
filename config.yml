@@ -1,5 +1,5 @@
 baseURL: "https://blog.mzfr.me"
-title: "mzfr's Blog"
+title: "mzfr's blog"
 theme: "hugo-PaperMod"
 paginate: 5
 
@@ -17,19 +17,26 @@ menu:
       - name: Home
         url: /
         weight: 1
-      #- name: Blog
-        #url: posts
-        #weight: 2
       - name: Notes
         url: https://wiki.mzfr.me
       - name: Writeups
         url: /CTF/
       - name: About
         url: /about/
-    
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: doom-one
+
 params:
   env: production
   ShowReadingTime: true
+  ShowPostNavLinks: true
+  assets:
+    disableHLJS: true
 
   homeInfoParams:
     enabled: True
