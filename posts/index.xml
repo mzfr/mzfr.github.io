@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on mzfr&#39;s Blog</title>
+    <title>Posts on mzfr&#39;s blog</title>
     <link>https://blog.mzfr.me/posts/</link>
-    <description>Recent content in Posts on mzfr&#39;s Blog</description>
+    <description>Recent content in Posts on mzfr&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genie in a bottle</title>
+      <link>https://blog.mzfr.me/posts/2022-07-24-arch-genie/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2022-07-24-arch-genie/</guid>
+      <description>Decided to shift from Ubuntu to Arch WSL and found an amazing way to run systemd.</description>
+    </item>
+    
     <item>
       <title>Year In Review-2021</title>
       <link>https://blog.mzfr.me/posts/2021-12-31-year-in-review-2021/</link>
