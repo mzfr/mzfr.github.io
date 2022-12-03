@@ -24,7 +24,7 @@ If you'd like to try self-host any of the below-mentioned applications then migh
 
 Below are the things I ended up trying because the idea of having that application was really nice in my mind but when I actually self-hosted the applications I had this feeling that it ain't for me.
 
-* [BookStack](https://www.bookstackapp.com/): This seemed like a very good way of internally hosting my personal notes. But I actually didn't find the idea of having shelves/books/chapters/pages a bit weird so decided to drop the idea of using it.
+* [BookStack](https://www.bookstackapp.com/): This seemed like a very good way of internally hosting my personal notes. But I actually found the idea of having shelves/books/chapters/pages a bit weird so decided to drop the idea of using it.
 
 * [TT-RSS](https://tt-rss.org/): I was using Feedly when I didn't know about self-hosting but then decided to self-host TT-RSS for myself. And I didn't enjoy the UI at all. Maybe I was spoiled by Feedly but even with the Feedly theme tt-RSS didn't come close to want I think I wanted. Now I am not criticizing the tt-RSS project, it is an amazing project being maintained by amazing people and supported by a great community. But it wasn't something I felt was for me.
 
