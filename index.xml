@@ -5,7 +5,16 @@
     <link>https://blog.mzfr.me/</link>
     <description>Recent content on mzfr&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giving self-hosting a go</title>
+      <link>https://blog.mzfr.me/posts/2022-11-21-selfhosting/</link>
+      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2022-11-21-selfhosting/</guid>
+      <description>I&amp;rsquo;ve been lurking around r/selfhosted for quite a while now, and decided to use old raspi to host some simple applications.</description>
+    </item>
+    
     <item>
       <title>Genie in a bottle</title>
       <link>https://blog.mzfr.me/posts/2022-07-24-arch-genie/</link>
