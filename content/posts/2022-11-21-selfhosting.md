@@ -10,7 +10,7 @@ Back in 2021 when I came across [r/selfhosted](https://www.reddit.com/r/selfhost
 
 All of the above was running on a Digitalocean droplet. I tried using all of that applications for about a week but then once the excitement of self-hosting wore off I kinda stopped using them, all of them. So I 💥destroyed that droplet💥
 
-Now this year around march/April I was running a few telegram bots for certain things on my [raspberry pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) and then decided to seriously give self-hosting a try. By seriously I meant things running things which I would actually use. I ended up trying a lot of things I felt I wanted to self-host but then in the end, only few of them felt like something I actually needed.
+Now this year around march/April I was running a few telegram bots for certain things on my [raspberry pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) and then decided to seriously give self-hosting a try. By seriously I meant things running things that I would actually use. I ended up trying a lot of things I felt I wanted to self-host but then, in the end, only a few of them felt like something I actually needed.
 
 
 ## Applications
@@ -51,11 +51,11 @@ Other than the above-mentioned stuff I also run major `*arr` applications along 
 
 ## Architecture
 
-Below is an image that tries explains my "complex"  seff-hosting architecture.
+Below is an image that tries to explain my "complex"  self-hosting architecture.
 
-![](../../static/images/selfhostarch.jpg)
+![](/images/selfhostarch.jpg)
 
-Also you might notice the artistic effects that I've tried to add in the above diagram.
+Also, you might notice the artistic effects that I've tried to add to the above diagram.
 
 ## Future plans
 
@@ -65,4 +65,4 @@ Other than that something I definitely wanna give a try is self-hosting the VPN 
 
 ***
 
-I would definitely recommend people to give self-hosting a try, even if they don't want to actually use those applications. Just running them will teach you a lot about proper networking and managing containers, etc. And also I'd like to thank the [r/selfhosted](https://www.reddit.com/r/selfhosted/) for inspiring me, I hope one day I can be fully self-hosted :)
+I would definitely recommend people give self-hosting a try, even if they don't want to actually use those applications. Just running them will teach you a lot about proper networking and managing containers, etc. And also I'd like to thank the [r/selfhosted](https://www.reddit.com/r/selfhosted/) for inspiring me, I hope one day I can be fully self-hosted :)
