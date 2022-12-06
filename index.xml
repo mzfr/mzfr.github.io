@@ -5,7 +5,16 @@
     <link>https://blog.mzfr.me/</link>
     <description>Recent content on mzfr&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taking notes with VS Code and obsidian</title>
+      <link>https://blog.mzfr.me/posts/2022-12-05-ownnotes/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2022-12-05-ownnotes/</guid>
+      <description>Using VS Code, syncthing, and obsidian mobile together for taking notes.</description>
+    </item>
+    
     <item>
       <title>Giving self-hosting a go</title>
       <link>https://blog.mzfr.me/posts/2022-11-21-selfhosting/</link>

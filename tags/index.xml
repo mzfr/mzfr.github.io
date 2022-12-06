@@ -5,22 +5,85 @@
     <link>https://blog.mzfr.me/tags/</link>
     <description>Recent content in Tags on mzfr&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>self-hosting, self-hosted, raspberry, raspi</title>
-      <link>https://blog.mzfr.me/tags/self-hosting-self-hosted-raspberry-raspi/</link>
-      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      <title>foambubble</title>
+      <link>https://blog.mzfr.me/tags/foambubble/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.mzfr.me/tags/self-hosting-self-hosted-raspberry-raspi/</guid>
+      <guid>https://blog.mzfr.me/tags/foambubble/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>genie, arch, wsl</title>
-      <link>https://blog.mzfr.me/tags/genie-arch-wsl/</link>
+      <title>obsidian</title>
+      <link>https://blog.mzfr.me/tags/obsidian/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/tags/obsidian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry</title>
+      <link>https://blog.mzfr.me/tags/raspberry/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/tags/raspberry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspi</title>
+      <link>https://blog.mzfr.me/tags/raspi/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/tags/raspi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-hosted</title>
+      <link>https://blog.mzfr.me/tags/self-hosted/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/tags/self-hosted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-hosting</title>
+      <link>https://blog.mzfr.me/tags/self-hosting/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/tags/self-hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch</title>
+      <link>https://blog.mzfr.me/tags/arch/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.mzfr.me/tags/genie-arch-wsl/</guid>
+      <guid>https://blog.mzfr.me/tags/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>genie</title>
+      <link>https://blog.mzfr.me/tags/genie/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/tags/genie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl</title>
+      <link>https://blog.mzfr.me/tags/wsl/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/tags/wsl/</guid>
       <description></description>
     </item>
     

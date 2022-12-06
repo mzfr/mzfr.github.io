@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>obsidian on mzfr&#39;s blog</title>
+    <link>https://blog.mzfr.me/tags/obsidian/</link>
+    <description>Recent content in obsidian on mzfr&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taking notes with VS Code and obsidian</title>
+      <link>https://blog.mzfr.me/posts/2022-12-05-ownnotes/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mzfr.me/posts/2022-12-05-ownnotes/</guid>
+      <description>Using VS Code, syncthing, and obsidian mobile together for taking notes.</description>
+    </item>
+    
+  </channel>
+</rss>
