@@ -3,7 +3,9 @@ title: Genie in a bottle
 summary: Decided to shift from Ubuntu to Arch WSL and found an amazing way to run systemd.
 date: "2022-08-01"
 tags:
-    - genie, arch, wsl
+    - genie
+    - arch
+    - wsl
 ---
 
 I've been using the desktop for work for the past 2 years now. Back when I built my PC I decided to give [WSL](https://docs.microsoft.com/en-us/windows/wsl/install) a try. I had a feeling that it might not work out but with the right tooling and quite a lot of time to configure, I was able to make it work. To be able to follow all the available guides online and the official documentation I decided to stick with WSL ubuntu. Before this when I was doing everything on my old laptop [I was using Manjaro](https://knowyourmeme.com/memes/btw-i-use-arch).

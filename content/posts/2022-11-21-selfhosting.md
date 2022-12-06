@@ -3,7 +3,10 @@ title: Giving self-hosting a go
 summary: I've been lurking around r/selfhosted for quite a while now, and decided to use old raspi to host some simple applications.
 date: "2022-12-03"
 tags:
-    - self-hosting, self-hosted, raspberry, raspi
+    - self-hosting
+    - self-hosted
+    - raspberry
+    - raspi
 ---
 
 Back in 2021 when I came across [r/selfhosted](https://www.reddit.com/r/selfhosted/) I was really fascinated by the idea of self-hosting. Spending time on that subreddit made me realize that quite a lot of people are self-hosting applications that they use on a daily basis. At that time I had no intention of self-hosting applications for personal use because it didn't seem like something I'd be able to manage. But for the sake of learning and having fun, I decided to try hosting applications like [NextCloud](https://nextcloud.com/), [calibre-web](https://github.com/janeczku/calibre-web), [Bookstack](https://www.bookstackapp.com/), [ghost](https://ghost.org/), [syncthing](https://syncthing.net/). All that using [portainer](https://www.portainer.io/) along with [traefik](https://traefik.io/) as a proxy.
