@@ -125,12 +125,14 @@
   </url><url>
     <loc>https://blog.mzfr.me/tags/ctf/</loc>
   </url><url>
+    <loc>https://blog.mzfr.me/ctf.bak/</loc>
+  </url><url>
+    <loc>https://blog.mzfr.me/ctf.bak/htb/</loc>
+  </url><url>
+    <loc>https://blog.mzfr.me/ctf.bak/vulnhub/</loc>
+  </url><url>
+    <loc>https://blog.mzfr.me/ctf.bak/wizardlab/</loc>
+  </url><url>
     <loc>https://blog.mzfr.me/ctf/</loc>
-  </url><url>
-    <loc>https://blog.mzfr.me/ctf/htb/</loc>
-  </url><url>
-    <loc>https://blog.mzfr.me/ctf/vulnhub/</loc>
-  </url><url>
-    <loc>https://blog.mzfr.me/ctf/wizardlab/</loc>
   </url>
 </urlset>
