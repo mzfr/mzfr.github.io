@@ -20,7 +20,7 @@ menu:
       - name: Notes
         url: https://wiki.mzfr.me
       - name: Writeups
-        url: /CTF/
+        url: /ctf/
       - name: About
         url: /about/
 
@@ -36,7 +36,7 @@ params:
   ShowReadingTime: true
   ShowPostNavLinks: true
   assets:
-    disableHLJS: true
+
 
   homeInfoParams:
     enabled: True
