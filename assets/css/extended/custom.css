@@ -78,10 +78,11 @@ div.post-content{
 .posts-group {
 	 margin-bottom: 1.9em;
 	 line-height: normal;
+   width: 150%
 }
  .posts-group .post-year {
 	 padding-top: 6px;
-	 margin-bottom: 0.3em;
+	 margin-bottom: 0.6em;
 	 font-size: 1.6em;
    opacity: .6;
 }
@@ -92,10 +93,10 @@ div.post-content{
 	 list-style: none;
 }
  .posts-group .post-item {
-	 border-bottom: 1px dashed;
+	 border-bottom: 1px;
 }
  .posts-group .post-item a {
-	 display: flex;
+	 display: inline-flex;
 	 justify-content: space-between;
 	 align-items: baseline;
 	 padding: 9px 0;
@@ -106,6 +107,22 @@ div.post-content{
 }
  .posts-group .post-day {
 	 flex-shrink: 0;
-	 margin-left: 1em;
-   opacity: .6;
+	 margin-left: 1.3em;
+   margin-right: 1.5em;
+   opacity: .8;
+   font-size: 1.2em;
+}
+.posts-group .post-item span a {
+  font-size: 1.4em;
+}
+
+.first-entry {
+  min-height: 180px;
+}
+.first-entry .entry-header h1 {
+  font-size: 34px;
+}
+
+.first-entry .entry-content {
+  margin: 15px 0;
 }

@@ -7,18 +7,16 @@
 {{- partial "home_info.html" . }}
 
 {{- range $pages.GroupByDate "2006" }}
-		<div class="posts-group">
-			<div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
-			<ul class="posts-list">
-				{{- range .Pages }}
-				<li class="post-item">
-					<a href="{{.Permalink}}">
-						<span >{{.Title}}</span>
-						<span class="post-day">{{ .Date | time.Format (.Site.Params.dateFormat | default "Jan 2" ) }}</span>
-					</a>
-				</li>
-				{{- end }}
-			</ul>
-		</div>
+<div class="posts-group">
+	<div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
+	<ul class="posts-list">
+		{{- range .Pages }}
+		<li class="post-item">
+			<span class="post-day">{{ .Date | time.Format (.Site.Params.dateFormat | default "Jan 02" ) }}</span>
+			<span><a href="{{.Permalink}}">{{.Title}}</a></span>
+		</li>
+		{{- end }}
+	</ul>
+</div>
 {{- end }}
 {{- end }}{{- /* end main */ -}}
