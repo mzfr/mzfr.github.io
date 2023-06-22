@@ -1,20 +1,19 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-I'm a Offensive Security Certified Professional([OSCP](https://www.credly.com/earner/earned/badge/537571f6-6d4c-4aec-ab49-991bdd570e04)) and Certified Junior Penetration Tester([eJPT](https://drive.google.com/file/d/1jkr-jvopT3O03y8QT4Hb8Awq-0bnfcBY/view?usp=sharing)). I spend most of my free time hunting bugs or making open source tools.
+Hi, My name is Mehtab Zafar, and I'm a product security engineer at Red Queen Dynamics, Inc. I have extensive experience in Bug Bounties and have achieved significant success in this field. I am proud to be included in the "Hall of Fame" for several renowned companies, including GitHub, PayPal, Google, etc. 
 
-Currently I'm working(contractor) as a Product Security Engineer at [Red Queen Dynamic](https://rqdn.io/).
+My passion lies in the realm of security, where I derive great satisfaction from discovering vulnerabilities in systems. I am constantly seeking new challenges and opportunities to expand my knowledge and skills. 
 
+In addition to my expertise in security, I possess over 4 years of experience in Python development. I have actively contributed my development skills to various open-source code projects. Furthermore, I have served as a developer and mentor with Google Summer of Code.
 
-## Profiles
+# Links
 
-* [bugcrowd/mzfr](https://bugcrowd.com/mzfr)
+* [OSCP](https://www.credly.com/earner/earned/badge/537571f6-6d4c-4aec-ab49-991bdd570e04)
+* [eJPT](https://drive.google.com/file/d/1jkr-jvopT3O03y8QT4Hb8Awq-0bnfcBY/view?usp=sharing)
 * [hackerone/mzfr](https://hackerone.com/mzfr)
-* [intigriti/mzfr](https://app.intigriti.com/researcher/profile/mzfr)
+* [Resume](https://github.com/mzfr/resume/blob/master/Mehtab_Zafar_resume.pdf)
 
-## Resume
-
-You can find my __resume__ - [here](https://github.com/mzfr/resume/blob/master/Mehtab_Zafar_resume.pdf)
