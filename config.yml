@@ -40,13 +40,15 @@ params:
 
   homeInfoParams:
     enabled: True
-    Title: Hi 👋
+    Title: "$ whoami"
     Content: "I'm Mehtab Zafar, a developer who spends most of his time doing bug bounties."
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/0xmzfr"
     - name: github
       url: "https://github.com/mzfr"
     - name: email
       url: "mailto:hello@mzfr.me"
+    - name: rss
+      url: "https://blog.mzfr.me/index.xml"
+    - name: resume
+      url: "https://github.com/mzfr/resume/blob/master/Mehtab_Zafar_resume.pdf"
