@@ -41,7 +41,7 @@ params:
   homeInfoParams:
     enabled: True
     Title: "$ whoami"
-    Content: "I'm Mehtab Zafar, a developer who spends most of his time doing bug bounties."
+    Content: "Mehtab Zafar: Mutating one day at a time, with an unknown time budget"
 
   socialIcons:
     - name: github
