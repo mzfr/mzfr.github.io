@@ -4,10 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-Hi, My name is Mehtab Zafar, and I'm a product security engineer at Red Queen Dynamics, Inc. I have extensive experience in Bug Bounties and have achieved significant success in this field. I am proud to be included in the "Hall of Fame" for several renowned companies, including GitHub, PayPal, Google, etc. 
-
-My passion lies in the realm of security, where I derive great satisfaction from discovering vulnerabilities in systems. I am constantly seeking new challenges and opportunities to expand my knowledge and skills. 
-
+Hi, My name is Mehtab Zafar, and I'm doing my masters at NUS. Previously, I was a product security engineer at Red Queen Dynamics, Inc. Other than that, I have extensive experience in Bug Bounties and have achieved significant success in this field. I am proud to be included in the "Hall of Fame" for several renowned companies, including GitHub, PayPal, Google, etc. 
 In addition to my expertise in security, I possess over 4 years of experience in Python development. I have actively contributed my development skills to various open-source code projects. Furthermore, I have served as a developer and mentor with Google Summer of Code.
 
 # Links
