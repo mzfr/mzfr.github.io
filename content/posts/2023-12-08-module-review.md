@@ -17,6 +17,8 @@ The courses I ended up taking were:
 
 ## CS5219 - Automated Software Validation
 
+* My Final Grade: **B-**
+
 * Professor - [Prof. Abhik Roychoudhury](https://abhikrc.com/)
 * Weekly Classes - 1 x 2hr non-recorded lectures
 * Assessment Rubric 
@@ -55,6 +57,8 @@ a whole isn't a "filler" type course. If you want to score well, you'll have to 
 
 ## CS5231 - Systems Security
 
+* My Final Grade: **A-**
+
 * Professor - [Prof. Liang Zhenkai](https://www.comp.nus.edu.sg/~liangzk/)
 * Weekly Classes - 1 x 2hr recorded lectures
 * Assessment Rubric
@@ -88,6 +92,8 @@ TL;DR - Take this course only if are willing to spend quite a good amount of tim
 everything pretty hands on, TA's are pretty good for communication except for the project. Midterm shouldn't be an issue, especially if you do the assignments.
 
 ## CS5439 - Software Security
+
+* My Final Grade: **B+**
 
 * Professor - [Prof. Roland Yap](https://www.comp.nus.edu.sg/cs/people/ryap/)
 * Weekly Classes - 1 x 3hr recorded but uploaded with delay
@@ -124,6 +130,8 @@ TL;DR - Prof makes the classes/lectures quite boring but is very interactive out
 
 ## IS4302 - Blockchain 
 
+* My Final Grade: **A-**
+
 * Professor - [Prof. Nicholas Mac Gregor](https://www.comp.nus.edu.sg/disa/bio/ngarcia/)
 * Weekly Classes - 1 x 2hr recorded
 * Assessment Rubric
@@ -158,3 +166,5 @@ For the final project, you end up being in a group of 4/5 people and just make a
 
 TL;DR take it if you have no clue about blockchain, prof is pretty good at explaining things and keeping lectures interactive, assignments and labs would be fun if you are doing them for 
 the first time. If you are already comfortable with blockchain, you can probably take this as a filler course in case you going down the coursework path.
+
+EDIT: I've edited the post to add my final grades. Also somehow my GPA turned out to be 4, which is quite above my expectation so I'm happy with it.
