@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.mzfr.me/posts/2023-12-08-module-review/</loc>
-    <lastmod>2023-12-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.mzfr.me/</loc>
-    <lastmod>2023-12-08T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mzfr.me/posts/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mzfr.me/tags/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mzfr.me/posts/2023-12-31-year-in-review/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mzfr.me/tags/year-in-review/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mzfr.me/posts/2023-12-08-module-review/</loc>
     <lastmod>2023-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mzfr.me/posts/2023-12-07-nus/</loc>
@@ -17,13 +26,7 @@
     <loc>https://blog.mzfr.me/posts/2023-02-15-to-pdf/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mzfr.me/tags/</loc>
-    <lastmod>2022-12-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.mzfr.me/posts/2022-12-31-year-in-review/</loc>
-    <lastmod>2022-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mzfr.me/tags/year-in-review/</loc>
     <lastmod>2022-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mzfr.me/tags/foambubble/</loc>
