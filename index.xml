@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mzfr&#39;s blog</title>
+    <title>~/mzfr</title>
     <link>https://blog.mzfr.me/</link>
-    <description>Recent content on mzfr&#39;s blog</description>
+    <description>Recent content on ~/mzfr</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -258,7 +258,8 @@ What is GSoC ? Google Summer of Code is a global program focused on bringing mor
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mzfr.me/about/</guid>
-      <description>Hi, My name is Mehtab Zafar, and I&amp;rsquo;m doing my master&amp;rsquo;s at NUS. Previously, I was a product security engineer at Red Queen Dynamics, Inc. Other than that, I have extensive experience in Bug Bounties and have achieved significant success in this field. I am proud to be included in the &amp;ldquo;Hall of Fame&amp;rdquo; for several renowned companies, including GitHub, PayPal, Google, etc. In addition to my expertise in security, I possess over 4 years of experience in Python development.</description>
+      <description>Hi, I’m Mehtab Zafar, a Master’s student at the National University of Singapore (NUS). I’m currently working in the NUS TEST Lab under the guidance of Manuel Rigger for my Master’s dissertation. Additionally, I am a Research Assistant at the NUS TSS Lab, collaborating with Abhik Roychoudhury on various projects.
+Previously, I worked as a Product Security Engineer at Red Queen Dynamics, Inc. Alongside my professional experience, I have extensive involvement in bug bounty programs, achieving notable success.</description>
     </item>
     
     <item>
