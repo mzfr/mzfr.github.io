@@ -140,6 +140,9 @@ div.post-content{
     --hljs-bg: #34302C;
     --code-bg: #403A36;
     --border: #4D453E;
+    --link-color: #4a5bcc;  /* A blue-purple shade */
+    --link-hover-color: #6d7ce0;  /* A lighter shade for hover effect */
+
 }
 
 .dark {
@@ -152,6 +155,8 @@ div.post-content{
     --hljs-bg: #34302C;
     --code-bg: #403A36;
     --border: #4D453E;
+    --link-color: #8e9eff;  /* A lighter blue-purple for dark mode */
+    --link-hover-color: #acb7ff; 
 }
 
 
@@ -162,4 +167,14 @@ div.post-content{
 body {
     font-family: 'Fira Code', monospace;
 }
+/* Adjust color for links within post content */
+.post-content a {
+    color: var(--link-color);
+    transition: color 0.3s ease;
+}
+
+.post-content a:hover {
+    color: var(--link-hover-color);
+}
+
 

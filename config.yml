@@ -29,13 +29,15 @@ markup:
     codeFences: true
     guessSyntax: true
     lineNos: false
-    style: doom-one
+    style: gruvbox
 
 params:
   env: production
   ShowReadingTime: true
   ShowPostNavLinks: true
+  disableThemeToggle: true
   assets:
+    disableHLJS: true
 
 
   homeInfoParams:
