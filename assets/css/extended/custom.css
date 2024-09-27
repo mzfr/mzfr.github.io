@@ -126,3 +126,40 @@ div.post-content{
 .first-entry .entry-content {
   margin: 15px 0;
 }
+
+
+/* Set Trying Melange ColorScheme */
+
+:root {
+    --theme: #292522;
+    --entry: #34302C;
+    --primary: #ECE1D7;
+    --secondary: #A8A19F;
+    --tertiary: #867462;
+    --content: #ECE1D7;
+    --hljs-bg: #34302C;
+    --code-bg: #403A36;
+    --border: #4D453E;
+}
+
+.dark {
+    --theme: #292522;
+    --entry: #34302C;
+    --primary: #ECE1D7;
+    --secondary: #A8A19F;
+    --tertiary: #867462;
+    --content: #ECE1D7;
+    --hljs-bg: #34302C;
+    --code-bg: #403A36;
+    --border: #4D453E;
+}
+
+
+/* Set Fira code as default Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Fira Code', monospace;
+}
+
