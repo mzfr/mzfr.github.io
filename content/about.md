@@ -4,8 +4,12 @@ title: About Me
 permalink: /about/
 ---
 
-Hi, My name is Mehtab Zafar, and I'm doing my master's at NUS. Previously, I was a product security engineer at Red Queen Dynamics, Inc. Other than that, I have extensive experience in Bug Bounties and have achieved significant success in this field. I am proud to be included in the "Hall of Fame" for several renowned companies, including GitHub, PayPal, Google, etc. 
-In addition to my expertise in security, I possess over 4 years of experience in Python development. I have actively contributed my development skills to various open-source code projects. Furthermore, I have served as a developer and mentor with Google Summer of Code.
+
+Hi, I’m Mehtab Zafar, a Master’s student at the National University of Singapore (NUS). I’m currently working in the [NUS TEST Lab](https://nus-test.github.io/author/mehtab-zafar/) under the guidance of [Manuel Rigger](https://www.manuelrigger.at/) for my Master’s dissertation. Additionally, I am a Research Assistant at the [NUS TSS Lab](https://nus-tss.github.io/team/), collaborating with [Abhik Roychoudhury](https://abhikrc.com/) on various projects.
+
+Previously, I worked as a Product Security Engineer at [Red Queen Dynamics, Inc](https://redqueendynamics.com/). Alongside my professional experience, I have extensive involvement in bug bounty programs, achieving notable success. I’m honored to be listed in the "Hall of Fame" for several prominent companies, including GitHub, PayPal, and Google.
+
+Beyond security, I bring over four years of experience in Python development. I have actively contributed to various open-source projects and have also participated as a developer and mentor in Google Summer of Code.
 
 # Links
 

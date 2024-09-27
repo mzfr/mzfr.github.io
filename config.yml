@@ -1,5 +1,5 @@
 baseURL: "https://blog.mzfr.me"
-title: "mzfr's blog"
+title: "~/mzfr"
 theme: "hugo-PaperMod"
 paginate: 5
 
@@ -41,7 +41,7 @@ params:
   homeInfoParams:
     enabled: True
     Title: "$ whoami"
-    Content: "Mehtab Zafar: Mutating one day at a time, with an unknown time budget"
+    Content: "Hi! I'm Mehtab, an engineer at heart with a focus on security"
 
   socialIcons:
     - name: github
