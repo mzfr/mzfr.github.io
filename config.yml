@@ -1,7 +1,8 @@
 baseURL: "https://blog.mzfr.me"
 title: "~/mzfr"
-theme: "hugo-PaperMod"
-paginate: 5
+theme: ["PaperMod"]
+pagination:
+  pageSize: 5
 
 
 minify:
@@ -30,7 +31,7 @@ markup:
     guessSyntax: true
     lineNos: false
     style: gruvbox
-
+  
 params:
   env: production
   ShowReadingTime: true
