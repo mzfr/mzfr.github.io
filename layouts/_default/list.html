@@ -1,22 +1,55 @@
 {{- define "main" }}
-
-{{- $pages := union .RegularPages .Sections }}
-
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-
-{{- partial "home_info.html" . }}
-
-{{- range $pages.GroupByDate "2006" }}
-<div class="posts-group">
-	<div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
-	<ul class="posts-list">
-		{{- range .Pages }}
-		<li class="post-item">
-			<span class="post-day">{{ .Date | time.Format (.Site.Params.dateFormat | default "Jan 02" ) }}</span>
-			<span><a href="{{.Permalink}}">{{.Title}}</a></span>
-		</li>
-		{{- end }}
-	</ul>
-</div>
+{{/* First handle the home page case */}}
+{{- if .IsHome }}
+    {{- partial "home_info.html" . }}
+    {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{- range $pages.GroupByDate "2006" }}
+    <div class="posts-group">
+        <div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
+        <ul class="posts-list">
+            {{- range .Pages }}
+            <li class="post-item">
+                <span class="post-day">{{ .Date | time.Format (.Site.Params.dateFormat | default "Jan 02" ) }}</span>
+                <span><a href="{{.Permalink}}">{{.Title}}</a></span>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+    {{- end }}
+{{- else if .IsSection }}
+    {{/* Handle section pages (like /posts) */}}
+    {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{- partial "home_info.html" . }}
+    {{- range $pages.GroupByDate "2006" }}
+    <div class="posts-group">
+        <div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
+        <ul class="posts-list">
+            {{- range .Pages }}
+            <li class="post-item">
+                <span class="post-day">{{ .Date | time.Format (.Site.Params.dateFormat | default "Jan 02" ) }}</span>
+                <span><a href="{{.Permalink}}">{{.Title}}</a></span>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+    {{- end }}
+{{- else }}
+    {{/* Handle taxonomy pages (like tags) */}}
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+        {{- if .Description }}
+        <div class="post-description">
+            {{ .Description | markdownify }}
+        </div>
+        {{- end }}
+    </header>
+    <ul class="posts-list">
+        {{- range .Pages }}
+        <li class="post-item">
+            <span class="post-day">{{ .Date | time.Format (.Site.Params.dateFormat | default "Jan 02" ) }}</span>
+            <span><a href="{{.Permalink}}">{{.Title}}</a></span>
+        </li>
+        {{- end }}
+    </ul>
 {{- end }}
 {{- end }}{{- /* end main */ -}}
