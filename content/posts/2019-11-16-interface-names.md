@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Working with Predictable Network Interface Names and netplan
+title: Predictable Network Interface Names and netplan
 date: "2019-11-16"
 ---
 
