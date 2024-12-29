@@ -31,7 +31,9 @@ markup:
     guessSyntax: true
     lineNos: false
     style: gruvbox
-  
+  goldmark:
+    renderer:
+      unsafe: true  
 params:
   env: production
   ShowReadingTime: true

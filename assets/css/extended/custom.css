@@ -178,3 +178,81 @@ body {
 }
 
 
+.tooltip {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 22px;
+    height: 40px;
+    background: rgba(74, 158, 255, 0.1);
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    margin: 0 2px;
+}
+
+.tooltip::before {
+    content: "⋮";
+    color: #4a9eff;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+.tooltip:hover {
+    background: rgba(74, 158, 255, 0.2);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(74, 158, 255, 0.2);
+}
+
+.tooltip[data-show="true"] {
+    background: rgba(74, 158, 255, 0.2);
+}
+
+.tooltip[data-show="true"] .tooltip-content {
+    display: block;
+    animation: float-in 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.tooltip-content {
+    display: none;
+    position: absolute;
+    background: #2a2a2a;
+    color: #f0f0f0;
+    padding: 1.2em 1.4em;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: max-content;
+    max-width: 400px;
+    z-index: 100;
+    font-size: 14px;
+    line-height: 1.6;
+    left: calc(100% + 5px);
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tooltip-content::before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent #2a2a2a transparent transparent;
+}
+
+@keyframes float-in {
+    from {
+        opacity: 0;
+        transform: translateY(-50%) translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-50%) translateX(0);
+    }
+}

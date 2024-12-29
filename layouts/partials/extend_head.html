@@ -1,1 +1,21 @@
 <script async src="https://analytics.mzfr.me/script.js" data-website-id="10e5d04b-13bb-4110-99b2-8c72f8854043"></script>
+<script>
+document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('tooltip')) {
+        const wasShowing = e.target.getAttribute('data-show') === 'true';
+        // Hide all tooltips
+        document.querySelectorAll('.tooltip[data-show="true"]').forEach(el => {
+            el.setAttribute('data-show', 'false');
+        });
+        // Toggle clicked tooltip
+        if (!wasShowing) {
+            e.target.setAttribute('data-show', 'true');
+        }
+    } else {
+        // Hide all tooltips when clicking outside
+        document.querySelectorAll('.tooltip[data-show="true"]').forEach(el => {
+            el.setAttribute('data-show', 'false');
+        });
+    }
+});
+</script>
