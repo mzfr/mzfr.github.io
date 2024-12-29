@@ -190,7 +190,7 @@
 &lt;p&gt;After reading numerous reviews and blog posts about &lt;code&gt;eJPT&lt;/code&gt;, I decided to take it. The main reason I took this certificate was to gain some confidence for OSCP and also to improve my resume.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Working with Predictable Network Interface Names and netplan</title>
+      <title>Predictable Network Interface Names and netplan</title>
       <link>https://blog.mzfr.me/posts/2019-11-16-interface-names/</link>
       <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://blog.mzfr.me/posts/2019-11-16-interface-names/</guid>
