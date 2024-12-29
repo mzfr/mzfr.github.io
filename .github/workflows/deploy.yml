@@ -18,3 +18,4 @@ jobs:
         with:
           githubToken: ${{ secrets.TOKEN }}
           cname: blog.mzfr.me
+          hugoVersion: extended_0.140.1
