@@ -4,299 +4,257 @@
     <title>~/mzfr</title>
     <link>https://blog.mzfr.me/</link>
     <description>Recent content on ~/mzfr</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mzfr.me/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mzfr.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Couch to Marathon</title>
+      <link>https://blog.mzfr.me/posts/2024-12-05-first-marathon/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.mzfr.me/posts/2024-12-05-first-marathon/</guid>
+      <description>How I went from never running to completing a marathon in less than a year</description>
+    </item>
     <item>
       <title>Year In Review-2023</title>
       <link>https://blog.mzfr.me/posts/2023-12-31-year-in-review/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2023-12-31-year-in-review/</guid>
       <description>In this post, I look back on all the stuff that I did in 2023</description>
     </item>
-    
     <item>
       <title>Module Review - Semester 1 AY 23/24</title>
       <link>https://blog.mzfr.me/posts/2023-12-08-module-review/</link>
       <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2023-12-08-module-review/</guid>
       <description>Took these course in the first semester of my masters</description>
     </item>
-    
     <item>
       <title>Starting the NUS Chapter</title>
       <link>https://blog.mzfr.me/posts/2023-12-07-nus/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2023-12-07-nus/</guid>
       <description>Got accepted at NUS, started Mcomp, and life at Singapore</description>
     </item>
-    
     <item>
       <title>Charts in a PDF, Please</title>
       <link>https://blog.mzfr.me/posts/2023-02-15-to-pdf/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2023-02-15-to-pdf/</guid>
       <description>Generating PDF from HTML containing pie charts from chartjs</description>
     </item>
-    
     <item>
       <title>Year In Review-2022</title>
       <link>https://blog.mzfr.me/posts/2022-12-31-year-in-review/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2022-12-31-year-in-review/</guid>
       <description>In this post, I look back on all the stuff that I did in 2022</description>
     </item>
-    
     <item>
       <title>Taking notes with VS Code and obsidian</title>
       <link>https://blog.mzfr.me/posts/2022-12-05-ownnotes/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2022-12-05-ownnotes/</guid>
       <description>Using VS Code, syncthing, and obsidian mobile together for taking notes.</description>
     </item>
-    
     <item>
       <title>Giving self-hosting a go</title>
       <link>https://blog.mzfr.me/posts/2022-11-21-selfhosting/</link>
       <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2022-11-21-selfhosting/</guid>
       <description>I&amp;rsquo;ve been lurking around r/selfhosted for quite a while now, and decided to use old raspi to host some simple applications.</description>
     </item>
-    
     <item>
       <title>Genie in a bottle</title>
       <link>https://blog.mzfr.me/posts/2022-07-24-arch-genie/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2022-07-24-arch-genie/</guid>
       <description>Decided to shift from Ubuntu to Arch WSL and found an amazing way to run systemd.</description>
     </item>
-    
     <item>
       <title>Year In Review-2021</title>
       <link>https://blog.mzfr.me/posts/2021-12-31-year-in-review-2021/</link>
       <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2021-12-31-year-in-review-2021/</guid>
       <description>Looking back to all the 2021 stuff that I did</description>
     </item>
-    
     <item>
       <title>Introduction to Cardano components</title>
       <link>https://blog.mzfr.me/posts/2021-11-05-intro-to-cardano-tx/</link>
       <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2021-11-05-intro-to-cardano-tx/</guid>
-      <description>A few months ago one of my friends asked me to help him mint some NFT on the Cardano blockchain. At that point, I had no idea how transactions work on Cardano and how to actually mint any NFT on it. So I started reading all the blog posts I could find and started banging my head on the Cardano documentation.
-Now I&amp;rsquo;m writing this series (hopefully) of blog posts because I had to learn things from different places and couldn&amp;rsquo;t find everything in the Cardano documentation because it&amp;rsquo;s not very frequently updated.</description>
+      <description>&lt;p&gt;A few months ago one of my friends asked me to help him mint some NFT on the Cardano blockchain. At that point, I had no idea how transactions work on Cardano and how to actually mint any NFT on it. So I started reading all the blog posts I could find and started banging my head on the Cardano documentation.&lt;/p&gt;
+&lt;p&gt;Now I&amp;rsquo;m writing this series (hopefully) of blog posts because I had to learn things from different places and couldn&amp;rsquo;t find everything in the Cardano documentation because it&amp;rsquo;s not very frequently updated. I believe the main reason for that is because Cardano is under very active development so most of the time devs focus on making the application instead of updating the documentation.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Gaining access to protected components</title>
       <link>https://blog.mzfr.me/posts/2021-06-24-unexported-component/</link>
       <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2021-06-24-unexported-component/</guid>
-      <description>In the previous post I talked about what activities are and how we can exploit exported activities. In this post, I&amp;rsquo;ll show you how an attacker might be able to access the components which are protected i.e not exported. And in the end, I&amp;rsquo;ll show you how I found one of the similar bugs on a public bug-bounty program.
-What is this vulnerability? Basically what happens is that an activity(let&amp;rsquo;s call it A) accepts some extras.</description>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://blog.mzfr.me/posts/2020-11-07-exported-activities/&#34;&gt;previous post&lt;/a&gt; I talked about what activities are and how we can exploit exported activities. In this post, I&amp;rsquo;ll show you how an attacker might be able to access the components which are protected i.e &lt;code&gt;not exported&lt;/code&gt;. And in the end, I&amp;rsquo;ll show you how I found one of the similar bugs on a public bug-bounty program.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-this-vulnerability&#34;&gt;What is this vulnerability?&lt;/h2&gt;
+&lt;p&gt;Basically what happens is that an activity(let&amp;rsquo;s call it &lt;code&gt;A&lt;/code&gt;) accepts some extras. Those could be simple string(&lt;a href=&#34;https://developer.android.com/reference/android/content/Intent#getStringExtra(java.lang.String)&#34;&gt;getStringExtra&lt;/a&gt;) or could be a &lt;a href=&#34;https://developer.android.com/guide/components/activities/parcelables-and-bundles&#34;&gt;&lt;code&gt;parcerable&lt;/code&gt;&lt;/a&gt;. And without any sort of verification it passes the content of those extra to trigger(&lt;a href=&#34;https://developer.android.com/reference/android/app/Activity#startActivity(android.content.Intent)&#34;&gt;&lt;code&gt;startActivity&lt;/code&gt;&lt;/a&gt;). So &lt;code&gt;Activity A&lt;/code&gt; ends up starting a new activity which was given by the user via those extras.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My OSCP experience</title>
       <link>https://blog.mzfr.me/posts/2021-04-24-oscp-experience/</link>
       <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2021-04-24-oscp-experience/</guid>
-      <description>So it finally happened, I got my OSCP. This blog post is going to be just me talking about what I did right, what I did wrong and maybe some tips for people who plan to take the exam in the future.
-PWK Course Also, known as PEN-200 is the course one takes in order to get their OSCP Certification. The official definition for this course is as follows:
-Penetration Testing with Kali Linux (PEN-200) is the foundational course at Offensive Security.</description>
+      <description>&lt;p&gt;So it finally happened, I got my &lt;a href=&#34;https://www.credly.com/earner/earned/badge/537571f6-6d4c-4aec-ab49-991bdd570e04&#34;&gt;OSCP&lt;/a&gt;. This blog post is going to be just me talking about what I did right, what I did wrong and maybe some tips for people who plan to take the exam in the future.&lt;/p&gt;
+&lt;h1 id=&#34;pwk-course&#34;&gt;PWK Course&lt;/h1&gt;
+&lt;p&gt;Also, known as &lt;a href=&#34;https://www.offensive-security.com/pwk-oscp/&#34;&gt;&lt;code&gt;PEN-200&lt;/code&gt;&lt;/a&gt; is the course one takes in order to get their OSCP Certification. The official definition for this course is as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Penetration Testing with Kali Linux (PEN-200) is the foundational course at Offensive Security. Those new to OffSec or penetration testing should start here.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using Github Action for recon</title>
       <link>https://blog.mzfr.me/posts/2021-01-23-github-action-for-recon/</link>
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2021-01-23-github-action-for-recon/</guid>
       <description>Let&amp;rsquo;s see if it&amp;rsquo;s possible to use GitHub action for recon</description>
     </item>
-    
     <item>
       <title>Year In Review-2020</title>
       <link>https://blog.mzfr.me/posts/2020-12-31-year-in-review-2020/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2020-12-31-year-in-review-2020/</guid>
       <description>In this post, I look back on all the stuff that I did in 2020</description>
     </item>
-    
     <item>
       <title>Exploiting Exported activities in Android apps</title>
       <link>https://blog.mzfr.me/posts/2020-11-07-exported-activities/</link>
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2020-11-07-exported-activities/</guid>
       <description>This blog post doesn&amp;rsquo;t teach you the very basics of the android app, it just talks about the exported activity and their exploitation</description>
     </item>
-    
     <item>
       <title>Google Summer of Code 2020</title>
       <link>https://blog.mzfr.me/posts/2020-09-17-gsoc20/</link>
       <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2020-09-17-gsoc20/</guid>
-      <description>This year I got selected for Google Summer of Code 2020 under The Honeynet Project. This year GSoC was very special for me because I finally got selected for the organization, for which I&amp;rsquo;ve been trying to get selected from past 2 years.
-Background I got to know about Google Summer of Code back in 2018, when I learned that my elder brother has done it 3 years in a row.</description>
+      <description>&lt;p&gt;This year I got selected for Google Summer of Code 2020 under The Honeynet Project. This year GSoC was very special for me because I finally got selected for the organization, for which I&amp;rsquo;ve been trying to get selected from past 2 years.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;I got to know about Google Summer of Code back in 2018, when I learned that my elder brother has done it 3 years in a row. He wanted me to try to get selected for any org that I like. So I started looking for projects on GSoC archives and came across the Honeynet Project org. I was interested in it because I really liked all the projects under it, projects like Snare&amp;amp;Tanner, Thug, etc. I think these projects attracted my attention because they have a feel of being related to the &lt;code&gt;Information Security&lt;/code&gt; field.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Analyzing Snare and tanner data</title>
       <link>https://blog.mzfr.me/posts/2020-05-31-tanner-data-analysis/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2020-05-31-tanner-data-analysis/</guid>
-      <description>I had Snare &amp;amp; Tanner running on two different digital ocean&amp;rsquo;s droplets. I just wanted to see what juicy data I can get using this honeypot. How I deployed it is a different story and I&amp;rsquo;ll write a different blog post for that. In this post, I just wanted to share small code I wrote as well as some graphs I was able to generate using them.
-Downloading data using Tanner API Tanner doesn&amp;rsquo;t support any inbuilt export option(yet) but it has an API so I wrote a small python script to download data from my tanner API and store it in a JSON file.</description>
+      <description>&lt;p&gt;&lt;/style&gt;&lt;/p&gt;
+&lt;p&gt;I had &lt;a href=&#34;https://github.com/mushorg/snare&#34;&gt;Snare&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/mushorg/tanner&#34;&gt;Tanner&lt;/a&gt; running on two different digital ocean&amp;rsquo;s droplets. I just wanted to see what juicy data I can get using this honeypot. How I deployed it is a different story and I&amp;rsquo;ll write a different blog post for that. In this post, I just wanted to share small code I wrote as well as some graphs I was able to generate using them.&lt;/p&gt;
+&lt;h2 id=&#34;downloading-data-using-tanner-api&#34;&gt;Downloading data using Tanner API&lt;/h2&gt;
+&lt;p&gt;Tanner doesn&amp;rsquo;t support any inbuilt export option(yet) but it has an API so I wrote a small python script to download data from my tanner API and store it in a JSON file.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Running your own Bombsquad server</title>
       <link>https://blog.mzfr.me/posts/2020-04-19-bombsquad/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2020-04-19-bombsquad/</guid>
-      <description>If you just want to know how to setup bombsquad jump to The setup section and if you are interested in backstory, continue reading.
-Back Story Few days into the COVID-19 lockdown and I was already getting bored. I mean I was spending my time either doing my college assignments, that were supposed to be submitted on Google Classroom, or I was just doing various kind of challenges like Pentesterlabs, VMs from Vulnhub.</description>
+      <description>&lt;p&gt;If you just want to know how to setup bombsquad jump to &lt;a href=&#34;#the-setup&#34;&gt;The setup&lt;/a&gt; section and if you are interested in backstory, continue reading.&lt;/p&gt;
+&lt;h2 id=&#34;back-story&#34;&gt;Back Story&lt;/h2&gt;
+&lt;p&gt;Few days into the COVID-19 lockdown and I was already getting bored. I mean I was spending my time either doing my college assignments, that were supposed to be submitted on Google Classroom, or I was just doing various kind of challenges like Pentesterlabs, VMs from Vulnhub. In the name of &lt;code&gt;Entertainment&lt;/code&gt; I was scrolling through the wormhole of youtube videos until all my suggestions were completely uninteresting to me. That is when I decided that I should find a way to interact with my friends, other than talking on our telegram group.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Review of Autopsy online training</title>
       <link>https://blog.mzfr.me/posts/2020-04-18-autopsy-cert/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2020-04-18-autopsy-cert/</guid>
-      <description>It&amp;rsquo;s been a while since I wrote any blog post. Since this lockdown is going on I decided to learn a few new things from online courses.
-I came to know that Basic technology was offering their autopsy basics and hand on (8-hours) training course, worth $495, for free during this COVID-19 crisis. So I decided to take the course since I&amp;rsquo;m very much interested in digital forensics.
-My very first encounter with digital forensics was in one of the CTF, named otter CTF, that I played with OpenToAll.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I wrote any blog post. Since this lockdown is going on I decided to learn a few new things from online courses.&lt;/p&gt;
+&lt;p&gt;I came to know that &lt;a href=&#34;https://www.basistech.com/&#34;&gt;Basic technology&lt;/a&gt; was offering their autopsy basics and hand on (8-hours) training course, worth $495, for free during this COVID-19 crisis. So I decided to take the course since I&amp;rsquo;m very much interested in digital forensics.&lt;/p&gt;
+&lt;p&gt;My very first encounter with digital forensics was in one of the CTF, named otter CTF, that I played with OpenToAll. It was complete forensics and RE focusing CTF and had loads of challenges which included the use of tools like &lt;a href=&#34;https://github.com/volatilityfoundation/volatility/&#34;&gt;volatility&lt;/a&gt;, &lt;a href=&#34;https://www.cgsecurity.org/wiki/TestDisk&#34;&gt;testdisk&lt;/a&gt;, &lt;a href=&#34;https://www.cgsecurity.org/wiki/PhotoRec&#34;&gt;photorec&lt;/a&gt;, etc and I was very happy that I was able to solve a lot of those challenges(you can read my write for that CTF &lt;a href=&#34;https://github.com/mzfr/ctf-writeups/tree/master/OtterCTF%202018/Memory%20Forensics&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Getting Started with Docker</title>
       <link>https://blog.mzfr.me/posts/2020-02-05-docker/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2020-02-05-docker/</guid>
-      <description>What are Docker containers? Docker containers are a smaller version of Virtual Machines with farless overheads and lot for flexibility. If you want to isolate different services on your system then you can make multiple dockers images for each service and run them, separately.
-How it works? Well all you need to do is make a file named Dockerfile which would contain the rules/instructions of what all has to be done in that container and then you start the build of your container.</description>
+      <description>&lt;h4 id=&#34;what-are-docker-containers&#34;&gt;What are Docker containers?&lt;/h4&gt;
+&lt;p&gt;Docker containers are a smaller version of Virtual Machines with farless overheads and lot for flexibility. If you want to isolate different services on your system then you can make multiple dockers images for each service and run them, separately.&lt;/p&gt;
+&lt;h4 id=&#34;how-it-works&#34;&gt;How it works?&lt;/h4&gt;
+&lt;p&gt;Well all you need to do is make a file named &lt;code&gt;Dockerfile&lt;/code&gt; which would contain the rules/instructions of what all has to be done in that container and then you start the build of your container.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Linux Privilege escalation</title>
       <link>https://blog.mzfr.me/posts/2020-02-1-linux-priv-esc/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2020-02-1-linux-priv-esc/</guid>
-      <description>If you do all the HackTheBox, Vulnhub etc VM you will understand the feeling of getting a reverse shell on the machine but we know that you&amp;rsquo;re far from home. Finding the right vector for escalating your privileges can be a pain in the ass. I&amp;rsquo;m going to share some of the methods I completely depends upon for finding those vulnerable vector that helps to escalate privilege on Linux system.</description>
+      <description>&lt;p&gt;If you do all the HackTheBox, Vulnhub etc VM you will understand the feeling of getting a reverse shell on the machine but we know that you&amp;rsquo;re far from home. Finding the right vector for escalating your privileges can be a pain in the ass. I&amp;rsquo;m going to share some of the methods I completely depends upon for finding those vulnerable vector that helps to escalate privilege on Linux system.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My eJPT experience</title>
       <link>https://blog.mzfr.me/posts/2020-01-15-ejpt-experience/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2020-01-15-ejpt-experience/</guid>
-      <description>Like every Infosec enthusiast I want to do OSCP certification program but when I was reading about it I came across this ceritificate named eJPT so I decided to read about it. Lot of people recommend eJPT as the stepping stone for other bigger certificates like eCPPT or OSCP.
-After reading numerous reviews and blog posts about eJPT, I decided to take it. The main reason I took this certificate was to gain some confidence for OSCP and also to improve my resume.</description>
+      <description>&lt;p&gt;Like every &lt;code&gt;Infosec enthusiast&lt;/code&gt; I want to do OSCP certification program but when I was reading about it I came across this ceritificate named &lt;code&gt;eJPT&lt;/code&gt; so I decided to read about it. Lot of people recommend &lt;code&gt;eJPT&lt;/code&gt; as the stepping stone for other bigger certificates like &lt;code&gt;eCPPT&lt;/code&gt; or &lt;code&gt;OSCP&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After reading numerous reviews and blog posts about &lt;code&gt;eJPT&lt;/code&gt;, I decided to take it. The main reason I took this certificate was to gain some confidence for OSCP and also to improve my resume.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Working with Predictable Network Interface Names and netplan</title>
       <link>https://blog.mzfr.me/posts/2019-11-16-interface-names/</link>
       <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2019-11-16-interface-names/</guid>
-      <description>Recently I was working on making a new Virtual machine for Vulnhub(it&amp;rsquo;s in beta right now) and one of the issues I came across was the problem of not having any interface except the loopback (lo) in the newly created VM. Now setting a new interface is easy but What I wanted was to set Dynamic DHCP IP so whenever someone starts the VM it&amp;rsquo;s assigned an IP using which they can attack the box.</description>
+      <description>&lt;p&gt;Recently I was working on making a new Virtual machine for Vulnhub(it&amp;rsquo;s in beta right now) and one of the issues I came across was the problem of not having any interface except the loopback (&lt;code&gt;lo&lt;/code&gt;) in the newly created VM. Now setting a new interface is easy but What I wanted was to set Dynamic DHCP IP so whenever someone starts the VM it&amp;rsquo;s assigned an IP using which they can attack the box.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Capture the flag!!</title>
       <link>https://blog.mzfr.me/posts/2018-10-19-picoctf/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2018-10-19-picoctf/</guid>
-      <description>Okay, I gotta start by saying that it been a long time. The last thing I remember was trying to figure out how to rebase my pull requests on Kodi&amp;rsquo;s repository and praying to pass my first GSoC evaluation. Well, as of now I have passed all the GSoC evaluations, received all my stipend and missed a great trip to Sofia, Bulgaria, yup missed it, but that&amp;rsquo;s a story for next time.</description>
+      <description>&lt;p&gt;Okay, I gotta start by saying that it been a long time. The last thing I remember was trying to figure out how to rebase my &lt;a href=&#34;https://github.com/xbmc/addon-check/pull/89&#34;&gt;pull requests&lt;/a&gt; on Kodi&amp;rsquo;s repository and praying to pass my first GSoC evaluation. Well, as of now I have passed all the GSoC evaluations, received all my stipend and missed a great trip to Sofia, Bulgaria, yup missed it, but that&amp;rsquo;s a story for next time.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Google Summer of Code 2018 with XBMC foundation</title>
       <link>https://blog.mzfr.me/posts/2018-06-27-gsoc-with-kodi/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2018-06-27-gsoc-with-kodi/</guid>
-      <description>I got selected as a Google Summer of Code student in XBMC foundation (a.k.a Kodi) for the project [Static code analysis in Kodi&amp;rsquo;s addon-check tool](Static code analysis in Kodi&amp;rsquo;s addon-check tool). Result came out on April 23 09:30 PM IST. I know it was 2 months ago but I couldn&amp;rsquo;t get myself to write about it - you can say I was &amp;ldquo;busy&amp;rdquo; ;)
-What is GSoC ? Google Summer of Code is a global program focused on bringing more student developers into open source software development.</description>
+      <description>&lt;p&gt;I got selected as a Google Summer of Code student in XBMC foundation (a.k.a Kodi) for the project [Static code analysis in Kodi&amp;rsquo;s addon-check tool](Static code analysis in Kodi&amp;rsquo;s addon-check tool). Result came out on April 23 09:30 PM IST. I know it was 2 months ago but I couldn&amp;rsquo;t get myself to write about it - you can say I was &amp;ldquo;busy&amp;rdquo; ;)&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;https://blog.mzfr.me/images/Gsoc&#39;18.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-is-gsoc-&#34;&gt;What is GSoC ?&lt;/h2&gt;
+&lt;p&gt;Google Summer of Code is a global program focused on bringing more student developers into open source software development. Students work with an open source organization for 3 month programming on any project of their choice during their break from school. More details about GSoC &lt;a href=&#34;https://summerofcode.withgoogle.com&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hello World</title>
       <link>https://blog.mzfr.me/posts/2018-05-26-hello-world/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/posts/2018-05-26-hello-world/</guid>
       <description>My First Blog post</description>
     </item>
-    
     <item>
       <title>About Me</title>
       <link>https://blog.mzfr.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/about/</guid>
-      <description>Hi, I’m Mehtab Zafar, a Master’s student at the National University of Singapore (NUS). I’m currently working in the NUS TEST Lab under the guidance of Manuel Rigger for my Master’s dissertation. Additionally, I am a Research Assistant at the NUS TSS Lab, collaborating with Abhik Roychoudhury on various projects.
-Previously, I worked as a Product Security Engineer at Red Queen Dynamics, Inc. Alongside my professional experience, I have extensive involvement in bug bounty programs, achieving notable success.</description>
+      <description>&lt;p&gt;Hi, I’m Mehtab Zafar, a Master’s student at the National University of Singapore (NUS). I’m currently working in the &lt;a href=&#34;https://nus-test.github.io/author/mehtab-zafar/&#34;&gt;NUS TEST Lab&lt;/a&gt; under the guidance of &lt;a href=&#34;https://www.manuelrigger.at/&#34;&gt;Manuel Rigger&lt;/a&gt; for my Master’s dissertation. Additionally, I am a Research Assistant at the &lt;a href=&#34;https://nus-tss.github.io/team/&#34;&gt;NUS TSS Lab&lt;/a&gt;, collaborating with &lt;a href=&#34;https://abhikrc.com/&#34;&gt;Abhik Roychoudhury&lt;/a&gt; on various projects.&lt;/p&gt;
+&lt;p&gt;Previously, I worked as a Product Security Engineer at &lt;a href=&#34;https://redqueendynamics.com/&#34;&gt;Red Queen Dynamics, Inc&lt;/a&gt;. Alongside my professional experience, I have extensive involvement in bug bounty programs, achieving notable success. I’m honored to be listed in the &amp;ldquo;Hall of Fame&amp;rdquo; for several prominent companies, including GitHub, PayPal, and Google.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>HackTheBox</title>
       <link>https://blog.mzfr.me/ctf.bak/htb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/ctf.bak/htb/</guid>
       <description>Writeups and walkthrough of all the HackTheBox machines that I&amp;rsquo;ve done</description>
     </item>
-    
     <item>
       <title>Vulnhub</title>
       <link>https://blog.mzfr.me/ctf.bak/vulnhub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/ctf.bak/vulnhub/</guid>
       <description>Writeups and walkthrough of all the Vulnhub machines that I&amp;rsquo;ve done</description>
     </item>
-    
     <item>
       <title>WizardSecLabs</title>
       <link>https://blog.mzfr.me/ctf.bak/wizardlab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/ctf.bak/wizardlab/</guid>
       <description>Writeups and walkthrough of all the WizardSeclab machines that I&amp;rsquo;ve done</description>
     </item>
-    
     <item>
       <title>Writeups</title>
       <link>https://blog.mzfr.me/ctf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mzfr.me/ctf/</guid>
       <description>My Writeups</description>
     </item>
-    
   </channel>
 </rss>
