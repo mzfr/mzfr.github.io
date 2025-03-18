@@ -6,8 +6,15 @@
     <description>Recent content in Android on ~/mzfr</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mzfr.me/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regex Bypass - Escaping WebView Domain Filters</title>
+      <link>https://blog.mzfr.me/posts/2025-03-17-regex-bypass/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mzfr.me/posts/2025-03-17-regex-bypass/</guid>
+      <description>An Android deeplink validation bypass that allowed loading arbitrary domains in the app&amp;rsquo;s WebView through regex pattern mismatches.</description>
+    </item>
     <item>
       <title>Gaining access to protected components</title>
       <link>https://blog.mzfr.me/posts/2021-06-24-unexported-component/</link>

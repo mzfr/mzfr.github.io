@@ -6,8 +6,15 @@
     <description>Recent content in Posts on ~/mzfr</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regex Bypass - Escaping WebView Domain Filters</title>
+      <link>https://blog.mzfr.me/posts/2025-03-17-regex-bypass/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mzfr.me/posts/2025-03-17-regex-bypass/</guid>
+      <description>An Android deeplink validation bypass that allowed loading arbitrary domains in the app&amp;rsquo;s WebView through regex pattern mismatches.</description>
+    </item>
     <item>
       <title>Year In Review-2024</title>
       <link>https://blog.mzfr.me/posts/2024-12-31-year-in-review-2024/</link>
