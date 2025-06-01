@@ -11,6 +11,32 @@ div.post-content{
   display: inline-block;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #E67E62;
+}
+
+.page-header h1 {
+    color: #E67E62;
+}
+
+.first-entry .entry-header h1 {
+    color: #E67E62;
+    font-size: 34px;
+}
+
+.post-title, .entry-title {
+    color: #E67E62;
+}
+
+h2 {
+    color: #E58C3D;
+}
+
+h3 {
+    color: #E57D7D;
+    opacity: 0.9; 
+}
+
 .page-header .underline {
   height: 12px;
   position: relative;
