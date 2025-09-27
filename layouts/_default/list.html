@@ -3,36 +3,30 @@
 {{- if .IsHome }}
     {{- partial "home_info.html" . }}
     {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{- range $pages.GroupByDate "2006" }}
-    <div class="posts-group">
-        <div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
-        <ul class="posts-list">
-            {{- range .Pages }}
-            <li class="post-item">
-                <span class="post-day">{{ .Date | time.Format (.Site.Params.dateFormat | default "Jan 02" ) }}</span>
-                <span><a href="{{.Permalink}}">{{.Title}}</a></span>
-            </li>
-            {{- end }}
-        </ul>
-    </div>
-    {{- end }}
+    <ul class="posts-list">
+  {{- range $pages }}
+  <li class="post-item">
+    <a href="{{ .Permalink }}">
+      <span class="post-title">{{ .Title }}</span>
+      <span class="post-date">{{ .Date | time.Format "January 2, 2006" }}</span>
+    </a>
+  </li>
+  {{- end }}
+</ul>
 {{- else if .IsSection }}
     {{/* Handle section pages (like /posts) */}}
-    {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
     {{- partial "home_info.html" . }}
-    {{- range $pages.GroupByDate "2006" }}
-    <div class="posts-group">
-        <div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
-        <ul class="posts-list">
-            {{- range .Pages }}
-            <li class="post-item">
-                <span class="post-day">{{ .Date | time.Format (.Site.Params.dateFormat | default "Jan 02" ) }}</span>
-                <span><a href="{{.Permalink}}">{{.Title}}</a></span>
-            </li>
-            {{- end }}
-        </ul>
-    </div>
-    {{- end }}
+    {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    <ul class="posts-list">
+        {{- range $pages }}
+        <li class="post-item">
+            <a href="{{.Permalink}}">
+              <span class="post-title">{{.Title}}</span>
+              <span class="post-date">{{ .Date | time.Format "January 2, 2006" }}</span>
+            </a>
+        </li>
+        {{- end }}
+    </ul>
 {{- else }}
     {{/* Handle taxonomy pages (like tags) */}}
     <header class="page-header">
@@ -43,13 +37,16 @@
         </div>
         {{- end }}
     </header>
+    {{- $pages := .Pages }}
     <ul class="posts-list">
-        {{- range .Pages }}
-        <li class="post-item">
-            <span class="post-day">{{ .Date | time.Format (.Site.Params.dateFormat | default "Jan 02" ) }}</span>
-            <span><a href="{{.Permalink}}">{{.Title}}</a></span>
-        </li>
-        {{- end }}
-    </ul>
+  {{- range $pages }}
+  <li class="post-item">
+    <a href="{{ .Permalink }}">
+      <span class="post-title">{{ .Title }}</span>
+      <span class="post-date">{{ .Date | time.Format "January 2, 2006" }}</span>
+    </a>
+  </li>
+  {{- end }}
+</ul>
 {{- end }}
 {{- end }}{{- /* end main */ -}}

@@ -3,7 +3,7 @@ main div.post-content p {
 }
 
 div.post-content{
-    width: 120%
+    width: 110%
 }
 
 .page-header {
@@ -12,28 +12,28 @@ div.post-content{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #E67E62;
+    color: #C2621E;
 }
 
 .page-header h1 {
-    color: #E67E62;
+    color: #C2621E;
 }
 
 .first-entry .entry-header h1 {
-    color: #E67E62;
+    color: #C2621E;
     font-size: 34px;
 }
 
 .post-title, .entry-title {
-    color: #E67E62;
+    color: #C2621E;
 }
 
 h2 {
-    color: #E58C3D;
+    color: #D67B2A;
 }
 
 h3 {
-    color: #E57D7D;
+    color: #B8956A;
     opacity: 0.9; 
 }
 
@@ -80,8 +80,8 @@ h3 {
 .site-button {
   min-width: 200px;
   height: 40px;
-  color: white;
-  background-color: #41417c;
+  color: #2A1A0F;
+  background-color: #D4B898;
   display: inline-block;
   text-align: center;
   white-space: nowrap;
@@ -90,15 +90,65 @@ h3 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid transparent;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
+  border: 1px solid #C4A684;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
+}
+
+.site-button:hover {
+  background-color: #C8A87C;
+  color: #1A0E08;
+}
+
+.posts-list {
+    margin: 0;
+    padding: 0 1rem;
+    list-style: none;
+    width: 100%;
+}
+
+.post-item {
+    margin-bottom: 0.3em;
+}
+
+.post-item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    line-height: 1.2;
+}
+
+.post-item a:hover {
+    color: #8B4513;
+    text-shadow: 0 0 1px #CD853F;
+}
+
+.posts-list .post-title {
+    flex-grow: 1;
+    color: #C2621E;
+    font-size: 1.1rem !important;
+    font-weight: normal !important;
+    line-height: 1.2 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.posts-list .post-date {
+    flex-shrink: 0;
+    margin-left: 1em;
+    opacity: 0.7;
+    font-size: 1rem !important;
+    color: var(--secondary);
+    line-height: 1.2 !important;
+    font-weight: normal !important;
+    width: auto;
+    text-align: right;
 }
 
 .posts-group {
@@ -110,7 +160,7 @@ h3 {
 	 padding-top: 6px;
 	 margin-bottom: 0.6em;
 	 font-size: 1.6em;
-   opacity: .6;
+   opacity: .7;
 }
  .posts-group .posts-list {
 	 flex-grow: 1;
@@ -128,14 +178,14 @@ h3 {
 	 padding: 9px 0;
 }
 .posts-group .post-item a:hover {
-	 color: #fff;
-	 text-shadow: 0 0 1px #fff;
+	 color: #8B4513;
+	 text-shadow: 0 0 1px #CD853F;
 }
  .posts-group .post-day {
 	 flex-shrink: 0;
 	 margin-left: 1.3em;
    margin-right: 1.5em;
-   opacity: .8;
+   opacity: .7;
    font-size: 1.2em;
 }
 .posts-group .post-item span a {
@@ -153,46 +203,46 @@ h3 {
   margin: 15px 0;
 }
 
-
-/* Set Trying Melange ColorScheme */
-
+/* Slightly Darker Warm Sepia Theme */
 :root {
-    --theme: #292522;
-    --entry: #34302C;
-    --primary: #ECE1D7;
-    --secondary: #A8A19F;
-    --tertiary: #867462;
-    --content: #ECE1D7;
-    --hljs-bg: #34302C;
-    --code-bg: #403A36;
-    --border: #4D453E;
-    --link-color: #4a5bcc;  /* A blue-purple shade */
-    --link-hover-color: #6d7ce0;  /* A lighter shade for hover effect */
-
+    --theme: #F0D4B8;          /* Darker warm peach background */
+    --entry: #E8C8A8;          /* Darker warm tone for cards/entries */
+    --primary: #2A1A0F;        /* Very dark brown for primary text */
+    --secondary: #4A3426;      /* Dark brown for secondary text */
+    --tertiary: #6B4E3D;       /* Medium brown for tertiary elements */
+    --content: #2A1A0F;        /* Very dark brown for main content text */
+    --hljs-bg: #DCC4A4;        /* Darker warm tone for code blocks */
+    --code-bg: #D4B898;        /* Darker warm tone for inline code */
+    --border: #C4A684;         /* Muted brown for borders */
+    --mark: #E8C49C;           /* Darker warm highlight */
+    --link-color: #8B4513;     /* Saddle brown for links */
+    --link-hover-color: #A0522D; /* Sienna for link hover */
 }
 
 .dark {
-    --theme: #292522;
-    --entry: #34302C;
-    --primary: #ECE1D7;
-    --secondary: #A8A19F;
-    --tertiary: #867462;
-    --content: #ECE1D7;
-    --hljs-bg: #34302C;
-    --code-bg: #403A36;
-    --border: #4D453E;
-    --link-color: #8e9eff;  /* A lighter blue-purple for dark mode */
-    --link-hover-color: #acb7ff; 
+    --theme: #F0D4B8;          /* Keep same darker warm theme */
+    --entry: #E8C8A8;          
+    --primary: #2A1A0F;        
+    --secondary: #4A3426;      
+    --tertiary: #6B4E3D;       
+    --content: #2A1A0F;        
+    --hljs-bg: #DCC4A4;        
+    --code-bg: #D4B898;        
+    --border: #C4A684;         
+    --mark: #E8C49C;           
+    --link-color: #8B4513;     
+    --link-hover-color: #A0522D;
 }
 
-
 /* Set Fira code as default Font */
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 body {
     font-family: 'Fira Code', monospace;
+    background-color: var(--theme);
+    color: var(--primary);
 }
+
 /* Adjust color for links within post content */
 .post-content a {
     color: var(--link-color);
@@ -203,6 +253,12 @@ body {
     color: var(--link-hover-color);
 }
 
+/* Code blocks styling for light theme */
+pre, code {
+    background-color: var(--code-bg);
+    color: var(--primary);
+    border: 1px solid var(--border);
+}
 
 .tooltip {
     position: relative;
@@ -213,7 +269,7 @@ body {
     vertical-align: middle;
     width: 22px;
     height: 40px;
-    background: rgba(74, 158, 255, 0.1);
+    background: rgba(139, 69, 19, 0.1);
     border-radius: 12px;
     transition: all 0.2s ease;
     margin: 0 2px;
@@ -221,19 +277,19 @@ body {
 
 .tooltip::before {
     content: "⋮";
-    color: #4a9eff;
+    color: #8B4513;
     font-size: 1.5em;
     line-height: 1;
 }
 
 .tooltip:hover {
-    background: rgba(74, 158, 255, 0.2);
+    background: rgba(139, 69, 19, 0.2);
     transform: translateY(-1px);
-    box-shadow: 0 2px 8px rgba(74, 158, 255, 0.2);
+    box-shadow: 0 2px 8px rgba(139, 69, 19, 0.2);
 }
 
 .tooltip[data-show="true"] {
-    background: rgba(74, 158, 255, 0.2);
+    background: rgba(139, 69, 19, 0.2);
 }
 
 .tooltip[data-show="true"] .tooltip-content {
@@ -244,11 +300,11 @@ body {
 .tooltip-content {
     display: none;
     position: absolute;
-    background: #2a2a2a;
-    color: #f0f0f0;
+    background: #E8C8A8;
+    color: #2A1A0F;
     padding: 1.2em 1.4em;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(42, 26, 15, 0.15);
     width: max-content;
     max-width: 400px;
     z-index: 100;
@@ -258,7 +314,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     margin-left: 1em;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border);
 }
 
 .tooltip-content::before {
@@ -269,7 +325,7 @@ body {
     transform: translateY(-50%);
     border-width: 6px;
     border-style: solid;
-    border-color: transparent #2a2a2a transparent transparent;
+    border-color: transparent #E8C8A8 transparent transparent;
 }
 
 @keyframes float-in {
@@ -281,4 +337,66 @@ body {
         opacity: 1;
         transform: translateY(-50%) translateX(0);
     }
+}
+
+/* GitHub icon styling - multiple approaches */
+.social-icons a[title="Github"] svg,
+.social-icons a[title="GitHub"] svg,
+.social-icons a[href*="github.com"] svg,
+.social-icons a[href*="github"] svg {
+    color: #000000 !important;
+    fill: #000000 !important;
+    stroke: #000000 !important;
+}
+
+/* More specific GitHub targeting */
+.entry-footer .social-icons a[href*="github"] svg,
+.entry-footer .social-icons a[href*="github"] svg path,
+article .social-icons a[href*="github"] svg {
+    color: #000000 !important;
+    fill: #000000 !important;
+    stroke: #000000 !important;
+}
+
+/* GitHub icon override all scenarios */
+svg[stroke="currentColor"] {
+    stroke: currentColor;
+}
+
+.social-icons a[href*="github"] svg[stroke="currentColor"] {
+    stroke: #000000 !important;
+    color: #000000 !important;
+}
+
+/* Reduce gap between menu text and external link icon */
+#menu li a svg,
+.nav #menu li a svg,
+nav ul#menu li a svg {
+    margin-left: -0.25em !important;
+}
+
+/* Force GitHub icon black with highest specificity */
+html body .social-icons a[href*="github"] svg,
+html body article .entry-footer .social-icons a[href*="github"] svg {
+    stroke: #000000 !important;
+    color: #000000 !important;
+    fill: #000000 !important;
+}
+
+/* Force all social icon colors to be dark */
+.social-icons a svg {
+    color: var(--primary) !important;
+    stroke: var(--primary) !important;
+}
+
+/* Specifically target GitHub */
+.social-icons a[href="https://github.com/mzfr"] svg {
+    color: #000000 !important;
+    stroke: #000000 !important;
+    fill: #000000 !important;
+}
+
+/* Only add spacing for home page content, not individual posts */
+.first-entry.home-info {
+    margin: 1rem 0;
 }

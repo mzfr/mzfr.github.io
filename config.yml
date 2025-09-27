@@ -18,12 +18,18 @@ menu:
       - name: Home
         url: /
         weight: 1
-      - name: Notes
-        url: https://wiki.mzfr.me
-      - name: Writeups
-        url: /ctf/
       - name: About
         url: /about/
+        weight: 2
+      - name: Resume
+        url: https://github.com/mzfr/resume/blob/master/Mehtab_Zafar_resume.pdf
+        weight: 3
+      - name: Notes
+        url: https://wiki.mzfr.me
+        weight: 4
+      - name: Writeups
+        url: /ctf/
+        weight: 5
 
 markup:
   highlight:
@@ -55,5 +61,3 @@ params:
       url: "mailto:hello@mzfr.me"
     - name: rss
       url: "https://blog.mzfr.me/index.xml"
-    - name: resume
-      url: "https://github.com/mzfr/resume/blob/master/Mehtab_Zafar_resume.pdf"
