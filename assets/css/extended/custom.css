@@ -132,7 +132,7 @@ h3 {
 .posts-list .post-title {
     flex-grow: 1;
     color: #C2621E;
-    font-size: 1.1rem !important;
+    font-size: 1.3rem !important;
     font-weight: normal !important;
     line-height: 1.2 !important;
     margin: 0;
@@ -143,7 +143,7 @@ h3 {
     flex-shrink: 0;
     margin-left: 1em;
     opacity: 0.7;
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
     color: var(--secondary);
     line-height: 1.2 !important;
     font-weight: normal !important;
@@ -217,6 +217,7 @@ h3 {
     --mark: #E8C49C;           /* Darker warm highlight */
     --link-color: #8B4513;     /* Saddle brown for links */
     --link-hover-color: #A0522D; /* Sienna for link hover */
+    --main-width: 870px;
 }
 
 .dark {
@@ -399,4 +400,260 @@ html body article .entry-footer .social-icons a[href*="github"] svg {
 /* Only add spacing for home page content, not individual posts */
 .first-entry.home-info {
     margin: 1rem 0;
+}
+
+/* Books page styling - Simple list view */
+.books-simple-list {
+    margin-top: 2rem;
+    padding: 0 1rem;
+    list-style: none;
+    width: 100%;
+}
+
+.book-item {
+    margin-bottom: 0.3em;
+}
+
+.book-item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    line-height: 1.2;
+}
+
+.book-item a:hover {
+    color: #8B4513;
+    text-shadow: 0 0 1px #CD853F;
+}
+
+.book-title {
+    flex-grow: 1;
+    color: #C2621E;
+    font-size: 1.1rem !important;
+    font-weight: normal !important;
+    line-height: 1.2 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.book-author-rating {
+    flex-shrink: 0;
+    margin-left: 1em;
+    opacity: 0.7;
+    font-size: 1rem !important;
+    color: var(--secondary);
+    line-height: 1.2 !important;
+    font-weight: normal !important;
+    width: auto;
+    text-align: right;
+    font-style: italic;
+}
+
+.book-rating {
+    color: #D67B2A;
+    font-size: 1.8rem !important;
+    letter-spacing: 2px;
+    margin-left: 0.5em;
+    font-style: normal;
+}
+
+/* Individual book page styling */
+.book-entry {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.book-entry:last-child {
+    border-bottom: none;
+}
+
+.book-header {
+    margin-bottom: 1rem;
+}
+
+.book-entry .book-title {
+    color: #C2621E;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+}
+
+.book-entry .book-title a {
+    color: #C2621E;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.book-entry .book-title a:hover {
+    color: #8B4513;
+}
+
+.book-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: var(--secondary);
+    align-items: center;
+}
+
+.book-authors {
+    font-style: italic;
+}
+
+.book-dates {
+    font-family: 'Fira Code', monospace;
+    background: rgba(139, 69, 19, 0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.book-review {
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+
+.book-review p {
+    margin-bottom: 1rem;
+}
+
+.book-review ul, .book-review ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.book-review li {
+    margin-bottom: 0.5rem;
+}
+
+/* Individual book page info box */
+.book-info-box {
+    background: rgba(139, 69, 19, 0.05);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.book-info-item {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.book-info-item:last-child {
+    margin-bottom: 0;
+}
+
+.book-info-item strong {
+    color: var(--primary);
+    min-width: 60px;
+    font-weight: 600;
+}
+
+.book-rating-large {
+    color: #D67B2A;
+    font-size: 2rem !important;
+    letter-spacing: 2px;
+    margin-left: 0.3em;
+}
+
+.book-external-link {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.book-external-link:hover {
+    color: var(--link-hover-color);
+}
+
+.book-external-link svg {
+    margin-left: -0.2rem;
+}
+
+.book-external-link-plain {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+    word-break: break-all;
+}
+
+.book-external-link-plain:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+.book-review-content {
+    line-height: 1.7;
+}
+
+.book-review-content p {
+    margin-bottom: 1rem;
+}
+
+.book-review-content ul, .book-review-content ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.book-review-content li {
+    margin-bottom: 0.5rem;
+}
+
+.book-review-content blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    border-left: 4px solid #D67B2A;
+    background: rgba(139, 69, 19, 0.05);
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .book-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .book-entry .book-title {
+        font-size: 1.2rem;
+    }
+    
+    .book-info-box {
+        padding: 1rem;
+    }
+    
+    .book-info-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
+    
+    .book-info-item strong {
+        min-width: auto;
+    }
+}
+
+/* Separator */
+.year-separator {
+    margin: 2rem 0 1rem 0;
+    list-style: none;
+}
+.separator-line {
+    border-bottom: 2px solid var(--border);
+    width: 100%;
+    opacity: 0.5;
 }

@@ -3,8 +3,16 @@
 {{- if .IsHome }}
     {{- partial "home_info.html" . }}
     {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{- $.Scratch.Set "year" "" }}
     <ul class="posts-list">
   {{- range $pages }}
+  {{- $thisYear := .Date | time.Format "2006" }}
+  {{- if and (ne ($.Scratch.Get "year") "") (ne ($.Scratch.Get "year") $thisYear) }}
+    <li class="year-separator">
+        <div class="separator-line"></div>
+    </li>
+  {{- end }}
+  {{- $.Scratch.Set "year" $thisYear }}
   <li class="post-item">
     <a href="{{ .Permalink }}">
       <span class="post-title">{{ .Title }}</span>
@@ -17,8 +25,16 @@
     {{/* Handle section pages (like /posts) */}}
     {{- partial "home_info.html" . }}
     {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{- $.Scratch.Set "year" "" }}
     <ul class="posts-list">
         {{- range $pages }}
+        {{- $thisYear := .Date | time.Format "2006" }}
+        {{- if and (ne ($.Scratch.Get "year") "") (ne ($.Scratch.Get "year") $thisYear) }}
+            <li class="year-separator">
+                <div class="separator-line"></div>
+            </li>
+        {{- end }}
+        {{- $.Scratch.Set "year" $thisYear }}
         <li class="post-item">
             <a href="{{.Permalink}}">
               <span class="post-title">{{.Title}}</span>
@@ -38,8 +54,16 @@
         {{- end }}
     </header>
     {{- $pages := .Pages }}
+    {{- $.Scratch.Set "year" "" }}
     <ul class="posts-list">
   {{- range $pages }}
+  {{- $thisYear := .Date | time.Format "2006" }}
+  {{- if and (ne ($.Scratch.Get "year") "") (ne ($.Scratch.Get "year") $thisYear) }}
+    <li class="year-separator">
+        <div class="separator-line"></div>
+    </li>
+  {{- end }}
+  {{- $.Scratch.Set "year" $thisYear }}
   <li class="post-item">
     <a href="{{ .Permalink }}">
       <span class="post-title">{{ .Title }}</span>
