@@ -6,8 +6,15 @@
     <description>Recent content in Posts on ~/mzfr</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Year In Review - 2025</title>
+      <link>https://blog.mzfr.me/posts/2025-12-31-year-in-review-2025/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mzfr.me/posts/2025-12-31-year-in-review-2025/</guid>
+      <description>In this post, I look back on all the stuff I did in 2025</description>
+    </item>
     <item>
       <title>Regex Bypass - Escaping WebView Domain Filters</title>
       <link>https://blog.mzfr.me/posts/2025-03-17-regex-bypass/</link>
