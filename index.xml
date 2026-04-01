@@ -6,8 +6,16 @@
     <description>Recent content on ~/mzfr</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mzfr.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VCR and Crystal balls in claude&#39;s Leak</title>
+      <link>https://blog.mzfr.me/posts/2026-04-01-cc-vcr-cpu/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.mzfr.me/posts/2026-04-01-cc-vcr-cpu/</guid>
+      <description>&lt;p&gt;After seeing the &lt;a href=&#34;https://xcancel.com/Fried_rice/status/2038894956459290963&#34;&gt;tweet from @Fried_rice&lt;/a&gt; and reading about the source leak of claude code I got curious. I moved to &lt;a href=&#34;https://github.com/badlogic/pi-mono&#34;&gt;pi&lt;/a&gt; quite a while ago and since then have enjoyed the minimal and highly extensible setup it offers. But seeing the leak got me curious, what are the things in there that I could probably port as extensions in pi.&lt;/p&gt;
+&lt;p&gt;Now while just going from one link to another I came across &lt;a href=&#34;https://github.com/instructkr/claw-code&#34;&gt;claw-code&lt;/a&gt; and &lt;a href=&#34;https://github.com/Kuberwastaken/claude-code&#34;&gt;claude-code&lt;/a&gt; they were supposed to be &lt;code&gt;rewrites&lt;/code&gt; of claude code mostly to prevent DMCA take down. But the interesting thing has been their readmes. They cover the Buddy companion pet (a Tamagotchi with gacha mechanics), the Dream system (background memory consolidation), KAIROS (always-on assistant mode), ULTRAPLAN (30-minute remote Opus planning sessions), coordinator mode, agent swarms, Penguin Mode (the internal name for fast mode), and the fact that &amp;ldquo;Tengu&amp;rdquo; is the project codename.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Year In Review - 2025</title>
       <link>https://blog.mzfr.me/posts/2025-12-31-year-in-review-2025/</link>
