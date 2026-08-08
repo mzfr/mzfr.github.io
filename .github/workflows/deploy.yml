@@ -11,16 +11,16 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
-    
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.140.1'
+          hugo-version: '0.164.0'
           extended: true
-      
+
       - name: Build
         run: hugo --gc --minify --cleanDestinationDir
-    
+
       - name: Hugo to GH Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
