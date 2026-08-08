@@ -2,8 +2,9 @@ baseURL: "https://blog.mzfr.me"
 title: "~/mzfr"
 theme: ["PaperMod"]
 pagination:
-  pageSize: 5
+  pageSize: 10
 
+mainSections: ["posts"]
 
 minify:
   disableXML: true
@@ -15,20 +16,21 @@ taxonomies:
 
 menu:
     main:
-      - name: Home
-        url: /
+      - name: Posts
+        url: /posts/
         weight: 1
-      - name: About
-        url: /about/
+      - name: Writeups
+        url: /ctf/
         weight: 2
-      - name: Resume
-        url: https://github.com/mzfr/resume/blob/master/Mehtab_Zafar_resume.pdf
-        weight: 3
+      # Books are kept as a draft for later publication.
+      # - name: Books
+      #   url: /books/
+      #   weight: 3
       - name: Notes
         url: https://wiki.mzfr.me
         weight: 4
-      - name: Writeups
-        url: /ctf/
+      - name: Resume
+        url: https://github.com/mzfr/resume/blob/master/Mehtab_Zafar_resume.pdf
         weight: 5
 
 markup:
@@ -39,7 +41,7 @@ markup:
     style: gruvbox
   goldmark:
     renderer:
-      unsafe: true  
+      unsafe: true
 params:
   env: production
   ShowReadingTime: true
@@ -48,15 +50,11 @@ params:
   assets:
     disableHLJS: true
 
-
-  homeInfoParams:
-    enabled: True
-    Title: "$ whoami"
-    Content: "Hi! I'm Mehtab, an engineer at heart with a focus on security"
-
   socialIcons:
     - name: github
       url: "https://github.com/mzfr"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?hl=en&user=jjZ7jRQAAAAJ"
     - name: email
       url: "mailto:hello@mzfr.me"
     - name: rss

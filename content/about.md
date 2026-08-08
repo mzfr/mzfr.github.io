@@ -1,20 +1,22 @@
 ---
 layout: page
-title: About Me
+title: Mehtab
 permalink: /about/
 ---
 
+I am currently pursuing my PhD at the [National University of Singapore](https://nus.edu.sg/), advised by [Abhik Roychoudhury](https://abhikrc.com/). For my research, I am exploring automated testing, program analysis, and agentic approaches to finding and fixing software bugs at scale.
 
-Hi, I’m Mehtab Zafar, a Master’s student at the National University of Singapore (NUS). I’m currently working in the [NUS TEST Lab](https://nus-test.github.io/author/mehtab-zafar/) under the guidance of [Manuel Rigger](https://www.manuelrigger.at/) for my Master’s dissertation. Additionally, I am a Research Assistant at the [NUS TSS Lab](https://nus-tss.github.io/team/), collaborating with [Abhik Roychoudhury](https://abhikrc.com/) on various projects.
+Before starting my PhD, I completed my master's at NUS under [Manuel Rigger](https://www.manuelrigger.at/). Prior to that, I worked as a Product Security Engineer at [Red Queen Dynamics](https://www.redqueentech.com/), following several years of developing Python software and contributing to open source through Google Summer of Code as both a student and mentor.
 
-Previously, I worked as a Product Security Engineer at [Red Queen Dynamics, Inc](https://www.redqueentech.com/). Alongside my professional experience, I have extensive involvement in bug bounty programs, achieving notable success. I’m honored to be listed in the "Hall of Fame" for several prominent companies, including GitHub, PayPal, and Google.
+Outside of research, I occasionally do [bug bounty hunting](https://hackerone.com/mzfr) and have recently gotten into [photography](https://glass.photo/mzfr).
 
-Beyond security, I bring over four years of experience in Python development. I have actively contributed to various open-source projects and have also participated as a developer and mentor in Google Summer of Code.
+<details>
+<summary>CVEs from poking at open source software</summary>
 
-# Links
+| Project | CVEs |
+| --- | --- |
+| GIMP | CVE-2026-40915, CVE-2026-40916, CVE-2026-40917, CVE-2026-40918 |
+| PowerDNS | CVE-2026-33597, CVE-2026-33595, CVE-2026-33594, CVE-2026-40211 |
+| Rack | CVE-2026-34830 |
 
-* [OSCP](https://www.credly.com/earner/earned/badge/537571f6-6d4c-4aec-ab49-991bdd570e04)
-* [eJPT](https://drive.google.com/file/d/1jkr-jvopT3O03y8QT4Hb8Awq-0bnfcBY/view?usp=sharing)
-* [hackerone/mzfr](https://hackerone.com/mzfr)
-* [Resume](https://github.com/mzfr/resume/blob/master/Mehtab_Zafar_resume.pdf)
-
+</details>

@@ -1,0 +1,62 @@
+{{- define "main" }}
+
+<div class="profile-page">
+
+    <div class="profile-intro">
+        <h1 class="profile-name">Mehtab Zafar</h1>
+        <div class="profile-social">
+            {{ partial "social_icons.html" (dict "socialIcons" site.Params.socialIcons) }}
+        </div>
+    </div>
+
+    <div class="profile-body">
+
+        {{- with site.GetPage "/about" }}
+        {{ .Content }}
+        {{- end }}
+
+        {{- with (index hugo.Data "papers") }}
+        <h2>Publications</h2>
+        <div class="publications-list">
+            {{- range . }}
+            <article class="publication">
+                <h3 class="publication-title">{{ .title }}</h3>
+                <p class="publication-authors">
+                    {{- range $index, $author := .authors -}}
+                        {{- if $index }}, {{ end -}}
+                        {{- if eq $author "Mehtab Zafar" }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end -}}
+                    {{- end -}}
+                </p>
+                <p class="publication-venue">{{ .venue }} {{ .year }}</p>
+                {{- with .award }}<p class="publication-award">{{ . }}</p>{{ end }}
+                {{- with .links }}
+                <div class="publication-links">
+                    {{- range . }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .label }}</a>
+                    {{- end }}
+                </div>
+                {{- end }}
+            </article>
+            {{- end }}
+        </div>
+        {{- end }}
+
+        <h2>Posts</h2>
+
+        <ul class="posts-list">
+            {{- range first 5 (where site.RegularPages "Section" "posts") }}
+            <li class="post-item">
+                <a href="{{ .Permalink }}">
+                    <span class="post-title">{{ .Title }}</span>
+                    <span class="post-date">{{ .Date | time.Format "Jan 2006" }}</span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+        <a href="/posts/" class="section-more">All posts &rarr;</a>
+
+    </div>
+
+</div>
+
+{{- end }}

@@ -192,6 +192,34 @@ h3 {
   font-size: 1.4em;
 }
 
+.posts-by-year {
+    display: grid;
+    gap: 2rem;
+}
+
+.post-year-group {
+    border-left: 3px solid var(--border);
+    padding-left: 1.25rem;
+}
+
+.post-year-heading {
+    margin: 0 0 0.75rem;
+    color: var(--secondary);
+    font-family: "Fira Code", monospace;
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+}
+
+.posts-by-year .posts-list {
+    padding: 0;
+}
+
+.posts-by-year .post-date {
+    font-family: "Fira Code", monospace;
+    min-width: 4.5rem;
+}
+
 .first-entry {
   min-height: 180px;
 }
@@ -340,33 +368,13 @@ pre, code {
     }
 }
 
-/* GitHub icon styling - multiple approaches */
-.social-icons a[title="Github"] svg,
-.social-icons a[title="GitHub"] svg,
-.social-icons a[href*="github.com"] svg,
-.social-icons a[href*="github"] svg {
-    color: #000000 !important;
-    fill: #000000 !important;
-    stroke: #000000 !important;
+.profile-social .social-icons a[href*="github.com"] svg {
+    color: #000 !important;
+    stroke: #000 !important;
 }
 
-/* More specific GitHub targeting */
-.entry-footer .social-icons a[href*="github"] svg,
-.entry-footer .social-icons a[href*="github"] svg path,
-article .social-icons a[href*="github"] svg {
-    color: #000000 !important;
-    fill: #000000 !important;
-    stroke: #000000 !important;
-}
-
-/* GitHub icon override all scenarios */
 svg[stroke="currentColor"] {
     stroke: currentColor;
-}
-
-.social-icons a[href*="github"] svg[stroke="currentColor"] {
-    stroke: #000000 !important;
-    color: #000000 !important;
 }
 
 /* Reduce gap between menu text and external link icon */
@@ -376,26 +384,6 @@ nav ul#menu li a svg {
     margin-left: -0.25em !important;
 }
 
-/* Force GitHub icon black with highest specificity */
-html body .social-icons a[href*="github"] svg,
-html body article .entry-footer .social-icons a[href*="github"] svg {
-    stroke: #000000 !important;
-    color: #000000 !important;
-    fill: #000000 !important;
-}
-
-/* Force all social icon colors to be dark */
-.social-icons a svg {
-    color: var(--primary) !important;
-    stroke: var(--primary) !important;
-}
-
-/* Specifically target GitHub */
-.social-icons a[href="https://github.com/mzfr"] svg {
-    color: #000000 !important;
-    stroke: #000000 !important;
-    fill: #000000 !important;
-}
 
 /* Only add spacing for home page content, not individual posts */
 .first-entry.home-info {
@@ -656,4 +644,289 @@ html body article .entry-footer .social-icons a[href*="github"] svg {
     border-bottom: 2px solid var(--border);
     width: 100%;
     opacity: 0.5;
+}
+
+/* ===== Profile Homepage ===== */
+
+.profile-page {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.profile-intro {
+    margin-bottom: 2rem;
+}
+
+.profile-name {
+    font-size: 2.4rem;
+    color: #C2621E;
+    margin-bottom: 0.5rem;
+}
+
+.profile-social {
+    margin-top: 0.5rem;
+}
+
+.profile-body {
+    font-size: 15pt;
+    line-height: 1.7;
+}
+
+.profile-body p {
+    margin-bottom: 1rem;
+}
+
+.profile-body h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.profile-body a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.profile-body a:hover {
+    color: var(--link-hover-color);
+}
+
+.research-focus {
+    padding-left: 1.5rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.research-focus li {
+    margin-bottom: 0.3rem;
+    color: var(--secondary);
+}
+
+/* Inline CVE list on homepage */
+.cve-inline-list {
+    margin: 1rem 0 0.5rem;
+    padding: 0;
+}
+
+.cve-inline-group {
+    padding: 6px 0;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.8rem;
+}
+
+.cve-inline-vendor {
+    color: var(--primary);
+    font-weight: 600;
+    min-width: 100px;
+    flex-shrink: 0;
+}
+
+.cve-inline-ids {
+    color: var(--secondary);
+    font-family: 'Fira Code', monospace;
+    font-size: 0.85rem;
+}
+
+.publications-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.publication-title {
+    margin: 0;
+    color: var(--primary);
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.profile-body .publication-authors,
+.profile-body .publication-venue,
+.profile-body .publication-award {
+    margin: 0.15rem 0 0;
+    line-height: 1.45;
+}
+
+.publication-authors,
+.publication-venue {
+    font-size: 0.95rem;
+}
+
+.publication-award {
+    color: #438b2f;
+    font-weight: 600;
+}
+
+.publication-links {
+    display: flex;
+    gap: 0.55rem;
+    margin-top: 0.55rem;
+}
+
+.profile-body .publication-links a {
+    border: 1px solid var(--primary);
+    border-radius: 3px;
+    color: var(--primary);
+    font-size: 0.75rem;
+    line-height: 1;
+    padding: 0.45rem 0.7rem;
+}
+
+.profile-body .publication-links a:hover {
+    background: var(--primary);
+    color: var(--theme);
+}
+
+.section-more {
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-size: 0.95rem;
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.section-more:hover {
+    color: var(--link-hover-color);
+}
+
+/* ===== CVE Page ===== */
+
+.cve-summary {
+    margin: 1rem 0 2rem;
+    font-size: 1.05rem;
+    color: var(--secondary);
+}
+
+.cve-vendor-group {
+    margin-bottom: 2.5rem;
+}
+
+.cve-vendor-name {
+    font-size: 1.4rem;
+    color: #D67B2A;
+    margin-bottom: 0.8rem;
+}
+
+.cve-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.cve-row {
+    display: flex;
+    align-items: center;
+    padding: 12px 8px;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid rgba(196, 166, 132, 0.3);
+    transition: background 0.15s ease;
+}
+
+.cve-row:hover {
+    background: rgba(139, 69, 19, 0.06);
+}
+
+.cve-id {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.95rem;
+    color: #C2621E;
+    min-width: 200px;
+    flex-shrink: 0;
+}
+
+.cve-product {
+    flex-grow: 1;
+    color: var(--primary);
+}
+
+.cve-severity {
+    font-size: 0.8rem;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+}
+
+.severity-high {
+    background: rgba(180, 60, 30, 0.15);
+    color: #8B2500;
+}
+
+.severity-medium {
+    background: rgba(200, 150, 50, 0.2);
+    color: #7A5A00;
+}
+
+.severity-low {
+    background: rgba(100, 140, 80, 0.2);
+    color: #3D5A1E;
+}
+
+.severity-critical {
+    background: rgba(140, 20, 20, 0.2);
+    color: #6B0000;
+}
+
+/* CVE detail page */
+.cve-detail-info {
+    background: rgba(139, 69, 19, 0.05);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.cve-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.cve-detail-item:last-child {
+    margin-bottom: 0;
+}
+
+.cve-detail-item strong {
+    min-width: 80px;
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .profile-name {
+        font-size: 2rem;
+    }
+
+    .profile-stats {
+        gap: 0.8rem;
+    }
+
+    .stat-card {
+        padding: 1rem 1.2rem;
+        min-width: 90px;
+    }
+
+    .stat-number {
+        font-size: 1.6rem;
+    }
+
+    .finding-id, .cve-id {
+        min-width: 140px;
+        font-size: 0.8rem;
+    }
+
+    .finding-item, .cve-row {
+        flex-wrap: wrap;
+        gap: 0.3rem;
+    }
+
+    .cve-detail-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
 }

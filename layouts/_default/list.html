@@ -25,24 +25,23 @@
     {{/* Handle section pages (like /posts) */}}
     {{- partial "home_info.html" . }}
     {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{- $.Scratch.Set "year" "" }}
-    <ul class="posts-list">
-        {{- range $pages }}
-        {{- $thisYear := .Date | time.Format "2006" }}
-        {{- if and (ne ($.Scratch.Get "year") "") (ne ($.Scratch.Get "year") $thisYear) }}
-            <li class="year-separator">
-                <div class="separator-line"></div>
-            </li>
+    <div class="posts-by-year">
+        {{- range $pages.GroupByDate "2006" }}
+        <section class="post-year-group">
+            <h2 class="post-year-heading">{{ .Key }}</h2>
+            <ul class="posts-list">
+                {{- range .Pages }}
+                <li class="post-item">
+                    <a href="{{ .Permalink }}">
+                        <span class="post-title">{{ .Title }}</span>
+                        <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "Jan 02" }}</time>
+                    </a>
+                </li>
+                {{- end }}
+            </ul>
+        </section>
         {{- end }}
-        {{- $.Scratch.Set "year" $thisYear }}
-        <li class="post-item">
-            <a href="{{.Permalink}}">
-              <span class="post-title">{{.Title}}</span>
-              <span class="post-date">{{ .Date | time.Format "January 2, 2006" }}</span>
-            </a>
-        </li>
-        {{- end }}
-    </ul>
+    </div>
 {{- else }}
     {{/* Handle taxonomy pages (like tags) */}}
     <header class="page-header">

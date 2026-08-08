@@ -1,0 +1,28 @@
+# Code-Augur is omitted until acceptance.
+# - title: "Code-Augur: Agentic Vulnerability Detection via Specification Inference"
+#   authors:
+#     - Zhengxiong Luo
+#     - Mehtab Zafar
+#     - Dylan Wolff
+#     - Abhik Roychoudhury
+#   venue: arXiv
+#   year: 2026
+#   links:
+#     - label: PDF
+#       url: https://arxiv.org/pdf/2606.18619
+
+- title: "Agentic Verification of Software Systems"
+  authors:
+    - Haoxin Tu
+    - Huan Zhao
+    - Yahui Song
+    - Mehtab Zafar
+    - Ruijie Meng
+    - Abhik Roychoudhury
+  venue: The ACM International Conference on the Foundations of Software Engineering (FSE 2026)
+  year: 2026
+  links:
+    - label: PDF
+      url: https://arxiv.org/pdf/2511.17330
+    - label: Code
+      url: https://github.com/nus-agentic-program-verification/AutoRocq
