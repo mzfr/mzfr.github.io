@@ -155,8 +155,6 @@
     <loc>https://blog.mzfr.me/posts/2018-05-26-hello-world/</loc>
     <lastmod>2018-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mzfr.me/about/</loc>
-  </url><url>
     <loc>https://blog.mzfr.me/categories/</loc>
   </url><url>
     <loc>https://blog.mzfr.me/tags/ctf/</loc>
@@ -164,6 +162,8 @@
     <loc>https://blog.mzfr.me/ctf.bak/</loc>
   </url><url>
     <loc>https://blog.mzfr.me/ctf.bak/htb/</loc>
+  </url><url>
+    <loc>https://blog.mzfr.me/about/</loc>
   </url><url>
     <loc>https://blog.mzfr.me/ctf.bak/vulnhub/</loc>
   </url><url>

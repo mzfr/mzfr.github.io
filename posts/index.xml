@@ -4,7 +4,7 @@
     <title>Posts on ~/mzfr</title>
     <link>https://blog.mzfr.me/posts/</link>
     <description>Recent content in Posts on ~/mzfr</description>
-    <generator>Hugo -- 0.140.1</generator>
+    <generator>Hugo -- 0.164.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mzfr.me/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -238,7 +238,7 @@
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://blog.mzfr.me/posts/2018-06-27-gsoc-with-kodi/</guid>
       <description>&lt;p&gt;I got selected as a Google Summer of Code student in XBMC foundation (a.k.a Kodi) for the project [Static code analysis in Kodi&amp;rsquo;s addon-check tool](Static code analysis in Kodi&amp;rsquo;s addon-check tool). Result came out on April 23 09:30 PM IST. I know it was 2 months ago but I couldn&amp;rsquo;t get myself to write about it - you can say I was &amp;ldquo;busy&amp;rdquo; ;)&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;https://blog.mzfr.me/images/Gsoc&#39;18.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.mzfr.me/images/Gsoc&#39;18.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-gsoc-&#34;&gt;What is GSoC ?&lt;/h2&gt;
 &lt;p&gt;Google Summer of Code is a global program focused on bringing more student developers into open source software development. Students work with an open source organization for 3 month programming on any project of their choice during their break from school. More details about GSoC &lt;a href=&#34;https://summerofcode.withgoogle.com&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
