@@ -1,14 +1,7 @@
 ## Personal Blog
 
-This is the new blog that I made using [hugo](https://gohugo.io), the theme used is [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod/).
+This is the new blog that I made using [hugo](https://gohugo.io). It remains heavily based on [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod/), but the theme is now kept in this repository so I can preserve the previous style while evolving it for my PhD website. PaperMod's original [MIT license](themes/PaperMod/LICENSE) is retained.
 
 The old blog can be found on the __master-old__ branch.
 
-__NOTE__:
-
-If you clone this repo then make sure to run the following commands:
-
-* git submodule init
-* git submodule update
-
-This is because the theme `hugo-papermod` is being used via submodules
+The PaperMod source is included directly, so no Git submodule setup is required.
