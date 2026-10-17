@@ -1,0 +1,126 @@
+/* Chroma does the highlighting at build time; this only styles the panel. */
+.post-content .code-block {
+    margin: 1.5rem 0;
+    overflow: hidden;
+    border: 1px solid #50605A;
+    border-radius: var(--radius);
+    background: var(--code-block-bg);
+    color: var(--code-text);
+}
+
+.code-toolbar {
+    font-family: var(--font-mono);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 2.5rem;
+    padding: 0.4rem 1rem;
+    border-bottom: 1px solid #50605A;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #BDC8B9;
+}
+
+.code-language {
+    letter-spacing: 0.04em;
+}
+
+.code-block .copy-code {
+    position: static;
+    display: block;
+    min-height: 28px;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #7B8C80;
+    border-radius: 4px;
+    background: transparent;
+    color: var(--code-text);
+    font-size: inherit;
+}
+
+.code-block .copy-code:hover {
+    background: #223733;
+}
+
+.post-content .code-block .highlight {
+    margin: 0;
+}
+
+.post-content .code-block pre,
+.post-content .code-block pre code {
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    background: var(--code-block-bg) !important;
+    color: var(--code-text);
+}
+
+.post-content .code-block pre {
+    overflow-x: auto;
+    padding: 1rem 0;
+    line-height: 1.65;
+    tab-size: 4;
+}
+
+.post-content .code-block pre code {
+    display: block;
+    overflow: visible;
+    padding: 0 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.9375rem;
+    line-height: inherit;
+    white-space: pre;
+    word-break: normal;
+}
+
+.post-content .code-block .line .cl,
+.post-content .code-block .ln {
+    padding: 0;
+}
+
+.post-content .code-block .line {
+    min-height: 1.65em;
+}
+
+/* Distinct cool keywords, green strings, amber numbers, and blue functions. */
+.code-block .chroma :is(.k, .kc, .kd, .kn, .kp, .kr, .kt, .o, .ow) {
+    color: #CAB6F2;
+}
+
+.code-block .chroma :is(.s, .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss) {
+    color: #B4D59B;
+}
+
+.code-block .chroma :is(.m, .mb, .mf, .mh, .mi, .il, .mo) {
+    color: #F1BA7D;
+}
+
+.code-block .chroma :is(.nf, .fm) {
+    color: #98CFE0;
+}
+
+.code-block .chroma :is(.na, .nb, .bp, .nc) {
+    color: #E1C598;
+}
+
+.code-block .chroma .err {
+    color: #FFADAA;
+    background: transparent;
+}
+
+/* Keep comments legible, not decorative. */
+.code-block .chroma :is(.c, .ch, .cm, .c1, .cs, .cp, .cpf) {
+    color: #B0BDAD;
+}
+
+.post-content :not(pre) > code {
+    margin: 0;
+    padding: 0.12em 0.3em;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-size: 0.88em;
+    color: var(--primary);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}

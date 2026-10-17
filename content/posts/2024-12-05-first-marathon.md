@@ -56,18 +56,18 @@ After finishing my summer break, I registered for SCSM 2024 around August 13th. 
 ![](/images/marathon/first_32K.png)
 ![](/images/marathon/second_32K.png)
 
-The long runs became the unexpected highlight of my training cycle, all thanks to my questionable choice of starting at 4 AM. My trusty Saucony Endorphin Speed 3s became my go-to shoes for these pre-dawn long runs. Singapore's weather threw its signature downpours at me, making these 25-32K training runs more challenging than planned mostly because I was afaird of [slip, trip and fall](https://ehs.yale.edu/sites/default/files/files/slip-trip-fall.pdf) scenario<span class="tooltip" data-show="false"><span class="tooltip-content">Everytime I'm walking a wet floor my brain always thing of the #STFCampaign around NUS campus</span></span>. While the wet conditions forced me to run slower than my target paces, I actually started looking forward to these sessions. The empty streets meant no dodging traffic or pedestrians, and the consistent rain kept me cool throughout the long distances. Looking back now even though these long runs were important part of the training block, I think it was a stupid decision to run this early but at the same time these runs are probably few of my favourite runs of 2024.
+The long runs became the unexpected highlight of my training cycle, all thanks to my questionable choice of starting at 4 AM. My trusty Saucony Endorphin Speed 3s became my go-to shoes for these pre-dawn long runs. Singapore's weather threw its signature downpours at me, making these 25-32K training runs more challenging than planned mostly because I was afaird of [slip, trip and fall](https://ehs.yale.edu/sites/default/files/files/slip-trip-fall.pdf) scenario[^note-1]. While the wet conditions forced me to run slower than my target paces, I actually started looking forward to these sessions. The empty streets meant no dodging traffic or pedestrians, and the consistent rain kept me cool throughout the long distances. Looking back now even though these long runs were important part of the training block, I think it was a stupid decision to run this early but at the same time these runs are probably few of my favourite runs of 2024.
 
 # Tech behind the journey
 
 - Daily Trainers: Nike Pegasus 40 - The trusty workhorse that never complained
 - Long Runs: Saucony Endorphin Speed 3 - Made those 32K training runs feel (almost) manageable
-- Race Day: ASICS Gel Nimbus 26 - The chosen one for the big day <span class="tooltip" data-show="false"><span class="tooltip-content">Due to Speed 4's high price point and the store being out of Speed 3 stock :(</span></span>
+- Race Day: ASICS Gel Nimbus 26 - The chosen one for the big day [^note-2]
 - Fuel: GU chocolate gels - The taste and texture were both excellent
 
 Having already logged around 350km in my Saucony Speed 3, I now realize I could have likely used them for the race as well. However, to be on the safe side, I purchased the ASICS Nimbus 26 about three weeks before the race and logged around 90km in them to ensure they were properly broken in. While there was nothing wrong with the Nimbus, I don't think they were the optimal choice. Coming from the Speed 3, they felt less stacked (which they objectively are) and less "bouncy" (which they also are). During the race, I had no issues with the Nimbus, and even though I knew from my long runs that they were heavier than the Speed 3, I surprisingly didn't notice the weight difference - perhaps because I had many other things on my mind on race day. I've come to realize that shoes like the Speed 3/4 and similar models are what I enjoy running in, rather than flatter profiles like the Pegasus 40 or Nimbus 26. Of course, this is purely about personal feel, as I've never had any issues with any of these shoes.
 
-Regarding fuel, the only affordable options I could find were Honeystinger and GU (yes, my Indian friends, that's actually the name of something you eat). The Honeystinger felt like a super sticky paste that was difficult to swallow, while GU had a more pleasant mouth feel and was easier to consume<span class="tooltip" data-show="false"><span class="tooltip-content">The last two lines were very painful to write</span></span>
+Regarding fuel, the only affordable options I could find were Honeystinger and GU (yes, my Indian friends, that's actually the name of something you eat). The Honeystinger felt like a super sticky paste that was difficult to swallow, while GU had a more pleasant mouth feel and was easier to consume[^note-3]
 
 # Race Day
 
@@ -86,7 +86,7 @@ The race start threw me an unexpected curveball. During my recent training runs,
 My fueling strategy was straightforward: one gel every 45 minutes. I'd even successfully practiced with hourly gel intervals during training runs, so the 45-minute spacing seemed conservative. However, I deviated from this plan during the race, improvising based on feel rather than sticking to the schedule, which I think was a mistake. I had packed 8 gels and should have used them all given my finish time.
 
 Here's how my gel consumption actually played out:
-```
+```text
 Gel #1: 45 min - Still feeling fresh!
 Gel #2: 1:30 - Starting to feel the distance
 Gel #3: 2:15 - Getting into the rhythm
@@ -129,3 +129,7 @@ My fueling strategy needed more discipline. Despite having a solid plan to take 
 Perhaps most importantly, I learned that training conditions significantly impact race day performance. I did all my training runs in the early morning, essentially conditioning my body for pleasant weather. Ironically, while the days before and after the race offered perfect conditions, race day itself was brutally hot. Moving forward, I plan to incorporate training runs at various times of day, regardless of the scheduled race time, to better prepare for different conditions.
 
 However, here's the beautiful part: despite all these challenges - the mistakes, the scorching sun, and the learning curve - I completed my first marathon. It wasn't a perfect race, but it was perfectly mine, every sweaty, exhausting, and exhilarating kilometer of it. Being my first marathon, it provided invaluable insights into the realities of race day dynamics. In the end, it proved to be an excellent debut race, rich with lessons for the future.
+
+[^note-1]: Everytime I'm walking a wet floor my brain always thing of the #STFCampaign around NUS campus
+[^note-2]: Due to Speed 4's high price point and the store being out of Speed 3 stock :(
+[^note-3]: The last two lines were very painful to write

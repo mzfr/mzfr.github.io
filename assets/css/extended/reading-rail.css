@@ -1,0 +1,82 @@
+/* The existing in-page contents stays available on smaller screens. */
+.reading-rail {
+    display: none;
+}
+
+/* Keep the article centered; use only the otherwise empty right margin. */
+@media (min-width: 1400px) {
+    .has-reading-rail > .toc {
+        display: none;
+    }
+
+    .has-reading-rail .post-reading-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 180px;
+        column-gap: 40px;
+        width: calc(100% + 220px);
+    }
+
+    .has-reading-rail .post-content {
+        grid-column: 1;
+        grid-row: 1;
+        min-width: 0;
+    }
+
+    .reading-rail {
+        display: block;
+        grid-column: 2;
+        grid-row: 1;
+        position: sticky;
+        top: 2rem;
+        align-self: start;
+        max-height: calc(100vh - 4rem);
+        overflow-y: auto;
+        padding-left: 1rem;
+        border-left: 1px solid var(--border);
+        font-size: 0.8125rem;
+        line-height: 1.6;
+        color: var(--secondary);
+    }
+
+    .reading-rail-label {
+        margin-bottom: 1rem;
+        font-size: 0.7rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+    }
+
+    .reading-rail ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .reading-rail li {
+        margin: 0.6rem 0;
+    }
+
+    .reading-rail ul ul {
+        padding-left: 0.75rem;
+    }
+
+    .reading-rail a {
+        color: var(--secondary);
+    }
+
+    .reading-rail a:hover {
+        color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+    }
+}
+
+@media print {
+    .reading-rail {
+        display: none;
+    }
+
+    .has-reading-rail .post-reading-layout {
+        display: block;
+        width: 100%;
+    }
+}

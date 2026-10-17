@@ -35,7 +35,7 @@ Make sure it look like
 ![](/images/interface.png)
 
 So most probably you might have to add
-```
+```text
 #The primary network interfaces
 auto-hotplug eth0
 iface eth0 inet dhcp
@@ -48,7 +48,7 @@ It's highly likely that this file might not exists on your system and you might 
 
 add the following to your yaml config file:
 
-```
+```yaml
 network:
   version: 2
   renderer: networkd

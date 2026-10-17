@@ -261,10 +261,6 @@
     padding: 0.4em;
 }
 
-.dark .toc {
-    background: var(--entry);
-}
-
 .toc details summary {
     cursor: zoom-in;
     margin-inline-start: 10px;
@@ -313,7 +309,6 @@
 }
 
 .post-tags a,
-.share-buttons,
 .paginav {
     border-radius: var(--radius);
     background: var(--code-bg);
@@ -332,23 +327,6 @@
 .post-tags a:hover,
 .paginav a:hover {
     background: var(--border);
-}
-
-.share-buttons {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    overflow-x: auto;
-    gap: 10px;
-}
-
-.share-buttons li,
-.share-buttons a {
-    display: inline-flex;
-}
-
-.share-buttons a:not(:last-of-type) {
-    margin-inline-end: 12px;
 }
 
 h1:hover .anchor,

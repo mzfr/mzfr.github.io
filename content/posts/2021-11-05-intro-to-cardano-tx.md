@@ -105,7 +105,7 @@ __NOTE__: The testnet network takes about 4-5 hours to sync 100% and the mainnet
 
 When you run the command given in step 4 and get an error saying something like:
 
-```
+```text
 cardano-cli: Network.Socket.connect: <socket: 11>: does not exist (Connection refused)%
 ```
 
@@ -153,7 +153,7 @@ cardano-cli query utxo --address <your_payment_addr1_address_here> --testnet-mag
 
 You should see something like:
 
-```
+```text
                            TxHash                                 TxIx        Amount
 --------------------------------------------------------------------------------------
 ```
@@ -168,7 +168,7 @@ cardano-cli query utxo --address <your_payment_addr1_address_here> --testnet-mag
 
 you should see an output that looks like the following:
 
-```
+```text
                            TxHash                                 TxIx        Amount
 --------------------------------------------------------------------------------------
 4606b0a96e0b69569be47293fdfcebda19da3fd2b7c0066d695f13020663c524     1        20000000 lovelace + TxOutDatumHashNone

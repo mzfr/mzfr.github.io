@@ -1,14 +1,20 @@
 baseURL: "https://blog.mzfr.me"
 title: "~/mzfr"
 theme: ["PaperMod"]
-pagination:
-  pageSize: 10
 
 mainSections: ["posts"]
 
 minify:
   disableXML: true
   minifyOutput: true
+
+# Make existing local images available to Hugo's build-time image processing.
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: static/images
+      target: assets/images
 
 taxonomies:
   category: categories
@@ -34,9 +40,13 @@ menu:
         weight: 5
 
 markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 6
   highlight:
     codeFences: true
-    guessSyntax: true
+    guessSyntax: false
+    noClasses: false
     lineNos: false
     style: gruvbox
   goldmark:
@@ -46,9 +56,9 @@ params:
   env: production
   ShowReadingTime: true
   ShowPostNavLinks: true
-  disableThemeToggle: true
+  ShowCodeCopyButtons: true
   assets:
-    disableHLJS: true
+    theme_color: "#192b29"
 
   socialIcons:
     - name: github

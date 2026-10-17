@@ -1,8 +1,8 @@
 {{- define "main" }}
 
-<article class="post-single">
+{{- $hasRail := and (.Param "ShowToc") (ge (len (findRE "<a href=" .TableOfContents)) 3) -}}
+<article class="post-single{{ if $hasRail }} has-reading-rail{{ end }}">
   <header class="post-header">
-    {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">
       {{ .Title }}
       {{- if .Draft }}
@@ -23,22 +23,27 @@
     <div class="post-meta">
       {{- partial "post_meta.html" . -}}
       {{- partial "translation_list.html" . -}}
-      {{- partial "edit_post.html" . -}}
       {{- partial "post_canonical.html" . -}}
     </div>
     {{- end }}
   </header>
-  {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
-  {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
   {{- if (.Param "ShowToc") }}
   {{- partial "toc.html" . }}
   {{- end }}
 
   {{- if .Content }}
+  <div class="post-reading-layout">
+  {{- if $hasRail }}
+  <aside class="reading-rail" aria-label="Article contents">
+    <p class="reading-rail-label">On this page</p>
+    {{ .TableOfContents | replaceRE "id=\"TableOfContents\"" "id=\"MarginContents\"" | safeHTML }}
+  </aside>
+  {{- end }}
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
+  </div>
   </div>
   {{- end }}
 
@@ -52,14 +57,8 @@
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
-    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- partial "share_icons.html" . -}}
-    {{- end }}
   </footer>
 
-  {{- if (.Param "comments") }}
-  {{- partial "comments.html" . }}
-  {{- end }}
 </article>
 
 {{- end }}{{/* end main */}}

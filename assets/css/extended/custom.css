@@ -1,9 +1,8 @@
-main div.post-content p {
-    font-size: 15pt;
-}
-
-div.post-content{
-    width: 110%
+.post-content {
+    font-family: var(--font-serif);
+    width: 100%;
+    font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+    line-height: 1.75;
 }
 
 .page-header {
@@ -12,29 +11,24 @@ div.post-content{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #C2621E;
-}
-
-.page-header h1 {
-    color: #C2621E;
-}
-
-.first-entry .entry-header h1 {
-    color: #C2621E;
-    font-size: 34px;
+    font-family: var(--font-serif);
+    font-weight: 400;
+    color: var(--primary);
 }
 
 .post-title, .entry-title {
-    color: #C2621E;
+    font-family: var(--font-serif);
+    color: var(--primary);
 }
 
-h2 {
-    color: #D67B2A;
+.post-single .post-title {
+    color: var(--copper);
 }
 
-h3 {
-    color: #B8956A;
-    opacity: 0.9; 
+.profile-body h2,
+.post-content h2,
+.post-content h3 {
+    color: var(--copper);
 }
 
 .page-header .underline {
@@ -62,26 +56,39 @@ h3 {
 }
 .teams-section {
   display: grid;
-  row-gap: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 1rem;
 }
 
-@media (min-width: 768px) {
-  .teams-section {
-    grid-template-columns: 1fr 1fr;
-    column-gap: 60px;
-  }
+.team-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(255, 244, 218, 0.12);
 }
 
-@media (min-width: 1280px) {
-  .teams-section {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+.team-item h3 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.team-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.btn-team-members {
+  margin-top: auto;
 }
 .site-button {
-  min-width: 200px;
-  height: 40px;
-  color: #2A1A0F;
-  background-color: #D4B898;
+  width: 100%;
+  min-height: 40px;
+  color: var(--primary);
+  background-color: var(--entry);
   display: inline-block;
   text-align: center;
   white-space: nowrap;
@@ -90,7 +97,7 @@ h3 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid #C4A684;
+  border: 1px solid var(--primary);
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -98,8 +105,8 @@ h3 {
 }
 
 .site-button:hover {
-  background-color: #C8A87C;
-  color: #1A0E08;
+  background-color: var(--deep);
+  color: var(--cream);
 }
 
 .posts-list {
@@ -116,22 +123,24 @@ h3 {
 .post-item a {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 8px 0;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 10px 0;
     text-decoration: none;
     color: inherit;
     width: 100%;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
-.post-item a:hover {
-    color: #8B4513;
-    text-shadow: 0 0 1px #CD853F;
+.post-item a:hover .post-title {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
 }
 
 .posts-list .post-title {
     flex-grow: 1;
-    color: #C2621E;
+    color: var(--copper);
     font-size: 1.3rem !important;
     font-weight: normal !important;
     line-height: 1.2 !important;
@@ -142,54 +151,12 @@ h3 {
 .posts-list .post-date {
     flex-shrink: 0;
     margin-left: 1em;
-    opacity: 0.7;
     font-size: 1.1rem !important;
     color: var(--secondary);
     line-height: 1.2 !important;
     font-weight: normal !important;
     width: auto;
     text-align: right;
-}
-
-.posts-group {
-	 margin-bottom: 1.9em;
-	 line-height: normal;
-   width: 150%
-}
- .posts-group .post-year {
-	 padding-top: 6px;
-	 margin-bottom: 0.6em;
-	 font-size: 1.6em;
-   opacity: .7;
-}
- .posts-group .posts-list {
-	 flex-grow: 1;
-	 margin: 0;
-	 padding: 0;
-	 list-style: none;
-}
- .posts-group .post-item {
-	 border-bottom: 1px;
-}
- .posts-group .post-item a {
-	 display: inline-flex;
-	 justify-content: space-between;
-	 align-items: baseline;
-	 padding: 9px 0;
-}
-.posts-group .post-item a:hover {
-	 color: #8B4513;
-	 text-shadow: 0 0 1px #CD853F;
-}
- .posts-group .post-day {
-	 flex-shrink: 0;
-	 margin-left: 1.3em;
-   margin-right: 1.5em;
-   opacity: .7;
-   font-size: 1.2em;
-}
-.posts-group .post-item span a {
-  font-size: 1.4em;
 }
 
 .posts-by-year {
@@ -205,7 +172,7 @@ h3 {
 .post-year-heading {
     margin: 0 0 0.75rem;
     color: var(--secondary);
-    font-family: "Fira Code", monospace;
+    font-family: var(--font-mono);
     font-size: 1.15rem;
     font-weight: 500;
     letter-spacing: 0.18em;
@@ -216,60 +183,71 @@ h3 {
 }
 
 .posts-by-year .post-date {
-    font-family: "Fira Code", monospace;
+    font-family: var(--font-mono);
     min-width: 4.5rem;
 }
 
-.first-entry {
-  min-height: 180px;
-}
-.first-entry .entry-header h1 {
-  font-size: 34px;
-}
-
-.first-entry .entry-content {
-  margin: 15px 0;
-}
-
-/* Slightly Darker Warm Sepia Theme */
+/* Permanent green, warm cream, and gold palette. */
 :root {
-    --theme: #F0D4B8;          /* Darker warm peach background */
-    --entry: #E8C8A8;          /* Darker warm tone for cards/entries */
-    --primary: #2A1A0F;        /* Very dark brown for primary text */
-    --secondary: #4A3426;      /* Dark brown for secondary text */
-    --tertiary: #6B4E3D;       /* Medium brown for tertiary elements */
-    --content: #2A1A0F;        /* Very dark brown for main content text */
-    --hljs-bg: #DCC4A4;        /* Darker warm tone for code blocks */
-    --code-bg: #D4B898;        /* Darker warm tone for inline code */
-    --border: #C4A684;         /* Muted brown for borders */
-    --mark: #E8C49C;           /* Darker warm highlight */
-    --link-color: #8B4513;     /* Saddle brown for links */
-    --link-hover-color: #A0522D; /* Sienna for link hover */
+    color-scheme: dark;
+    --theme: #192B29;
+    --entry: #223733;
+    --primary: #EAD9BC;
+    --secondary: #BEC3B4;
+    --tertiary: #A7B09F;
+    --content: #EAD9BC;
+    --deep: #192B29;
+    --cream: #EAD9BC;
+    --copper: #DCAA78;
+    --code-block-bg: #14211F;
+    --code-text: #E0E7DB;
+    --accent: #DCAA78;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --font-serif: Georgia, 'Times New Roman', serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --code-bg: #293F39;
+    --border: #526056;
+    --mark: #3B5148;
+    --link-color: #DCAA78;
+    --link-hover-color: #EAD9BC;
     --main-width: 870px;
 }
 
-.dark {
-    --theme: #F0D4B8;          /* Keep same darker warm theme */
-    --entry: #E8C8A8;          
-    --primary: #2A1A0F;        
-    --secondary: #4A3426;      
-    --tertiary: #6B4E3D;       
-    --content: #2A1A0F;        
-    --hljs-bg: #DCC4A4;        
-    --code-bg: #D4B898;        
-    --border: #C4A684;         
-    --mark: #E8C49C;           
-    --link-color: #8B4513;     
-    --link-hover-color: #A0522D;
-}
-
-/* Set Fira code as default Font */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+/* Prefer installed fonts; no external font requests. */
 
 body {
-    font-family: 'Fira Code', monospace;
+    font-family: var(--font-sans);
     background-color: var(--theme);
     color: var(--primary);
+}
+
+/* Serif reading text, sans-serif UI, and monospace metadata. */
+.logo,
+.post-meta,
+.post-date,
+.post-tags,
+.reading-rail,
+.footer,
+.site-button,
+.publication-links {
+    font-family: var(--font-mono);
+}
+
+.header {
+    background-color: var(--deep);
+}
+
+.nav a {
+    color: var(--cream);
+}
+
+.nav a:hover {
+    color: var(--copper);
+}
+
+::selection {
+    color: var(--deep);
+    background: var(--copper);
 }
 
 /* Adjust color for links within post content */
@@ -282,95 +260,8 @@ body {
     color: var(--link-hover-color);
 }
 
-/* Code blocks styling for light theme */
-pre, code {
-    background-color: var(--code-bg);
+.social-icons a[href*="github.com"] {
     color: var(--primary);
-    border: 1px solid var(--border);
-}
-
-.tooltip {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    vertical-align: middle;
-    width: 22px;
-    height: 40px;
-    background: rgba(139, 69, 19, 0.1);
-    border-radius: 12px;
-    transition: all 0.2s ease;
-    margin: 0 2px;
-}
-
-.tooltip::before {
-    content: "⋮";
-    color: #8B4513;
-    font-size: 1.5em;
-    line-height: 1;
-}
-
-.tooltip:hover {
-    background: rgba(139, 69, 19, 0.2);
-    transform: translateY(-1px);
-    box-shadow: 0 2px 8px rgba(139, 69, 19, 0.2);
-}
-
-.tooltip[data-show="true"] {
-    background: rgba(139, 69, 19, 0.2);
-}
-
-.tooltip[data-show="true"] .tooltip-content {
-    display: block;
-    animation: float-in 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.tooltip-content {
-    display: none;
-    position: absolute;
-    background: #E8C8A8;
-    color: #2A1A0F;
-    padding: 1.2em 1.4em;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(42, 26, 15, 0.15);
-    width: max-content;
-    max-width: 400px;
-    z-index: 100;
-    font-size: 14px;
-    line-height: 1.6;
-    left: calc(100% + 5px);
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 1em;
-    border: 1px solid var(--border);
-}
-
-.tooltip-content::before {
-    content: "";
-    position: absolute;
-    left: -8px;
-    top: 50%;
-    transform: translateY(-50%);
-    border-width: 6px;
-    border-style: solid;
-    border-color: transparent #E8C8A8 transparent transparent;
-}
-
-@keyframes float-in {
-    from {
-        opacity: 0;
-        transform: translateY(-50%) translateX(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(-50%) translateX(0);
-    }
-}
-
-.profile-social .social-icons a[href*="github.com"] svg {
-    color: #000 !important;
-    stroke: #000 !important;
 }
 
 svg[stroke="currentColor"] {
@@ -384,11 +275,6 @@ nav ul#menu li a svg {
     margin-left: -0.25em !important;
 }
 
-
-/* Only add spacing for home page content, not individual posts */
-.first-entry.home-info {
-    margin: 1rem 0;
-}
 
 /* Books page styling - Simple list view */
 .books-simple-list {
@@ -414,13 +300,13 @@ nav ul#menu li a svg {
 }
 
 .book-item a:hover {
-    color: #8B4513;
-    text-shadow: 0 0 1px #CD853F;
+    color: var(--link-hover-color);
+    text-shadow: 0 0 1px var(--copper);
 }
 
 .book-title {
     flex-grow: 1;
-    color: #C2621E;
+    color: var(--accent);
     font-size: 1.1rem !important;
     font-weight: normal !important;
     line-height: 1.2 !important;
@@ -442,86 +328,16 @@ nav ul#menu li a svg {
 }
 
 .book-rating {
-    color: #D67B2A;
+    color: var(--accent);
     font-size: 1.8rem !important;
     letter-spacing: 2px;
     margin-left: 0.5em;
     font-style: normal;
 }
 
-/* Individual book page styling */
-.book-entry {
-    margin-bottom: 3rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--border);
-}
-
-.book-entry:last-child {
-    border-bottom: none;
-}
-
-.book-header {
-    margin-bottom: 1rem;
-}
-
-.book-entry .book-title {
-    color: #C2621E;
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
-    line-height: 1.3;
-}
-
-.book-entry .book-title a {
-    color: #C2621E;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.book-entry .book-title a:hover {
-    color: #8B4513;
-}
-
-.book-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    font-size: 0.9rem;
-    color: var(--secondary);
-    align-items: center;
-}
-
-.book-authors {
-    font-style: italic;
-}
-
-.book-dates {
-    font-family: 'Fira Code', monospace;
-    background: rgba(139, 69, 19, 0.1);
-    padding: 2px 8px;
-    border-radius: 4px;
-}
-
-.book-review {
-    margin-top: 1rem;
-    line-height: 1.7;
-}
-
-.book-review p {
-    margin-bottom: 1rem;
-}
-
-.book-review ul, .book-review ol {
-    margin: 1rem 0;
-    padding-left: 2rem;
-}
-
-.book-review li {
-    margin-bottom: 0.5rem;
-}
-
 /* Individual book page info box */
 .book-info-box {
-    background: rgba(139, 69, 19, 0.05);
+    background: rgba(220, 170, 120, 0.05);
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 1.5rem;
@@ -547,34 +363,17 @@ nav ul#menu li a svg {
 }
 
 .book-rating-large {
-    color: #D67B2A;
+    color: var(--accent);
     font-size: 2rem !important;
     letter-spacing: 2px;
     margin-left: 0.3em;
-}
-
-.book-external-link {
-    color: var(--link-color);
-    text-decoration: none;
-    transition: color 0.3s ease;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-}
-
-.book-external-link:hover {
-    color: var(--link-hover-color);
-}
-
-.book-external-link svg {
-    margin-left: -0.2rem;
 }
 
 .book-external-link-plain {
     color: var(--link-color);
     text-decoration: none;
     transition: color 0.3s ease;
-    font-family: 'Fira Code', monospace;
+    font-family: var(--font-mono);
     font-size: 0.9rem;
     word-break: break-all;
 }
@@ -604,22 +403,12 @@ nav ul#menu li a svg {
 .book-review-content blockquote {
     margin: 1.5rem 0;
     padding: 1rem 1.5rem;
-    border-left: 4px solid #D67B2A;
-    background: rgba(139, 69, 19, 0.05);
+    border-left: 4px solid var(--accent);
+    background: rgba(220, 170, 120, 0.05);
     font-style: italic;
 }
 
 @media (max-width: 768px) {
-    .book-meta {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
-    }
-    
-    .book-entry .book-title {
-        font-size: 1.2rem;
-    }
-    
     .book-info-box {
         padding: 1rem;
     }
@@ -646,6 +435,112 @@ nav ul#menu li a svg {
     opacity: 0.5;
 }
 
+/* Small reading and navigation refinements, shared by every page. */
+.list {
+    background: var(--theme);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 1.5rem;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+pre:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+.post-single .post-title {
+    font-size: clamp(1.8rem, 1.3rem + 2vw, 2.5rem);
+    line-height: 1.2;
+    text-wrap: balance;
+}
+
+.post-content img {
+    height: auto;
+}
+
+.post-content blockquote {
+    padding: 0.75rem 1.25rem;
+    border-inline-start: 3px solid var(--accent);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.post-content blockquote > :last-child {
+    margin-bottom: 0;
+}
+
+.post-content details {
+    margin: 1.5rem 0;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.post-content summary {
+    cursor: pointer;
+    color: var(--accent);
+}
+
+.post-content details[open] > summary {
+    margin-bottom: 0.75rem;
+}
+
+.post-content .footnotes {
+    margin-top: 3rem;
+    font-size: 0.9em;
+    color: var(--secondary);
+}
+
+.post-content :target {
+    scroll-margin-top: 1rem;
+}
+
+.post-content .footnotes li:target {
+    background: var(--mark);
+}
+
+@media (max-width: 600px) {
+    .posts-list {
+        padding: 0;
+    }
+
+    .post-item a {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+        padding: 0.7rem 0;
+    }
+
+    .posts-list .post-title {
+        font-size: 1.05rem !important;
+        line-height: 1.45 !important;
+    }
+
+    .posts-list .post-date {
+        margin-left: 0;
+        text-align: left;
+        font-size: 0.8rem !important;
+    }
+
+    .post-year-group {
+        padding-left: 1rem;
+    }
+
+    .page-header {
+        padding-top: 1rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
 /* ===== Profile Homepage ===== */
 
 .profile-page {
@@ -660,7 +555,7 @@ nav ul#menu li a svg {
 
 .profile-name {
     font-size: 2.4rem;
-    color: #C2621E;
+    color: var(--primary);
     margin-bottom: 0.5rem;
 }
 
@@ -669,6 +564,7 @@ nav ul#menu li a svg {
 }
 
 .profile-body {
+    color: var(--content);
     font-size: 15pt;
     line-height: 1.7;
 }
@@ -692,41 +588,87 @@ nav ul#menu li a svg {
     color: var(--link-hover-color);
 }
 
-.research-focus {
-    padding-left: 1.5rem;
-    margin: 0.5rem 0 1rem;
+/* Homepage CVEs: compact disclosure with clearly separated vendors. */
+.home-cves {
+    margin: 1.5rem 0 0;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--entry);
+    font-size: 0.9rem;
 }
 
-.research-focus li {
-    margin-bottom: 0.3rem;
-    color: var(--secondary);
-}
-
-/* Inline CVE list on homepage */
-.cve-inline-list {
-    margin: 1rem 0 0.5rem;
-    padding: 0;
-}
-
-.cve-inline-group {
-    padding: 6px 0;
-    font-size: 0.95rem;
+.home-cves summary {
     display: flex;
-    align-items: baseline;
-    gap: 0.8rem;
-}
-
-.cve-inline-vendor {
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.85rem 1rem;
     color: var(--primary);
-    font-weight: 600;
-    min-width: 100px;
-    flex-shrink: 0;
+    cursor: pointer;
+    list-style: none;
 }
 
-.cve-inline-ids {
-    color: var(--secondary);
-    font-family: 'Fira Code', monospace;
-    font-size: 0.85rem;
+.home-cves summary::-webkit-details-marker {
+    display: none;
+}
+
+.home-cves summary span {
+    color: var(--copper);
+    font: 1.4rem/1 var(--font-sans);
+    transition: transform 0.2s ease;
+}
+
+.home-cves[open] summary span {
+    transform: rotate(45deg);
+}
+
+.home-cves-list {
+    border-top: 1px solid var(--border);
+    padding: 0 1rem;
+}
+
+.home-cves-group {
+    display: grid;
+    grid-template-columns: 8rem minmax(0, 1fr);
+    gap: 1rem;
+    padding: 0.9rem 0;
+}
+
+.home-cves-group + .home-cves-group {
+    border-top: 1px solid var(--border);
+}
+
+.home-cves-group h3 {
+    margin: 0;
+    color: var(--copper);
+    font: 600 0.9rem/1.5 var(--font-sans);
+}
+
+.home-cves-group ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-width: 0;
+}
+
+.home-cves-group li {
+    margin: 0;
+    color: var(--primary);
+    font: 0.85rem/1.6 var(--font-mono);
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .home-cves-group {
+        display: block;
+    }
+
+    .home-cves-group h3 {
+        margin-bottom: 0.4rem;
+    }
 }
 
 .publications-list {
@@ -736,9 +678,9 @@ nav ul#menu li a svg {
 
 .publication-title {
     margin: 0;
-    color: var(--primary);
+    color: #E0A8B7;
     font-size: 1.05rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .profile-body .publication-authors,
@@ -748,13 +690,17 @@ nav ul#menu li a svg {
     line-height: 1.45;
 }
 
+.publication-authors strong {
+    color: var(--copper);
+}
+
 .publication-authors,
 .publication-venue {
     font-size: 0.95rem;
 }
 
 .publication-award {
-    color: #438b2f;
+    color: #B4D59B;
     font-weight: 600;
 }
 
@@ -789,144 +735,4 @@ nav ul#menu li a svg {
 
 .section-more:hover {
     color: var(--link-hover-color);
-}
-
-/* ===== CVE Page ===== */
-
-.cve-summary {
-    margin: 1rem 0 2rem;
-    font-size: 1.05rem;
-    color: var(--secondary);
-}
-
-.cve-vendor-group {
-    margin-bottom: 2.5rem;
-}
-
-.cve-vendor-name {
-    font-size: 1.4rem;
-    color: #D67B2A;
-    margin-bottom: 0.8rem;
-}
-
-.cve-table {
-    display: flex;
-    flex-direction: column;
-}
-
-.cve-row {
-    display: flex;
-    align-items: center;
-    padding: 12px 8px;
-    text-decoration: none;
-    color: inherit;
-    border-bottom: 1px solid rgba(196, 166, 132, 0.3);
-    transition: background 0.15s ease;
-}
-
-.cve-row:hover {
-    background: rgba(139, 69, 19, 0.06);
-}
-
-.cve-id {
-    font-family: 'Fira Code', monospace;
-    font-size: 0.95rem;
-    color: #C2621E;
-    min-width: 200px;
-    flex-shrink: 0;
-}
-
-.cve-product {
-    flex-grow: 1;
-    color: var(--primary);
-}
-
-.cve-severity {
-    font-size: 0.8rem;
-    padding: 3px 12px;
-    border-radius: 4px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    flex-shrink: 0;
-}
-
-.severity-high {
-    background: rgba(180, 60, 30, 0.15);
-    color: #8B2500;
-}
-
-.severity-medium {
-    background: rgba(200, 150, 50, 0.2);
-    color: #7A5A00;
-}
-
-.severity-low {
-    background: rgba(100, 140, 80, 0.2);
-    color: #3D5A1E;
-}
-
-.severity-critical {
-    background: rgba(140, 20, 20, 0.2);
-    color: #6B0000;
-}
-
-/* CVE detail page */
-.cve-detail-info {
-    background: rgba(139, 69, 19, 0.05);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin: 1.5rem 0 2rem;
-}
-
-.cve-detail-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 0.8rem;
-}
-
-.cve-detail-item:last-child {
-    margin-bottom: 0;
-}
-
-.cve-detail-item strong {
-    min-width: 80px;
-    color: var(--primary);
-}
-
-@media (max-width: 768px) {
-    .profile-name {
-        font-size: 2rem;
-    }
-
-    .profile-stats {
-        gap: 0.8rem;
-    }
-
-    .stat-card {
-        padding: 1rem 1.2rem;
-        min-width: 90px;
-    }
-
-    .stat-number {
-        font-size: 1.6rem;
-    }
-
-    .finding-id, .cve-id {
-        min-width: 140px;
-        font-size: 0.8rem;
-    }
-
-    .finding-item, .cve-row {
-        flex-wrap: wrap;
-        gap: 0.3rem;
-    }
-
-    .cve-detail-item {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.2rem;
-    }
 }

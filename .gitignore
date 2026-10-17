@@ -5,3 +5,11 @@ _site
 public
 *.code-workspace
 *.lock
+.preview/
+/resources/_gen/
+
+# Local drafts
+/content/books.md
+/content/posts/2024-09-27-fuzzing-what.md
+/content/posts/2025-10-29-ten-pointless-facts.md
+/content/posts/new.md
