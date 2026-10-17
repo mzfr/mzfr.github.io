@@ -11,6 +11,19 @@
 #     - label: PDF
 #       url: https://arxiv.org/pdf/2606.18619
 
+- title: "Agentic Orchestration for Hybrid Fuzzing"
+  authors:
+    - Zhengxiong Luo
+    - Huan Zhao
+    - Mehtab Zafar
+    - Cristian Cadar
+    - Abhik Roychoudhury
+  venue: Network and Distributed System Security (NDSS)
+  year: 2027
+  links:
+    - label: PDF
+      url: https://srg.doc.ic.ac.uk/files/papers/ahfuzz-ndss-27.pdf
+
 - title: "Agentic Verification of Software Systems"
   authors:
     - Haoxin Tu
@@ -19,7 +32,7 @@
     - Mehtab Zafar
     - Ruijie Meng
     - Abhik Roychoudhury
-  venue: The ACM International Conference on the Foundations of Software Engineering (FSE 2026)
+  venue: The ACM International Conference on the Foundations of Software Engineering (FSE)
   year: 2026
   links:
     - label: PDF
