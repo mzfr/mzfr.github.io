@@ -170,8 +170,7 @@
       <link>https://blog.mzfr.me/posts/2020-05-31-tanner-data-analysis/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.mzfr.me/posts/2020-05-31-tanner-data-analysis/</guid>
-      <description>&lt;p&gt;&lt;/style&gt;&lt;/p&gt;
-&lt;p&gt;I had &lt;a href=&#34;https://github.com/mushorg/snare&#34;&gt;Snare&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/mushorg/tanner&#34;&gt;Tanner&lt;/a&gt; running on two different digital ocean&amp;rsquo;s droplets. I just wanted to see what juicy data I can get using this honeypot. How I deployed it is a different story and I&amp;rsquo;ll write a different blog post for that. In this post, I just wanted to share small code I wrote as well as some graphs I was able to generate using them.&lt;/p&gt;
+      <description>&lt;p&gt;I had &lt;a href=&#34;https://github.com/mushorg/snare&#34;&gt;Snare&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/mushorg/tanner&#34;&gt;Tanner&lt;/a&gt; running on two different digital ocean&amp;rsquo;s droplets. I just wanted to see what juicy data I can get using this honeypot. How I deployed it is a different story and I&amp;rsquo;ll write a different blog post for that. In this post, I just wanted to share small code I wrote as well as some graphs I was able to generate using them.&lt;/p&gt;
 &lt;h2 id=&#34;downloading-data-using-tanner-api&#34;&gt;Downloading data using Tanner API&lt;/h2&gt;
 &lt;p&gt;Tanner doesn&amp;rsquo;t support any inbuilt export option(yet) but it has an API so I wrote a small python script to download data from my tanner API and store it in a JSON file.&lt;/p&gt;</description>
     </item>
@@ -238,9 +237,10 @@
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://blog.mzfr.me/posts/2018-06-27-gsoc-with-kodi/</guid>
       <description>&lt;p&gt;I got selected as a Google Summer of Code student in XBMC foundation (a.k.a Kodi) for the project [Static code analysis in Kodi&amp;rsquo;s addon-check tool](Static code analysis in Kodi&amp;rsquo;s addon-check tool). Result came out on April 23 09:30 PM IST. I know it was 2 months ago but I couldn&amp;rsquo;t get myself to write about it - you can say I was &amp;ldquo;busy&amp;rdquo; ;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.mzfr.me/images/Gsoc&#39;18.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;what-is-gsoc-&#34;&gt;What is GSoC ?&lt;/h2&gt;
-&lt;p&gt;Google Summer of Code is a global program focused on bringing more student developers into open source software development. Students work with an open source organization for 3 month programming on any project of their choice during their break from school. More details about GSoC &lt;a href=&#34;https://summerofcode.withgoogle.com&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://blog.mzfr.me/images/Gsoc%2718_hu_303a5027dd4b2b40.webp&#34; srcset=&#34;https://blog.mzfr.me/images/Gsoc%2718_hu_cc975a7d2118f669.webp 480w, https://blog.mzfr.me/images/Gsoc%2718_hu_24e95ee2f96c1b6b.webp 960w, https://blog.mzfr.me/images/Gsoc%2718_hu_303a5027dd4b2b40.webp 961w&#34; sizes=&#34;(min-width: 918px) 870px, calc(100vw - 28px)&#34; width=&#34;961&#34; height=&#34;565&#34;
+  loading=&#34;eager&#34; decoding=&#34;async&#34;
+  alt=&#34;alt text&#34;&gt;
+&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
@@ -261,8 +261,8 @@
       <link>https://blog.mzfr.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blog.mzfr.me/about/</guid>
-      <description>&lt;p&gt;I am currently pursuing my PhD at the &lt;a href=&#34;https://nus.edu.sg/&#34;&gt;National University of Singapore&lt;/a&gt;, advised by &lt;a href=&#34;https://abhikrc.com/&#34;&gt;Abhik Roychoudhury&lt;/a&gt;. For my research, I am exploring automated testing, program analysis, and agentic approaches to finding and fixing software bugs at scale.&lt;/p&gt;
-&lt;p&gt;Before starting my PhD, I completed my master&amp;rsquo;s at NUS under &lt;a href=&#34;https://www.manuelrigger.at/&#34;&gt;Manuel Rigger&lt;/a&gt;. Prior to that, I worked as a Product Security Engineer at &lt;a href=&#34;https://www.redqueentech.com/&#34;&gt;Red Queen Dynamics&lt;/a&gt;, following several years of developing Python software and contributing to open source through Google Summer of Code as both a student and mentor.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I am currently pursuing my PhD at the &lt;a href=&#34;https://nus.edu.sg/&#34;&gt;National University of Singapore&lt;/a&gt;, advised by &lt;a href=&#34;https://abhikrc.com/&#34;&gt;Abhik Roychoudhury&lt;/a&gt;. For my research, I am exploring automated testing, program analysis, and agentic approaches to uncover security vulnerabilities in software at scale.&lt;/p&gt;
+&lt;p&gt;Before starting my PhD, I completed my master&amp;rsquo;s at NUS under &lt;a href=&#34;https://www.manuelrigger.at/&#34;&gt;Manuel Rigger&lt;/a&gt;. Prior to that, I worked as a Product Security Engineer with &lt;a href=&#34;https://www.tarah.org/&#34;&gt;Tarah Wheeler&lt;/a&gt; at &lt;a href=&#34;https://www.redqueentech.com/&#34;&gt;Red Queen Dynamics&lt;/a&gt;, following several years of developing Python software and contributing to open source through Google Summer of Code as both a student and mentor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vulnhub</title>
