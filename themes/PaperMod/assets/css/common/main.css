@@ -10,24 +10,6 @@
     font-size: 40px;
 }
 
-.pagination {
-    display: flex;
-}
-
-.pagination a {
-    color: var(--theme);
-    font-size: 13px;
-    line-height: 36px;
-    background: var(--primary);
-    border-radius: calc(36px / 2);
-    padding: 0 16px;
-}
-
-.pagination .next {
-    margin-inline-start: auto;
-}
-
-
 .social-icons a {
     display: inline-flex;
     padding: 10px;

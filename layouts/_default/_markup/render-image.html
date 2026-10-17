@@ -1,0 +1,33 @@
+{{- $url := urls.Parse .Destination -}}
+{{- $image := .Page.Resources.GetMatch $url.Path -}}
+{{- if and (not $image) (not $url.IsAbs) (not $url.Host) -}}
+  {{- $image = resources.Get (strings.TrimPrefix "/" $url.Path) -}}
+{{- end -}}
+{{- $src := .Destination -}}
+{{- $srcset := slice -}}
+{{- $width := 0 -}}
+{{- $height := 0 -}}
+{{- if $image -}}
+  {{- if in (slice "image/jpeg" "image/png" "image/webp") $image.MediaType.Type -}}
+    {{- $width = $image.Width -}}
+    {{- $height = $image.Height -}}
+    {{- $sizes := slice 480 960 -}}
+    {{- range $sizes -}}
+      {{- if lt . $image.Width -}}
+        {{- $resized := $image.Resize (printf "%dx webp q90" .) -}}
+        {{- $srcset = $srcset | append (printf "%s %dw" $resized.RelPermalink $resized.Width) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $largest := $image.Resize (printf "%dx webp q90" (math.Min $image.Width 1440 | int)) -}}
+    {{- $src = $largest.RelPermalink -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" $src $largest.Width) -}}
+  {{- end -}}
+{{- end -}}
+{{- if and $url.Fragment (ne $src .Destination) -}}
+  {{- $src = printf "%s#%s" $src $url.Fragment -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}"
+  {{- with $srcset }} srcset="{{ delimit . ", " }}" sizes="(min-width: 918px) 870px, calc(100vw - 28px)"{{ end }}
+  {{- if $width }} width="{{ $width }}" height="{{ $height }}"{{ end }}
+  loading="{{ if eq .Ordinal 0 }}eager{{ else }}lazy{{ end }}" decoding="async"
+  alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }}>
