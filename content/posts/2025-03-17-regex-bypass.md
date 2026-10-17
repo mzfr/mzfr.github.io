@@ -101,19 +101,19 @@ This was interesting because the activity I had called via ADB didn't have the `
 
 The issue here is that if we build an intent and put it in the `href` it won't work.
 
-```
+```html
 <a href="intent:#Intent;component=com.someapp/.exported.StartActivity;S.url=https%3A%2F%2Fcontent-community-staging-someapp.com%2F;S.title=Test;end">Click to open app</a>
 ```
     
-```
+```html
 <a ref="intent://webpage?url=https%3A%2F%2Fcontent-community-staging-someapp.com%2F&title=Test#Intent;action=android.intent.action.VIEW;scheme=customScheme;package=com.someapp.android;component=com.someapp.android.exported.StartActivity;end">Click to exploit vulnerability</a>
 ```
 
 The above links either won't open or will open the package page in the Google Play store with the option to `uninstall` or `Open` the app. This is because the Android system redirects intents based on what is defined in the Manifest, since the activity that handles the `customScheme` is __not__ exported, it will just show the app in the Google Play store
-<span class="tooltip" data-show="false"><span class="tooltip-content">If you remove the `package=com.someapp.android` from the link, even that will stop happening<span></span>.
+[^note-1].
 
 Anyway, my goal was to use _something_ that will be recognized by the Manifest but also lead to the malicious URL. One thing we know is that even though manifest shows `StartActivity` to only accept the `custom://` scheme in reality it even works with `customScheme://` 
-<span class="tooltip" data-show="false"><span class="tooltip-content">we know this because our ADB command works<span></span>.
+[^note-2].
 
 Looking at the most basic way to open the app was using its default deeplink:
 
@@ -135,4 +135,8 @@ Since this worked I made a webpage with the following link:
 <a href="https://someApp.tld/app_feature?deeplink=webpage?url=https%3A%2F%2Fcontent-community-staging-someapp.com%2F"> BOOM! </a>
 ```
 
-I would say this though I wasted almost 2 hours on this simple thing, the very first time I tried the ADB command above, it didn't work and I thought this was not the way ahead and got back on the frida horse to explore more. The issue initially was that I was missing a `2` in my `%2F` encoding, so basically that 2 cost me 2 hours. <span class="tooltip" data-show="false"><span class="tooltip-content">I am happy that it wasn't a 3 or more :) <span></span>
+I would say this though I wasted almost 2 hours on this simple thing, the very first time I tried the ADB command above, it didn't work and I thought this was not the way ahead and got back on the frida horse to explore more. The issue initially was that I was missing a `2` in my `%2F` encoding, so basically that 2 cost me 2 hours. [^note-3]
+
+[^note-1]: If you remove the `package=com.someapp.android` from the link, even that will stop happening
+[^note-2]: we know this because our ADB command works
+[^note-3]: I am happy that it wasn't a 3 or more :)

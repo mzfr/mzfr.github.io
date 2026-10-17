@@ -38,4 +38,4 @@ Following is the list of all the boxes that I was able to root.
 
 ***
 
-<script src="https://www.hackthebox.eu/badge/79568"></script>
+[My HackTheBox profile](https://app.hackthebox.com/profile/79568)
