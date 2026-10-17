@@ -116,11 +116,12 @@
 .post-content :not(pre) > code {
     margin: 0;
     padding: 0.12em 0.3em;
-    border: 1px solid var(--border);
+    border: 1px solid #62616A;
     border-radius: 3px;
+    background: #3B3A43;
     font-family: var(--font-mono);
     font-size: 0.88em;
-    color: var(--primary);
+    color: #DEDCE7;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
