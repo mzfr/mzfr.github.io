@@ -36,6 +36,6 @@
   year: 2026
   links:
     - label: PDF
-      url: https://arxiv.org/pdf/2511.17330
+      url: https://dl.acm.org/doi/10.1145/3808164
     - label: Code
       url: https://github.com/nus-agentic-program-verification/AutoRocq
